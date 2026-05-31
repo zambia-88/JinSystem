@@ -12,7 +12,7 @@ export default {
   extends: DefaultTheme,
   Layout: () =>
     h(Layout, null, {
-      "layout-top": () => h(NavStatusBar),
+      "nav-bar-title-after": () => h(NavStatusBar),
       "home-hero-after": () => h(PostGrid),
       "doc-before": () => h(DocMedia),
       "nav-bar-content-after": () => h(MobileAboutLink),

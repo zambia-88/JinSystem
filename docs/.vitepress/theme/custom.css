@@ -11,7 +11,6 @@
   --jin-text-muted: #888480;
   --jin-border: rgba(255, 255, 255, 0.07);
   --jin-radius: 6px;
-  --jin-status-height: 2rem;
 
   --vp-c-bg: var(--jin-bg);
   --vp-c-bg-alt: var(--jin-bg-elevated);
@@ -35,41 +34,41 @@
   --vp-c-bg-alt: var(--jin-bg-elevated);
 }
 
-/* ── 导航 ── */
-.Layout {
-  display: flex;
-  flex-direction: column;
-}
-
-.Layout > * {
-  order: 10;
-}
-
-.Layout > .VPNav {
-  order: 1;
-}
-
-.Layout > .jin-status-outer {
-  order: 2;
-  width: 100%;
-}
-
+/* ── 导航 + 顶栏状态（同一层） ── */
 .VPNav {
   backdrop-filter: blur(14px);
-  background: rgba(12, 12, 14, 0.88) !important;
-  border-bottom: none;
+  background: rgba(12, 12, 14, 0.92) !important;
+  border-bottom: 1px solid var(--jin-border);
 }
 
-/* ── 页眉状态栏：导航下方独立一行 ── */
-.jin-status-outer {
-  position: sticky;
-  top: var(--vp-nav-height);
-  z-index: calc(var(--vp-z-index-nav) - 1);
+.VPNavBar .wrapper,
+.VPNavBar .container {
+  max-width: 1280px;
+}
+
+.VPNavBar .title {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  min-width: 0;
+}
+
+.VPNavBarTitle {
   flex-shrink: 0;
-  width: 100%;
-  background: rgba(10, 10, 12, 0.96);
-  border-bottom: 1px solid var(--jin-border);
-  backdrop-filter: blur(12px);
+}
+
+.VPNavBar .content {
+  flex-shrink: 0;
+}
+
+/* 状态栏：Logo 与搜索/菜单之间居中 */
+.jin-status-outer {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  pointer-events: auto;
 }
 
 .nav-status-bar {
@@ -77,19 +76,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 0.5rem 0.75rem;
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0.45rem max(16px, env(safe-area-inset-left))
-    0.45rem max(16px, env(safe-area-inset-right));
-  font-size: 0.74rem;
-  letter-spacing: 0.03em;
+  gap: 0.45rem 0.6rem;
+  padding: 0.2rem 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
   color: var(--jin-text-muted);
-  line-height: 1.4;
-}
-
-.nav-status-line {
-  display: contents;
+  line-height: 1.35;
 }
 
 .nav-status-chip {
@@ -102,11 +94,7 @@
   font-variant-numeric: tabular-nums;
   font-weight: 600;
   color: var(--jin-gold-light);
-  font-size: 0.82rem;
-}
-
-.nav-status-week {
-  color: var(--jin-text-muted);
+  font-size: 0.78rem;
 }
 
 .nav-status-lunar {
@@ -115,76 +103,102 @@
 
 .nav-status-sep {
   width: 1px;
-  height: 0.7rem;
+  height: 0.65rem;
   background: var(--jin-border);
   flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
-  :root {
-    --jin-status-height: 2.15rem;
+@media (min-width: 960px) {
+  .VPNavBar .container {
+    position: relative;
+  }
+
+  .jin-status-outer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex: none;
+    width: max-content;
+    max-width: min(56vw, 680px);
+    pointer-events: none;
   }
 
   .nav-status-bar {
-    font-size: 0.76rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
-@media (max-width: 767px) {
-  :root {
-    --jin-status-height: 3.6rem;
-  }
-
-  .nav-status-bar {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.3rem;
-    padding-top: 0.38rem;
-    padding-bottom: 0.38rem;
-    font-size: 0.72rem;
-  }
-
-  .nav-status-line {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.35rem 0.55rem;
-  }
-
-  .nav-status-line--primary {
-    padding-bottom: 0.05rem;
+    font-size: 0.74rem;
+    gap: 0.5rem 0.7rem;
   }
 
   .nav-status-time {
-    font-size: 0.78rem;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 959px) {
+  .VPNavBar .wrapper {
+    height: auto;
   }
 
-  .nav-status-sep--week {
+  .VPNavBar {
+    height: auto;
+    min-height: var(--vp-nav-height);
+  }
+
+  .VPNavBar .container {
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 0.35rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
+
+  .VPNavBar .title {
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .VPNavBarTitle {
+    flex: 0 0 auto;
+  }
+
+  .jin-status-outer {
+    flex: 1 0 100%;
+    order: 10;
+    justify-content: center;
+    padding: 0.15rem 0 0.05rem;
+    border-top: 1px solid var(--jin-border);
+  }
+
+  .nav-status-bar {
+    flex-wrap: wrap;
+    gap: 0.3rem 0.5rem;
+    font-size: 0.68rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .nav-status-time {
+    font-size: 0.74rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .nav-status-sep--lunar,
+  .nav-status-lunar {
     display: none;
   }
+}
 
-  .nav-status-line--secondary {
-    font-size: 0.68rem;
-    opacity: 0.92;
+@media (max-width: 420px) {
+  .nav-status-bar {
+    justify-content: flex-start;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
-  .VPHero {
-    padding-top: 2rem !important;
-  }
-
-  .VPHome::before {
-    top: var(--jin-status-height);
-  }
-
-  .VPLocalNav {
-    top: calc(var(--vp-nav-height) + var(--jin-status-height)) !important;
-  }
-
-  .VPNavScreen {
-    top: calc(var(--vp-nav-height) + var(--jin-status-height)) !important;
+  .nav-status-sep--weather {
+    display: none;
   }
 }
 

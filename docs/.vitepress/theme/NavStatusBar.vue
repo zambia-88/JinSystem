@@ -115,23 +115,20 @@ onUnmounted(() => {
 <template>
   <div class="jin-status-outer">
     <div class="nav-status-bar" aria-label="时间日期与天气">
-      <div class="nav-status-line nav-status-line--primary">
-        <span class="nav-status-chip nav-status-time">{{ timeText }}</span>
-        <span class="nav-status-sep" aria-hidden="true" />
-        <span class="nav-status-chip">{{ solarText }}</span>
-        <span class="nav-status-sep nav-status-sep--week" aria-hidden="true" />
-        <span class="nav-status-chip nav-status-week">{{ weekText }}</span>
-      </div>
-      <div class="nav-status-line nav-status-line--secondary">
-        <span class="nav-status-chip nav-status-lunar">{{ lunarText }}</span>
-        <span class="nav-status-sep" aria-hidden="true" />
-        <span
-          class="nav-status-chip nav-status-weather"
-          :title="weather.city"
-        >
-          {{ weatherLine }}
-        </span>
-      </div>
+      <span class="nav-status-chip nav-status-time">{{ timeText }}</span>
+      <span class="nav-status-sep" aria-hidden="true" />
+      <span class="nav-status-chip">{{ solarText }}</span>
+      <span class="nav-status-sep" aria-hidden="true" />
+      <span class="nav-status-chip nav-status-week">{{ weekText }}</span>
+      <span class="nav-status-sep nav-status-sep--lunar" aria-hidden="true" />
+      <span class="nav-status-chip nav-status-lunar">{{ lunarText }}</span>
+      <span class="nav-status-sep nav-status-sep--weather" aria-hidden="true" />
+      <span
+        class="nav-status-chip nav-status-weather"
+        :title="weather.city"
+      >
+        {{ weatherLine }}
+      </span>
     </div>
   </div>
 </template>
