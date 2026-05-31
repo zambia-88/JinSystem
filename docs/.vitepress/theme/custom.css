@@ -82,19 +82,26 @@
   gap: 0.5rem 0.65rem;
 }
 
-/* 状态栏：占据 Logo 与搜索/菜单之间的弹性空间并居中 */
-.jin-status-outer {
-  flex: 1 1 auto;
-  min-width: 0;
+/* 状态栏：顶栏最右侧（主题切换 / 汉堡菜单之前） */
+.jin-nav-end {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 0.35rem 0.5rem;
+  margin-left: 0.35rem;
+}
+
+.jin-status-outer {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
   pointer-events: auto;
 }
 
 .nav-status-bar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: nowrap;
   gap: 0.4rem 0.55rem;
   padding: 0.15rem 0;
@@ -201,14 +208,13 @@
   }
 
   .jin-status-outer {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     min-width: 0;
-    order: 0;
-    justify-content: flex-start;
+    max-width: min(52vw, 360px);
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    mask-image: linear-gradient(to right, #000 92%, transparent);
+    mask-image: linear-gradient(to right, #000 90%, transparent);
   }
 
   .jin-status-outer::-webkit-scrollbar {
@@ -217,10 +223,10 @@
 
   .nav-status-bar {
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
     font-size: 0.66rem;
     width: max-content;
-    padding-right: 0.5rem;
+    margin-left: auto;
   }
 
   .nav-status-time {

@@ -12,9 +12,12 @@ export default {
   extends: DefaultTheme,
   Layout: () =>
     h(Layout, null, {
-      "nav-bar-content-before": () => h(NavStatusBar),
       "home-hero-after": () => h(PostGrid),
       "doc-before": () => h(DocMedia),
-      "nav-bar-content-after": () => h(MobileAboutLink),
+      "nav-bar-content-after": () =>
+        h("div", { class: "jin-nav-end" }, [
+          h(NavStatusBar),
+          h(MobileAboutLink),
+        ]),
     }),
 };
