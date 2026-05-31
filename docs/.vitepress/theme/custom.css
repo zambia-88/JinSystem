@@ -290,6 +290,16 @@ html:not(.dark) {
   pointer-events: auto;
 }
 
+.nav-status-marquee {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.nav-status-track {
+  display: flex;
+  min-width: 0;
+}
+
 .VPNavBarMenu {
   flex-shrink: 0;
 }
@@ -459,6 +469,47 @@ html:not(.dark) {
     grid-column: 1;
     grid-row: 1;
     flex: none;
+    overflow: hidden;
+  }
+
+  .jin-status-outer.is-marquee .nav-status-marquee {
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 6%,
+      #000 94%,
+      transparent
+    );
+  }
+
+  .jin-status-outer.is-marquee .nav-status-track {
+    width: max-content;
+    animation: nav-status-scroll var(--marquee-duration, 22s) linear infinite;
+  }
+
+  .jin-status-outer.is-marquee .nav-status-bar + .nav-status-bar {
+    padding-left: 2rem;
+  }
+
+  @keyframes nav-status-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-1 * var(--marquee-shift, 50%)));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .jin-status-outer.is-marquee .nav-status-track {
+      animation: none;
+    }
+
+    .jin-status-outer.is-marquee {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
   }
 
   .VPNavBarSearch.search {
@@ -493,20 +544,6 @@ html:not(.dark) {
   .VPNavBarExtra,
   .VPNavBarTranslations {
     display: none !important;
-  }
-
-  .nav-status-solar,
-  .nav-status-sep--solar,
-  .nav-status-sep--lunar,
-  .nav-status-lunar {
-    display: none;
-  }
-}
-
-@media (max-width: 520px) {
-  .nav-status-sep--lunar,
-  .nav-status-lunar {
-    display: none;
   }
 }
 
