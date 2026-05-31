@@ -54,15 +54,25 @@ html:not(.dark) {
   border-bottom: 1px solid var(--jin-border);
 }
 
-.VPNavBar .wrapper,
-.VPNavBar .container {
-  max-width: 1280px;
+.VPNavBar .wrapper {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+@media (min-width: 768px) {
+  .VPNavBar:not(.has-sidebar) .wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .VPNavBar .container {
   display: flex;
   align-items: center;
   gap: 0.75rem 1rem;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
 }
 
 .VPNavBar .title {
@@ -90,51 +100,200 @@ html:not(.dark) {
 .VPNavBar .content-body {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   width: 100%;
   gap: 0.45rem 0.6rem;
 }
 
-/* 顺序：菜单 → 状态 →（右对齐）Search → 主题 → 关于 → 汉堡 */
-.VPNavBarMenu {
-  order: 1;
-}
-
-.jin-status-outer {
-  order: 2;
-  flex: 0 1 auto;
-  min-width: 0;
-  display: flex;
-  justify-content: flex-end;
-  pointer-events: auto;
-}
-
 .VPNavBarSearch.search {
-  order: 10;
-  margin-left: auto;
-  flex-shrink: 0;
+  flex: 0 0 auto;
+  flex-grow: 0 !important;
+  padding-left: 0 !important;
+  width: auto !important;
   pointer-events: auto;
-  position: relative;
   z-index: 2;
 }
 
-.VPNavBarAppearance {
-  order: 11;
-  flex-shrink: 0;
-  pointer-events: auto !important;
-  position: relative;
-  z-index: 2;
+.VPNavBarSearch.search :deep(.DocSearch-Button) {
+  width: auto !important;
 }
 
+/* 空 socialLinks 仍渲染占位，隐藏并去掉分隔线 */
+.VPNavBarSocialLinks,
+.VPNavBar .social-links {
+  display: none !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.VPNavBar .appearance + .social-links::before,
+.VPNavBar .menu + .appearance::before,
+.VPNavBar .translations + .appearance::before {
+  content: none !important;
+  display: none !important;
+}
+
+/*
+ * 桌面两段式：左 = Logo + 菜单 | 中 = 空白 | 右 = Search + 主题 + 时间栏（整组贴右，与 Logo 对称）
+ */
 @media (min-width: 960px) {
-  .VPNavBarAppearance {
+  .VPNavBar:not(.has-sidebar) .container {
+    display: grid;
+    grid-template-columns: auto auto minmax(0, 1fr) minmax(0, max-content);
+    align-items: center;
+    column-gap: 1rem;
+  }
+
+  .VPNavBar:not(.has-sidebar) .content,
+  .VPNavBar:not(.has-sidebar) .content-body {
+    display: contents;
+  }
+
+  .VPNavBar:not(.has-sidebar) .title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .VPNavBar:not(.has-sidebar) .VPNavBarMenu {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .VPNavBar:not(.has-sidebar) .jin-nav-right {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .VPNavBar:not(.has-sidebar) .jin-nav-right .VPNavBarSearch.search {
+    flex: 0 0 auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important;
+  }
+
+  .VPNavBar:not(.has-sidebar) .jin-nav-right .VPNavBarAppearance.appearance {
+    flex: 0 0 auto;
+    margin: 0 !important;
+    position: static !important;
     display: flex !important;
     align-items: center;
   }
+
+  .VPNavBar:not(.has-sidebar) .jin-nav-right .jin-status-outer {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    padding-left: 0.85rem;
+    border-left: 1px solid var(--jin-border);
+    overflow-x: auto;
+    overflow-y: visible;
+    scrollbar-width: none;
+    mask-image: none;
+  }
+
+  .VPNavBar:not(.has-sidebar) .jin-nav-right .jin-status-outer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .VPNavBar:not(.has-sidebar) .VPNavBarExtra,
+  .VPNavBar:not(.has-sidebar) .VPNavBarHamburger,
+  .VPNavBar:not(.has-sidebar) .mobile-about-link,
+  .VPNavBar:not(.has-sidebar) .VPNavBarTranslations {
+    display: none !important;
+  }
+
+  /* 侧边栏文档页 */
+  .VPNavBar.has-sidebar .content-body {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) minmax(0, max-content);
+    align-items: center;
+    column-gap: 1rem;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .VPNavBar.has-sidebar .jin-nav-right {
+    grid-column: 3;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .VPNavBar.has-sidebar .VPNavBarMenu {
+    grid-column: 1;
+  }
+
+  .VPNavBar.has-sidebar .jin-nav-right .VPNavBarSearch.search,
+  .VPNavBar.has-sidebar .jin-nav-right .VPNavBarAppearance.appearance,
+  .VPNavBar.has-sidebar .jin-nav-right .jin-status-outer {
+    position: static !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .VPNavBar.has-sidebar .jin-nav-right .VPNavBarAppearance.appearance {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .VPNavBar.has-sidebar .jin-nav-right .jin-status-outer {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: none;
+    padding-left: 0.85rem;
+    border-left: 1px solid var(--jin-border);
+    overflow-x: auto;
+    mask-image: none;
+  }
+
+  .VPNavBar.has-sidebar .VPNavBarExtra,
+  .VPNavBar.has-sidebar .VPNavBarTranslations {
+    display: none !important;
+  }
+
+  .VPNavBarAppearance.appearance {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .VPNavBarExtra {
+    display: none !important;
+  }
+
+  .nav-status-bar {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
 }
 
-.VPNavBarExtra {
-  order: 9;
+.VPNavBarAppearance {
+  flex-shrink: 0;
+  margin-right: 0;
+  pointer-events: auto !important;
+  z-index: 2;
+}
+
+.jin-status-outer {
+  flex: 0 1 auto;
+  min-width: 0;
+  display: flex;
+  pointer-events: auto;
+}
+
+.VPNavBarMenu {
+  flex-shrink: 0;
 }
 
 .mobile-about-link {

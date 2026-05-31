@@ -49,6 +49,17 @@ export default defineConfig({
   appearance: { initialValue: "dark" },
   cleanUrls: true,
   lastUpdated: true,
+  /** 本地 dev 首选 5201，避免与 stock-sentiment 等 Vite 默认 5173 冲突 */
+  vite: {
+    server: {
+      port: 5201,
+      strictPort: false,
+    },
+    preview: {
+      port: 4201,
+      strictPort: false,
+    },
+  },
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
@@ -78,7 +89,6 @@ export default defineConfig({
       },
     ],
     sidebar,
-    socialLinks: [],
     footer: {
       message: "2025–2035 · 物质低配 · 认知高配 · 心态顶配",
       copyright: "JinSystem",
