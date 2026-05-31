@@ -244,6 +244,11 @@
 
 .VPHero {
   padding: 5rem 0 1.5rem !important;
+  overflow: visible;
+}
+
+.VPHero .heading {
+  overflow: visible;
 }
 
 .VPHero .name {
@@ -251,6 +256,17 @@
   font-size: 3.2rem !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
+  line-height: 1.28 !important;
+  padding: 0.06em 0 0.14em !important;
+  overflow: visible !important;
+  display: inline-block;
+  max-width: none !important;
+}
+
+/* 渐变字在 WebKit 下易裁切 J / y 等下伸笔画 */
+.VPHero .name.clip {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .VPHero .text {
@@ -773,6 +789,8 @@ button {
   .VPHero .name {
     font-size: 2rem !important;
     letter-spacing: 0.08em !important;
+    line-height: 1.32 !important;
+    padding-bottom: 0.12em !important;
   }
 
   .VPHero .text {
