@@ -87,6 +87,12 @@ export default defineConfig({
       provider: "local",
     },
     outline: { level: [2, 3] },
+    /** 页眉状态栏：默认武汉，浏览器定位成功则显示「本地」 */
+    statusBar: {
+      city: "武汉",
+      latitude: 30.5928,
+      longitude: 114.3055,
+    },
   },
   head: [
     [
@@ -101,6 +107,7 @@ export default defineConfig({
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     ["meta", { name: "format-detection", content: "telephone=no" }],
     ["link", { rel: "canonical", href: `${SITE_URL}/` }],
+    ["link", { rel: "preconnect", href: "https://api.open-meteo.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
   ],
