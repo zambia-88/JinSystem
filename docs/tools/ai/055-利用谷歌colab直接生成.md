@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "1、上传目标数据，描述需求即可； 2、制作好后下载为HTML文件至本地更好。"
 date: 2026-1-13
 source: "https://colab.research.google.com/"
+cover: "/media/images/covers/tools-ai-055-利用谷歌colab直接生成.jpg"
 ---
 
 # 利用谷歌colab直接生成

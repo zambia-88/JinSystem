@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "在线Markdown编辑器，可将文本粘贴进去，预览实时效果后，点击右上角“PDF”图标导出"
 date: 2025-06-13
 source: "Dillinger.io"
+cover: "/media/images/covers/tools-ai-004-导出Markdown为PDF.jpg"
 ---
 
 # 导出Markdown为PDF

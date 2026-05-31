@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "分析细致，有数据和案例支撑，图表有新意，PDF文字详实。此任务Genspark表现最佳。"
 date: 2025-06-13
 source: "Flowith Neo"
+cover: "/media/images/covers/tools-ai-030-主流AI-Flowith-Neo.jpg"
 ---
 
 # 主流AI-Flowith Neo

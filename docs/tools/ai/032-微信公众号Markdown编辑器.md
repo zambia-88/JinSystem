@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "即编辑即出效果"
 date: 2025-06-14
 source: "https://md.doocs.org/"
+cover: "/media/images/covers/tools-ai-032-微信公众号Markdown编辑器.jpg"
 ---
 
 # 微信公众号Markdown编辑器

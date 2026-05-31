@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "在该网站通过Markdown文本可一键转换为多种风格的图文海报，能给平常带文字的图片增添质感。 有青花瓷、玄幻、动漫和古典等各种风格，适用于各个社交媒体平台，免费使用，支持预览后高清大图导出，还能自行添加水印和二维码。"
 date: 2025-06-13
 source: "https://md.hi-dhl.com/"
+cover: "/media/images/covers/tools-ai-012-Markdown海报生成器.jpg"
 ---
 
 # Markdown海报生成器

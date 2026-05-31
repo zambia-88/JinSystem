@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "达标，用三种图表展示热度对比，但PDF像Word文档。"
 date: 2025-06-13
 source: "Manus"
+cover: "/media/images/covers/tools-ai-028-主流AI-Manus.jpg"
 ---
 
 # 主流AI-Manus

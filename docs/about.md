@@ -36,6 +36,17 @@ title: 关于
 
 媒体文件放在 `docs/public/media/` 对应子目录，同步后自动在首页卡片和详情页展示。
 
+### 封面图（免费图库批量配图）
+
+1. 复制 `.env.example` 为 `.env`，填入 Pixabay API Key（免费注册）
+   - 文档（英文，无中文路径）：https://pixabay.com/api/docs/
+   - 注册/登录后，在同一页面可看到 **Your API key**
+2. 运行 `npm run covers` 为全部文章下载封面（鎏金墨黑抽象风格关键词）
+3. 测试可先跑 `npm run covers:test`（仅 3 篇）
+4. `npm run sync` 不会覆盖已有封面（Excel「封面」列为空时保留原图）
+
+后期可换 AI 生图 API，脚本结构兼容替换。
+
 ## 技术栈
 
 - [VitePress](https://vitepress.dev/) — 静态知识库站点

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T15:40:03.026019",
+  "generatedAt": "2026-05-31T15:57:15.913872",
   "posts": [
     {
       "title": "粉蒸肉：榨广椒排骨",
@@ -7,7 +7,7 @@
       "excerpt": "排骨洗净，加入姜末、蒜末、盐、白糖、花椒面、料酒、稀广椒、食用油拌匀，加入榨广椒再拌匀，加入土豆块、玉米面再拌匀，倒入蒸笼水开后蒸一个小时",
       "category": "日常生活",
       "date": "2026-1-6",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-059-粉蒸肉-榨广椒排骨.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -17,7 +17,7 @@
       "excerpt": "腊肉煸出油脂，放入土豆葱姜青红辣椒翻炒，加点生抽，倒入5分熟的米饭，翻炒均匀，淋上适量米汤，盖上锅盖小伙焖15分钟",
       "category": "日常生活",
       "date": "2026-1-6",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-060-腊肉锅巴饭.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -27,7 +27,7 @@
       "excerpt": "智谱-GLM-TTS,录制或上传至少5秒钟清晰语音，即可复刻说话人的音色、节奏、断句习惯甚至语气词",
       "category": "AI 工具库",
       "date": "2026-1-31",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-058-声音克隆.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -37,7 +37,7 @@
       "excerpt": "先在电脑桌面上新建一个名为 3D_Project 的纯英文文件夹，把 .xlsx 放进去，再通过 Open Folder 打开这个特定的文件夹。这样可以避免扫描整个磁盘带来的系统沉重感。 使用方法：利用Gemini设计提示词，上传Goog…",
       "category": "AI 工具库",
       "date": "2026-1-20",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-057-谷歌编程-Google-Antigravity.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -47,7 +47,7 @@
       "excerpt": "已安装好了在电脑：🚀 极简安装指南（Windows/macOS） 1. 下载核心引擎 访问 Python 官网：python.org/downloads。 点击那个黄色的大按钮 \"Download Python 3.x.x\"（它会自动识别…",
       "category": "AI 工具库",
       "date": "2026-1-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-054-Python开发代码环境.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -57,7 +57,7 @@
       "excerpt": "1、上传目标数据，描述需求即可； 2、制作好后下载为HTML文件至本地更好。",
       "category": "AI 工具库",
       "date": "2026-1-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-055-利用谷歌colab直接生成.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -67,7 +67,7 @@
       "excerpt": "上传表格描述需求即可",
       "category": "AI 工具库",
       "date": "2026-1-12",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-053-AI生成3D可视化图表.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -77,7 +77,7 @@
       "excerpt": "Lucidchart",
       "category": "AI 工具库",
       "date": "2025-8-12",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-033-AI流程图.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -87,7 +87,7 @@
       "excerpt": "自动生成图表",
       "category": "AI 工具库",
       "date": "2025-8-12",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-034-Flourish.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -97,7 +97,7 @@
       "excerpt": "文字生成图表或组织架构图",
       "category": "PPT 技巧",
       "date": "2025-8-12",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-005-Napkin-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -107,7 +107,7 @@
       "excerpt": "2025年12月9日开始开始左手刷牙，进行有意识改变和坚持",
       "category": "日常生活",
       "date": "2025-12-9",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-048-左手刷牙.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -117,7 +117,7 @@
       "excerpt": "一系列小而简单的工具，用于应对过于庞大或复杂的情况",
       "category": "AI 工具库",
       "date": "2025-12-7",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-036-任务理解与拆解.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -127,7 +127,7 @@
       "excerpt": "写程式的Ai，输入需求，写成整个网页",
       "category": "AI 工具库",
       "date": "2025-12-7",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-037-Cursor.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -137,7 +137,7 @@
       "excerpt": "Logo生成",
       "category": "AI 工具库",
       "date": "2025-12-7",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-038-Logo-master-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -147,7 +147,7 @@
       "excerpt": "任何格式转换网站",
       "category": "AI 工具库",
       "date": "2025-12-7",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-039-格式转换.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -157,7 +157,7 @@
       "excerpt": "先把附近裂缝的灰擦干净，然后把香皂放到白醋里浸泡一小时，再用香皂在有裂缝的地方来回滚涂，最后再挤上牙膏用手抹平，等两小时以后干透，裂缝就好了",
       "category": "日常生活",
       "date": "2025-12-31",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-056-墙面裂缝处理.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -167,7 +167,7 @@
       "excerpt": "随时查最新资讯，更新速度快，整理流行趋势及热门话题",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-040-Grok-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -177,7 +177,7 @@
       "excerpt": "海报/logo设计",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-041-ideogram-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -187,7 +187,7 @@
       "excerpt": "根据线索找证据/来源，数据分析",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-042-Perplexity-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -197,7 +197,7 @@
       "excerpt": "会议即时转录",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-043-Proactor-AI.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -207,7 +207,7 @@
       "excerpt": "聊天强项",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-044-豆包Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -217,7 +217,7 @@
       "excerpt": "写文案强项",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-045-deepseek.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -227,7 +227,7 @@
       "excerpt": "做海报的",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-046-即梦Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -237,7 +237,7 @@
       "excerpt": "做特效的",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-047-可灵Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -247,7 +247,7 @@
       "excerpt": "做思维导图的",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-048-千问Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -257,7 +257,7 @@
       "excerpt": "做PPT的",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-049-Kimi-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -267,7 +267,7 @@
       "excerpt": "做音乐创作的",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-050-Suno-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -277,7 +277,7 @@
       "excerpt": "写代码的",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-051-Cursor-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -287,7 +287,7 @@
       "excerpt": "全能Ai",
       "category": "AI 工具库",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-052-Google-Gemini-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -297,7 +297,7 @@
       "excerpt": "用小葱炸葱油，均匀刷在一块饺子皮上，再盖上一块饺子皮，继续刷小葱和葱油，再盖上一块饺子皮，用器具擀平，然后卷起来，竖向用手掌用力压平成饼胚，保鲜膜封住醒面十分钟放在油锅里两面煎至金黄即可",
       "category": "日常生活",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-049-饺子皮葱油饼.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -307,7 +307,7 @@
       "excerpt": "把淘米水烧开，放入带叶子大白菜，先烫根部再整体放进去，翻滚均匀，变色后捞出，放到无油的容器里，放小米辣、蒜粒和烧开的淘米水，放白醋，用盘子压实，盖盖，第二天或多几天即可",
       "category": "日常生活",
       "date": "2025-12-17",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-050-无盐酸菜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -317,7 +317,7 @@
       "excerpt": "即编辑即出效果",
       "category": "AI 工具库",
       "date": "2025-06-14",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-032-微信公众号Markdown编辑器.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -327,7 +327,7 @@
       "excerpt": "PPT",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-001-Genspark超级智能体.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -337,7 +337,7 @@
       "excerpt": "PPT",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-002-Gammas.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -347,7 +347,7 @@
       "excerpt": "照片背景替换",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-003-remove.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -357,7 +357,7 @@
       "excerpt": "在线Markdown编辑器，可将文本粘贴进去，预览实时效果后，点击右上角“PDF”图标导出",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-004-导出Markdown为PDF.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -367,7 +367,7 @@
       "excerpt": "能上传文件或直接编写，可在设置里调整样式布局，点击“Convert”下载生成的PDF",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-005-导出Markdown为PDF.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -377,7 +377,7 @@
       "excerpt": "安装“Markdown PDF”扩展，打开文件后通过命令面板或右键菜单“导出为PDF”",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-006-Visual-Studio-Code.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -387,7 +387,7 @@
       "excerpt": "安装markdown - html包，用其选项转换",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-007-Atom.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -397,7 +397,7 @@
       "excerpt": "文档转知识卡片",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-008-MD2card-文本美化.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -407,7 +407,7 @@
       "excerpt": "能随意听歌单、排行榜、MV，可登录账号收藏歌曲、创建歌单列表，使用体验舒适，是很棒的第三方播放器",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-009-AlgerMusicPlayer.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -417,7 +417,7 @@
       "excerpt": "文字配音 支持常见各种语言，搭配几种男女声线，可调节音调、语速、音量等，应对文字配音需求超方便",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-010-文字配音.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -427,7 +427,7 @@
       "excerpt": "实打实好用的录制软件，包含录屏、录摄像头、录声音以及屏幕截图功能。 完全免费无限制，可直接锁定全屏或自选区域录制，最高可输出60帧率质量的视频",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-011-录制工具.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -437,7 +437,7 @@
       "excerpt": "在该网站通过Markdown文本可一键转换为多种风格的图文海报，能给平常带文字的图片增添质感。 有青花瓷、玄幻、动漫和古典等各种风格，适用于各个社交媒体平台，免费使用，支持预览后高清大图导出，还能自行添加水印和二维码。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-012-Markdown海报生成器.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -447,7 +447,7 @@
       "excerpt": "一个很有雅兴的网站，能阅读许多经典古籍，学习前人智慧，感悟中华文化。 网站内可体验文白对照、交互式注释及导读工具，提供文章分节、人物、事件等丰富阅读辅助功能。以《孙子兵法》为例，不仅每句对照释义，还提供章节目录、关键人物介绍以及重要事件典…",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-013-读典籍.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -457,7 +457,7 @@
       "excerpt": "素材界的“流量明星”，图圈顶流。支持按颜色找图、按热度筛选，图片多且质量高，每周更新，可直接下载原图。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-014-Pexels.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -467,7 +467,7 @@
       "excerpt": "老牌图库，老司机都懂。有图片、插画、矢量、视频等多种类型，注册后可薅海量无版权素材。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-015-Pixabay.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -477,7 +477,7 @@
       "excerpt": "“生活美学大师”级网站，能一键获取高质量、充满生活感的摄影作品，文艺又高级。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-016-Unsplash.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -487,7 +487,7 @@
       "excerpt": "主打家居生活风，分类清晰，下载方便，不登录也能轻松获取素材，是懒人的福音。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-017-视觉狩猎.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -497,7 +497,7 @@
       "excerpt": "专做背景图的小清新网站，图片少但精，风格文艺不腻，适合博客、封面、PPT等。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-018-Cupcake.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -507,7 +507,7 @@
       "excerpt": "来自日本的图站，有浓郁的和风气息，风景、建筑、人文历史等图片是日本控的最爱。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-019-Photock.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -517,7 +517,7 @@
       "excerpt": "最懂设计师的网站，全是透明背景的PNG素材，涵盖动植物、物品等，是P图配图神器。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-020-pngimg.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -527,7 +527,7 @@
       "excerpt": "实用主义图库代表，提供生活、办公等场景的高分辨率图片，质感在线且完全免费。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-021-DesignersPics.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -537,7 +537,7 @@
       "excerpt": "生活化风格代表，图片干净明亮、色调舒服，适合做博客、社交媒体封面。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-022-kaboompics.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -547,7 +547,7 @@
       "excerpt": "风格欢快明亮，有照片也有插画，整站都在“快乐输出”，让人心情愉悦。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-023-Picjumbo.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -557,7 +557,7 @@
       "excerpt": "有400,000 + 可商用图片，横跨各大平台，使用无需担心版权问题。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-024-freeimages.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -567,7 +567,7 @@
       "excerpt": "插画党的福音，免费可商用，能在线修改配色，支持PNG/SVG格式，下载就能用。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-025-插画动画下载-Storyset.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -577,7 +577,7 @@
       "excerpt": "HTML规整、图表丰富、PDF可读性好，对话题分析细致，表现出色",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-026-主流AI-Genspark超级智能体.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -587,7 +587,7 @@
       "excerpt": "找到话题与Genspark不同，不够细致，图表朴素，PDF像Word文档。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-027-主流AI-扣子空间.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -597,7 +597,7 @@
       "excerpt": "达标，用三种图表展示热度对比，但PDF像Word文档。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-028-主流AI-Manus.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -607,7 +607,7 @@
       "excerpt": "列出话题但未分析原因，排版缺美感，PDF有内容但有AI味。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-029-主流AI-MiniMax-Agent.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -617,7 +617,7 @@
       "excerpt": "分析细致，有数据和案例支撑，图表有新意，PDF文字详实。此任务Genspark表现最佳。",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-030-主流AI-Flowith-Neo.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -627,7 +627,7 @@
       "excerpt": "国产AI报告生成",
       "category": "AI 工具库",
       "date": "2025-06-13",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-031-问小白客户端.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -637,7 +637,7 @@
       "excerpt": "你想发怒，但你忍住了，这就是本事； 你想放弃，但你坚持了，这就是能力； 你想辩解，但你沉默了，这就是修为… 🩲如果太在意别人的看法，就很容易活成别人的裤衩。别人放什么屁，你都🉐兜着… 人生至死要修行的一种能力:就是要压的住脾气，可以表达愤…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-001-修行.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -647,7 +647,7 @@
       "excerpt": "藏锋隐志，水深不语，人稳不言♡+♡=♡²",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-002-隐.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -657,7 +657,7 @@
       "excerpt": "不好为人师，不到处展现自己的洞察力，任何事情要优先考虑自己，先讨好自己…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-003-为人处世.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -667,7 +667,7 @@
       "excerpt": "天之道，利而不害； 圣人之道为而不争… 接纳方能转化，对抗徒增纠缠…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-004-平常心.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -677,7 +677,7 @@
       "excerpt": "心似白云常自在…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-005-平常心.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -687,7 +687,7 @@
       "excerpt": "食不过果腹尔…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-006-欲望.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -697,7 +697,7 @@
       "excerpt": "情绪露尖者崩… 控🉐住场，立🉐住腰… 人在局中坐，切莫困于局… 保持情绪稳定，方能掌控为王… 然，众人之所有，切，勿成己心中之“钉”…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-007-情绪稳定.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -707,7 +707,7 @@
       "excerpt": "这世上: 你勇敢，世界就会让路； 你无惧，命运就会屈服； 我们可以选择停滞不前； 也可以选择自我砥砺，勇敢前行； 决定命运的，一直都是我们自己 啊…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-008-命运.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -717,7 +717,7 @@
       "excerpt": "万事谋且慢， 言慢、事慢、心慢，则事无不成…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-009-事缓则圆.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -727,7 +727,7 @@
       "excerpt": "今日之“疑”，勿留明日至“晨”… 疑不隔夜，事不过晨",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-010-今日事今日毕.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -737,7 +737,7 @@
       "excerpt": "所谓趋势: 就是错误一方不断溃败的过程， 做大趋势的能力越强， 预测趋势结束的能力也就越低…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-011-趋势认知.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -747,7 +747,7 @@
       "excerpt": "1、永远不要问原因:话越少，精力越集中，气场也更大； 2、允许一切发生:不要对抗，而是坦然接受，有能力就去改变，反之… 3、不要过度窥视未来:人性禁不住考验，与其无妄担忧未来，不如守好自己的本心，做好现在； 4、管好自己的情绪，守住心:少…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-012-正心正念证己道.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -757,7 +757,7 @@
       "excerpt": "与人无争，与世无争， 心有山海，静而不争… 让道于盲，积善心安… 不争对错得自在， 不计得失获从容， 夫唯不争，故无尤…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-013-不争.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -767,7 +767,7 @@
       "excerpt": "认真生活：自律不将就，精致不马虎。 唯有如此：生活才会，对你温柔以待。",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-014-生活.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -777,7 +777,7 @@
       "excerpt": "尽我所能，仍“力有未逮”； 承蒙期望，愿“不失所望”…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-015-期盼.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -787,7 +787,7 @@
       "excerpt": "止水之潘为渊，知止而后有定… 生命的一体两面：前者是向外的开拓，在时间中刻写存在的证词；后者是向内的深耕，在虚静中培育精神的沃土。 既要有“飞湍瀑流争喧豗”的豪情，亦需“深水静流成大渊”的定力，方能在浩瀚时空中，写下属于个体的存在诗篇。",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-016-个人价值.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -797,7 +797,7 @@
       "excerpt": "很多时候，长期主义的写照是: 成功不在于你做了什么， 而在于你没做什么； 时间是创新者的朋友， 是守城者的敌人； 寓沉雄于静穆， 藏锋芒于深思； 所谓: 初有决定不移之志； 中有勇猛精进之心； 末有坚贞永固之力！",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-017-意志恒心.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -807,7 +807,7 @@
       "excerpt": "静观其变，顺势而为，往往是解决困难最上乘的方法； 当一切无能为力，那就允许发生",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-018-允许一切发生.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -817,7 +817,7 @@
       "excerpt": "物质低配，认知高配，心态顶配",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-019-未来十年.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -827,7 +827,7 @@
       "excerpt": "当你看见河，你已在河之外， 当你看见山，你已在山之外， 当你能看见自己的任何情绪， 你已在情绪之外， 这就是“觉”… 弱者易怒似虎， 强者平静如水， 不住心而行于心， 不住事而行于事， 不住法而行于法， 情绪不是你，感受不是你，念头不是你…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-020-觉察.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -837,7 +837,7 @@
       "excerpt": "改变自己最快的方式， 就是做自己最害怕的事情… 勇士脚下没有绝路， 懦夫眼前近是悬崖… 想要成长的第一步， 就是要杀死心中你所认为的恐惧， 少年啊: 你总在想能否做到？ 却没有真正静下心来好好做…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-021-改变自己.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -847,7 +847,7 @@
       "excerpt": "藏锋者无敌，隐志者保身",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-022-藏.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -857,7 +857,7 @@
       "excerpt": "提升维度的关键不在于解决问题， 因为有一些问题，你站在同一平面，它根本就是无解的，关键在于让这个问题不再成为问题！ 比如你在迷宫中绕来绕去，肯定到处都是墙， 但当你站在迷宫的上头，看到的到处都是路， 我们无法用制造问题时的统一水平思维来解…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-023-维度提升.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -867,7 +867,7 @@
       "excerpt": "如果你感到抑郁，证明你活在过去； 如果你感到焦虑，证明你活在未来； 如果你感到平静，证明你活在当下！ 唯有学会放下，珍惜现在，才能开开心心过好每一天",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-024-珍惜现在.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -877,7 +877,7 @@
       "excerpt": "愚者贪捷径，智者入窄门… 得失之辨，贵在深思； 浅尝者惑，笃行者明。",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-025-慎独-慎思.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -887,7 +887,7 @@
       "excerpt": "富在术数不在劳身， 利在势局不在力耕！ 想要富，开店铺， 要经商，走四方， 人要闯，马要放！ 财富是对认识的补偿， 不是对勤奋的奖励！",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-026-认知觉醒.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -897,7 +897,7 @@
       "excerpt": "没有所谓的“选择”正不正确， 要让“选择”变的正确， 严格来讲，没有“绝对正确的选择”， 只不过是我们要通过努力奋斗， 拨乱反正，使当初的选择变的正确， 既然已做出选择，就相信当下的自己…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-027-选择无对错.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -907,7 +907,7 @@
       "excerpt": "若遇事不决，可问春风…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-028-淡然.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -917,7 +917,7 @@
       "excerpt": "尊重这一切的因缘，把握当下的力量， 走到什么位置，就要尊重她， 从中获得智慧，获得能量，厚积薄发……",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-029-把握当下.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -927,7 +927,7 @@
       "excerpt": "当你脚踏实地走自己的路时，那种拼命想证明自己的冲动就会越来越少，你也会因此变得轻松、自由。 ——查理·芒格",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-030-走自己的路.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -937,7 +937,7 @@
       "excerpt": "底层研究事， 高手研究逻辑， 大神研究人性！ 我还在“事”与“逻辑”之间， 来回拉扯……",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-031-阶级层次.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -947,7 +947,7 @@
       "excerpt": "一段经历，一定沉淀； 一番洗礼，一次积累； 一分耕耘，一份收获； 一次成长，一生受益。",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-032-凡是发生皆有利于我.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -957,7 +957,7 @@
       "excerpt": "与高人为伍，与野兽为伴，与小人同行； 充满血腥的厮杀，哪有什么同道中人？",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-033-开悟即觉醒.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -967,7 +967,7 @@
       "excerpt": "先接受，就是进步的开始， 再去做，就是改变的进阶， 着眼于过程而非结果是非常人的心态， 结果从战略上轻视，战术上重视， 持续坚持，就是成功的护城河！",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-034-凡事不抵触.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -977,7 +977,7 @@
       "excerpt": "1、 高能量人特质: 看到事实的简单骨架，然后一一直面解决，过程中没有情绪的裹挟，创伤的激活，幻觉的干扰，就是看见一一处理，行云流水，其余时间去体验感受生活的美，继续补充能量，所以平均能量状态高于别人！ 2、 低能量的人则是相反特质: 看…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-035-能量特质.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -987,7 +987,7 @@
       "excerpt": "1、 反人性的魅力与价值 2、 语言利他，行为利己",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-036-反人性.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -997,7 +997,7 @@
       "excerpt": "允许一切发生，接纳一切的发生… 自己一人时，是兵也是将！",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-037-让它发生.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1007,7 +1007,7 @@
       "excerpt": "👉不固步自封， 主动参与“跨行业底层思维”的构建； 👉不因循守旧， 主动提升“跨行业底层能力”的迁移； 👉着力建设: 自身“底层思维及能力”的逻辑框架…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-038-底层思维与能力.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1017,7 +1017,7 @@
       "excerpt": "“稿子交出去，卖书就不是我该管的事。我只不过是一滴清水，不是肥皂水，并不能吹泡泡。” —杨绛先生此言",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-039-力所能及.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1027,7 +1027,7 @@
       "excerpt": "水深不语，人稳不言",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-040-厚积薄发.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1037,7 +1037,7 @@
       "excerpt": "没有人会去帮助一个毫无价值 的人，你必须要好好的经营自己，就算你跌入了谷底，也要有与人交换的筹码，这才是强者定律。 ——稻盛和夫",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-041-自身价值.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1047,7 +1047,7 @@
       "excerpt": "冯唐说：“越是社会底层的人，社交能力越差，懂人情世故的人不多，单纯以为把事情做好，就能弥补人情事故上的缺陷。 殊不知，你越是往上爬，越会认识到，大部分社会上层的人，其实是在研究人，而不是在琢磨事。” 💪(≧ω≦)那就好好研究人吧，在今后的…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-042-人在前-事在后.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1057,7 +1057,7 @@
       "excerpt": "“真正的奔跑，是灵魂的自由”。 谁终将声震人间必长久深自缄默； 谁终将点燃闪电必长久如云漂泊； 最为璀璨夺目的钻石也往往会在最为需要时而大放异彩！",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-043-厚积薄发.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1067,7 +1067,7 @@
       "excerpt": "1、不因路远而不行，不因事难而不谋。 2、烟搭桥，酒铺路，色做乐，财挡灾， 慷慨送礼后门开，欲攻城池酒为兵，道路难行钱作马。",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-044-人情世故.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1077,7 +1077,7 @@
       "excerpt": "人和人交往还是少说话，克制表达欲，平静平和就行，不自卑也别炫耀。 别为了获得共鸣，讲起过往没完没了。 无意间表现的品质，被对方发现才更招人喜欢，胜过千言万语。 仔细想想，你哪次滔滔不绝后，带来的不是悔恨。 你要克服的是你的虚荣心，是你的炫…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-045-克制表达欲-谦逊.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1087,7 +1087,7 @@
       "excerpt": "无权无钱，不谈格局，生存才是王道； 无人无势，不谈情怀，务实才是根本； 任何人的底气都来源于经济实力， 人的生存之道在于能忍和能做两者之间。",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-046-实力来源和支撑.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1097,7 +1097,7 @@
       "excerpt": "望可望之事，待可待之人！ 且听且忘且随风，且行且看且从容！",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-047-淡然.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1107,7 +1107,7 @@
       "excerpt": "做事→做人→做局→破局→控局→掌局 做事→立名→混圈→人脉→助人→达己 1. 做事的人遇到做人的人皆被降服… 2. 做人的人遇到做局的人，就算你把人做的再好都只是做局人的一颗棋子… 3. 做局的人遇到破局的人，看透人性与规律，掌握规律，顺…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-048-人性成长.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1117,7 +1117,7 @@
       "excerpt": "不向环境讨安全感，不向他人要确定性，不向短期结果换长期稳定。 一切变量向内收敛，一切成长由我构建。",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-049-向内生长-莫向外求.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1127,7 +1127,7 @@
       "excerpt": "1、看见自己拥有的而不是困在自己想要的：不要把自己拥有的东西当做理所当然，它是阻碍幸福的杀手，真正的幸福是你能感受到自己已经拥有了什么； 2、对错之外，还有成长：不要像小孩子那样争对错，成年人的世界里，对错是孩子的游戏，得失才是成年人的考…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-050-写给犹豫不决不愿意变化的自己.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1137,7 +1137,7 @@
       "excerpt": "我愈发坚定的认为和确认： 真正的成长，从来不只是能力的积累，而是对事物本质与发展必然的持续洞察。 在看不清方向之前，任何形式的冲锋，本质上都是以消耗自身为代价的冒进。多数人并非败于能力不足，而是过早站上了错误的阵地。 放下对结果的执念，顺…",
       "category": "格局提升",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-mindset-051-对事物本质与发展必然的持续洞察.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1147,7 +1147,7 @@
       "excerpt": "大多数人不会因为你待他真诚、善良，就心怀感激、知恩图报。相反，他们往往会把你的好视作理所当然，甚至利用你的善意来谋求自身利益与成长。 在人际关系中，善良固然重要，但更重要的是建立起边界与规则，树立让人敬重的底线与权威。唯有如此，才能赢得真…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-001-尊重人性为先.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1157,7 +1157,7 @@
       "excerpt": "人们相信美好，却又选择性的忽略了事物发展相关的因果必然性。如果美好是左，因果是右，那人生就是一个不断被左右的过程。我们负重前行，只为在因果的必然性中创造美好。 左手美好，右手因果。人生，一场于必然之右，求索美好之左的执着。我们被“左右”，…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-002-因果.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1167,7 +1167,7 @@
       "excerpt": "职场不是是非题， 不要等待老板画的饼， 更不要相信同事之间的情， 你我皆牛马，化不了龙也成不了凤。 即使前路再黑暗，也要做自己的一束光…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-003-职场画饼.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1177,7 +1177,7 @@
       "excerpt": "千万，不要过度透支自己的能力: 能力透支的本质是时间维度上的失衡。 真正成熟的职场人，都懂得在\"全力以赴\"与\"留白生长\"间找到平衡点。 守住能力边界，方能细水长流； 持续赋能更新，才是永续之道。",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-004-职场能力.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1187,7 +1187,7 @@
       "excerpt": "《第99次跃起》 当你数到第99次跃起时 脚尖已提前勾勒出胜利的弧线 可就在那本该完美的终章 绳柄突然亲吻脚踝 在离地3厘米处 完成了一次对骄傲的精准绞杀 我们总在潜意识里提前鸣响庆贺的钟声 却让最后一记心跳 成为溃败的号角 那些被风吹散…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-005-功亏一篑.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1197,7 +1197,7 @@
       "excerpt": "近则不恭，远则不逊…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-006-待人.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1207,7 +1207,7 @@
       "excerpt": "不与愚人争对错，只与智者谈利弊… 第1层，破是非相， 第2层，破传统权威和乌合之众相， 第3层，破一切众生相:破文字相、破关系相、破情绪相、破时间相、破观念相、破我相…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-007-看破.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1217,7 +1217,7 @@
       "excerpt": "职场，不能执着于“是非对错”， 毕竟除了对错，更还有“利弊”， 与其顾着你那微乎其微的自尊和面子， 还不如先跪着把钱挣了，再站着做选择…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-008-职场是非.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1227,7 +1227,7 @@
       "excerpt": "认知水平越低的人，动物本性就越强，他就越不识好歹，你表现出来的善良，在他看来就是好欺负，他就总想着占那点便宜。他根本就不明白，你善良背后的可贵之处，他们只会不知不觉的把你当成弱者来看待，欺负你的心理，就像欺负一只蚂蚁一样。正如俗话说:小人…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-009-认知水平.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1237,7 +1237,7 @@
       "excerpt": "1、“很多事，我不是不可以，我只是个人层面的不喜欢，如果要做也行，但前提是得我乐意，得按我的规矩办。” 2、“很多时候，‘翻脸’代表着你的态度和立场，代表着你的底线和原则，更代表了在人际交往之中一个人最基本的权利：被尊重。”",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-010-原则立场.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1247,7 +1247,7 @@
       "excerpt": "所有负面的声音，只能证明一件事情: 诋毁本身，就是对你的一种仰望…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-011-负面诋毁.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1257,7 +1257,7 @@
       "excerpt": "我们身边总有一些毫无血性的阴阳人，对上级，他当狗；对下级，他当狼；对同级，他当鬼。这种人却被称赞为“高情商”。 ——王朔",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-012-看人下菜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1267,7 +1267,7 @@
       "excerpt": "如果善良得不到应有的尊重，那么最好的方式就是翻脸。 ——稻盛和夫 我瞧不起的人太多了，虽然我自己狗屁不是，但这两者并不冲突。 ——王朔",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-013-原则底线.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1277,7 +1277,7 @@
       "excerpt": "2025 年的我: 这一年，我用一次从减肥到增肌的转变，完成了对自身生命底色的重写，也由此真正看清了底层能力建设的逻辑。 我逐渐意识到，真正可靠的改变，从来不是依赖某一次状态或爆发，而是建立了一套可以长期兑现结果的能力系统。 身体的变化，…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-014-2025年对自己的总结.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1287,7 +1287,7 @@
       "excerpt": "难走的路，不是叫你停下来的 晨跑本就消耗体能，遇到难跑的路，停下来休息，在逻辑上完全成立。那一刻，我清楚地知道：这是一个“足够合理”的接口。 但我还是选择拒绝执行。因为我意识到，停下来确实可以暂时轻松，却会拉长整体时间成本，更重要的是—它…",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-015-关于决断力.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1297,7 +1297,7 @@
       "excerpt": "真正的领先，是后来者开始模仿你 当你在长期坚持中，看见清晰、可验证的变化，有一天你会突然发现：周围的人开始以你为参照，甚至不自绝地效仿你的选择。 那一刻，你才会明白，心理优势从来不是某次爆发带来的，而是时间在你身上不短累积后的自然结果。 …",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-016-关于心理优势.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1307,7 +1307,7 @@
       "excerpt": "与其在争执中急于表达情绪，不如稳住内核，不怒自威 很多时候，真正有分量的不是话语本身，而是你站在那里所呈现出的状态。 气质与格局，从不是表演出来的，而是建立在长期自我构建的底色之上。",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-017-关于为人处事.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1317,7 +1317,7 @@
       "excerpt": "自即日起（2026.5.24）：不抱怨任何事，不抱怨任何人，不内耗自己： 专注自身，立足当下，布局长远，谋定而后动。 在正确的道路上，坚持长期主义。 以持续输出，换取长期复利。 维持正向反馈的输出，无王而无不利。",
       "category": "人性洞察",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/cognition-insight-018-关于内耗.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1327,7 +1327,7 @@
       "excerpt": "使用GitHub+Hexo搭建个人博客网站",
       "category": "AI 工具库",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-035-建立个人网站.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1337,7 +1337,7 @@
       "excerpt": "文件及网页",
       "category": "AI 工具库",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ai-056-个人演示工作平台.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1347,7 +1347,7 @@
       "excerpt": "数据条根据数据改动而变动 工具栏选择数字、 百分比，选择要保留的小数位数，工具栏条件格式，数据条，其它规则，选择数字，最小值和最大值设置（0-1）渐变填充，选择颜色，确定即完成",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-001-百分比数据条.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1357,7 +1357,7 @@
       "excerpt": "Ctrl+A全选表格，再按Ctrl+T美化表格，点击插入切片器，选择对应的筛选对象即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-002-筛选数据.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1367,7 +1367,7 @@
       "excerpt": "空白表格点插入形状，选择圆形，按住shift拖动鼠标拉出一个正圆形，鼠标右击设置为无填充颜色，边框设置为印章的边框颜色，粗细设置为3磅，插入艺术字，输入公司名称，点击效果，选择转换，选择上弯弧，拖动调整弧度适宜，设置字体印章颜色，插入对应…",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-003-电子印章.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1377,7 +1377,7 @@
       "excerpt": "Ctrl+t创建超级表，往下拉选中尾行数据，菜单栏中选择视图，选择窗口，点击拆分即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-004-冻结表格首尾行.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1387,7 +1387,7 @@
       "excerpt": "首先选中需要插入列的前面一列，按住shift光标放在该列的右下角，按住鼠标左键向右拖动，想插几列拖几列",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-005-一张表中有多个表格在单张表中插入行.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1397,7 +1397,7 @@
       "excerpt": "点击插入，右上角选择更多素材，选择二维码，根据需求选择需要包含的内容即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-006-二维码制作.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1407,7 +1407,7 @@
       "excerpt": "输入函数=SEQUENCE（10000,1,1,1） 选中序号列，输入=ROW（）-1，然后按Ctrl+Enter一键填充，即使删除序号也能自动更新",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-007-下拉填充序号.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1417,7 +1417,7 @@
       "excerpt": "选中需要填充序号的单元格，输入=MAX(A$1:A1)+1,按Ctrl+Enter",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-008-合并单元格序号.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1427,7 +1427,7 @@
       "excerpt": "选中序号列，按Ctrl+G，定位空值，在第一个单元格内输入=N（A1）+1按Ctrl+Enter即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-009-隔行添加序号.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1437,7 +1437,7 @@
       "excerpt": "单元格输入=textsplit（）选择全部文字所在的单元格，加上2个英文逗号，输入双引号顿号双引号，回车确定即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-010-解决多个文字名称拆分到列.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1447,7 +1447,7 @@
       "excerpt": "列不同Ctrl+G，行差异再定位，标高光 表不同用Ctrl+c复制，粘贴时选择减，0除外",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-011-核对数据.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1457,7 +1457,7 @@
       "excerpt": "全选文字加粗，点击边框添加所有框线，在字体前输入@符号回车，设置列宽改为30厘米，行高改为5厘米，最后ctrl+1摄者单元格格式，选择分散对齐即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-012-文件夹侧标签.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1467,7 +1467,7 @@
       "excerpt": "Ctrl+t建立超级表",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-013-表格美化.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1477,7 +1477,7 @@
       "excerpt": "全选按住Alt+=",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-014-一键求和.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1487,7 +1487,7 @@
       "excerpt": "全选Alt+F1",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-015-一键图表.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1497,7 +1497,7 @@
       "excerpt": "Ctrl+反斜杠",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-016-一键找不同.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1507,7 +1507,7 @@
       "excerpt": "手动提取一个数据，然后按Ctrl+E智能填充",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-017-文字和数据混合-一秒提取数据.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1517,7 +1517,7 @@
       "excerpt": "rq/xq/sj",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-018-日期星期时间.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1527,7 +1527,7 @@
       "excerpt": "表格中全部人员名单，在旁边输入公式=INDIRECT(\"a\"&RANDBETWEEN(1,10)),1,10表示随机抽取区间，按F9即可抽取",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-019-随机选择小程序.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1537,7 +1537,7 @@
       "excerpt": "Ctrl+E",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-020-一键智能提取数据.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1547,7 +1547,7 @@
       "excerpt": "Ctrl+；（分号）",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-021-一键输入当前日期.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1557,7 +1557,7 @@
       "excerpt": "Ctrl+shift+；（分号）",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-022-一键输入当前时间.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1567,7 +1567,7 @@
       "excerpt": "Ctrl+shift+1",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-023-一秒去除小数点.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1577,7 +1577,7 @@
       "excerpt": "Ctrl+shift+2",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-024-一秒转换时间格式.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1587,7 +1587,7 @@
       "excerpt": "Ctrl+shift+3",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-025-一秒转换日期格式.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1597,7 +1597,7 @@
       "excerpt": "Ctrl+shift+4",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-026-一秒转换货币格式.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1607,7 +1607,7 @@
       "excerpt": "Ctrl+shift+5",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-027-一秒转换百分比格式.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1617,7 +1617,7 @@
       "excerpt": "全选表格，复制然后在空白处右键，选择性粘贴，点击转置即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-028-转置表格-横表变竖表.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1627,7 +1627,7 @@
       "excerpt": "视图选项卡，根据需求选择冻结的首和列",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-029-固定表头.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1637,7 +1637,7 @@
       "excerpt": "Ctrl+A全选，按F2命名其中一张图片，回车",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-030-批量重命名图片.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1647,7 +1647,7 @@
       "excerpt": "知识库目录表中的C4-C12列的数据，如何与本表中其它对应分表中A3以后的数据分别相等，以实现目录表中的数据随分表序号中的数据变化自动更新",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-031-条目-31.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1657,7 +1657,7 @@
       "excerpt": "先把图片全部导入，全选后右键，找到大小和属性，关闭锁定纵横比，高度、宽度调整为单元格大小，点击最后一张图片，移动到最后一个边框单元格，按住Alt键吸附边框，最后再把图片全选，找到对齐，点击左对齐，再点击对齐，好到纵向分布即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-032-图片批量整齐嵌入单元格.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1667,7 +1667,7 @@
       "excerpt": "在需要统计的区间内输入函数=frequency(),第一个参数选择对象数列，输入逗号，大括号内输入区间值，逗号隔开，回车即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-033-统计区间内的个数.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1677,7 +1677,7 @@
       "excerpt": "选中要将一列数据分列成若干列的数据，选择顶部菜单栏中的数据，选择分列或文本分列，选择分隔符号，勾选实际使用的分隔符，预览无误，点击确定即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-034-数据分列.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1687,7 +1687,7 @@
       "excerpt": "先正常拆分第一行数据，各自占数据格，然后在第二行按Ctrl+E智能填充",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-035-拆分数据-拆分一个单元格中的若干数据.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1697,7 +1697,7 @@
       "excerpt": "为避免格式错误，合并单元格（特别是设置标题的时候），选中要合并的区域，右键鼠标选择设置单元格格式，选择对齐方式，选择跨列居中，回车即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-036-标题合并单元格.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1707,7 +1707,7 @@
       "excerpt": "https://toexcel.zhiyakeji.com/",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-037-图片表格转EXCEL.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1717,7 +1717,7 @@
       "excerpt": "复制A列名字到B列成两列，修改列宽为50，行高修改为409，字体修改为109，选中A列，文字方向修改为-90°，选中B列，文字方向修改为正90°，纸张方向修改为横向，自定义页边距，左右修改为3厘米，勾选水平和垂直，点击打印预览即可",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-038-席位牌.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1727,7 +1727,7 @@
       "excerpt": "1、整体数据批量求和：选中要求和的数据，按Alt+=； 2、针对分开数据表格（数据不连续，数据之间有单元格的情况）求和：选中数据，按Ctrl+G打开定位，选择空值，回车确定，按Alt+=即可； 3、汇总不同类别的数据：输入=SUM（区域,…",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-039-表格求和.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1737,7 +1737,7 @@
       "excerpt": "先准确表述需求，再用GPT生成代码（deepseek），后到谷歌免费在线Python环境生成（https://colab.research.google.com/） 1、打开 Google Colab (https://colab.res…",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-040-AI图表生成各类柱状图饼状图等-Google-Colab.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1747,7 +1747,7 @@
       "excerpt": "在B列单元格输入公式，向下填充即可：=MID(A1,FIND(\",\",A1)+1,100)&\",\"&LEFT(A1,FIND(\",\",A1)-1)",
       "category": "Excel 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-excel-041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1757,7 +1757,7 @@
       "excerpt": "菜单栏审阅-比较-分别选择两个文档-点击确定即可",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-001-合同数据对比.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1767,7 +1767,7 @@
       "excerpt": "图片导入到word，布局选项选择浮于文字上方，拖动图片铺满页面，右键设置图片格式，清晰度调整成80%，亮度调整成50%，对比度改100%即可打印（使用快速扫描也可一键完成）",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-002-图片打印变清晰.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1777,7 +1777,7 @@
       "excerpt": "全选文字，右击选择段落，选择换行和分页，勾选允许西文在单词中间换行，确定即可",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-003-调整字符间距.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1787,7 +1787,7 @@
       "excerpt": "全选表格，右击段落，取消勾选段前分页即可",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-004-word表格跨页问题解决.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1797,7 +1797,7 @@
       "excerpt": "列出组织架构，善用Ctrl和Tab键，全选复制，插入组织图，选择smartart，选取合适的样式即可",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-005-组织架构图.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1807,7 +1807,7 @@
       "excerpt": "Ctrl+delete Ctrl+Backspace 点击页面，选择删除本节 Ctrl+D打开字体框，隐藏文字勾好",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-006-删除空白页.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1817,7 +1817,7 @@
       "excerpt": "U+部首",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-007-生僻字.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1827,7 +1827,7 @@
       "excerpt": "V+数字",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-008-金额大写.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1837,7 +1837,7 @@
       "excerpt": "rq/xq/sj",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-009-日期星期时间.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1847,7 +1847,7 @@
       "excerpt": "选中需要双行显示的文字，点击段落，中文版式选择双行合一，确定即可",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-010-红头文件.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1857,7 +1857,7 @@
       "excerpt": "插入形状，选择直线，按住Shift键，用鼠标即可画一条直线",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-011-如何拉横向直线.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1867,7 +1867,7 @@
       "excerpt": "点击菜单栏审阅，选择比较并分别选择两个文档并确定即可",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-012-核对对比合同差异.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1877,7 +1877,7 @@
       "excerpt": "一秒添加下划线",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-013-Ctrl-U.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1887,7 +1887,7 @@
       "excerpt": "ctrl+shift+=",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-014-设置上标.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1897,7 +1897,7 @@
       "excerpt": "ctrl+=",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-015-设置下标.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1907,7 +1907,7 @@
       "excerpt": "ctrl+shift+回车",
       "category": "Word 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-word-016-文档拆分表格.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1917,7 +1917,7 @@
       "excerpt": "点击插入图片，选择分页插图，全选图片即可",
       "category": "PPT 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-001-图片批量插入PPT.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1927,7 +1927,7 @@
       "excerpt": "将PPT文件名后缀改为.RAR,然后解压文件，找到PPT文件，打开Media,所有图片就在",
       "category": "PPT 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-002-PPT内图片提取.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1937,7 +1937,7 @@
       "excerpt": "点击放映里的演讲备注，添加演讲词即可，开启演讲者视图，别人看不到演讲词",
       "category": "PPT 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-003-PPT备注演讲词.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1947,7 +1947,7 @@
       "excerpt": "新建画布，插入文本框，输入短横线，选中文本框，在形状格式中，文本效果，点击转换，选择图形形状（朝鲜鼓），文本选项中调整间距为紧密，度量值3磅，插入矩形，先选中文本框，再选中矩形，形状格式选拆分，复制粘贴图片，C太热了+X剪切图片，右键设置…",
       "category": "PPT 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-004-插入多张.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1957,7 +1957,7 @@
       "excerpt": "把一堆资料结构化形成PPT",
       "category": "PPT 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-006-Gemini-NotebookLM.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1967,7 +1967,7 @@
       "excerpt": "解决高质量PPT付费下载",
       "category": "PPT 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-007-解决Genspark生成PPT后需要付费下载的问题.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1977,7 +1977,7 @@
       "excerpt": "1、解决PPT页面高度不一致的问题 2、消除PPT页面中背景虚线网格问题",
       "category": "PPT 技巧",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/tools-ppt-008-WPS-PPT-后期排版标准化.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1987,7 +1987,7 @@
       "excerpt": "碗里加入白醋+水，把牙刷浸泡在里面，1分钟后取出，上面撒上一层食用盐，挤上牙膏刷牙三分钟，7天看效果",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-001-牙垢-牙结石去除.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -1997,7 +1997,7 @@
       "excerpt": "1、用百洁布和洗洁精将锅洗干净； 2、大火上灶把锅烤至微蓝烤透，等自然冷却，用磨刀石钝化锅边； 3、用钢丝球炒粗盐，洗洁精水洗净； 4、开火用猪皮涂抹均匀，反面一样，再来点食用油，加入一点青菜翻炒捞出洗净即可；",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-002-铁锅开锅.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2007,7 +2007,7 @@
       "excerpt": "洋葱+黄姜+花椒 洋葱用盐腌制8分钟，腌好后加一大碗清水，清洗干净盛出放入容器中，加入姜丝花椒倒入陈醋放置5小时即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-003-醋泡洋葱.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2017,7 +2017,7 @@
       "excerpt": "复方黄柏液涂剂",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-004-皮肤瘙痒.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2027,7 +2027,7 @@
       "excerpt": "酒精喷在肥皂上，用牙刷沾肥皂表面，直接刷 鞋上喷上酒精+洗洁精，用牙刷反复擦拭 鞋子上图上开塞露+84，5倍水稀释，去黄增白",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-005-居家洗鞋.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2037,7 +2037,7 @@
       "excerpt": "煤焦油洗剂洗头",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-006-脂溢性皮炎.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2047,7 +2047,7 @@
       "excerpt": "1.开锅起油，先放洋葱炸，再放大葱一起炸，炸至金黄，再放入香料（桂皮八角香叶草果等）一起炒； 2.开锅放水（微多），把炸炒好的香油倒入水中，加入生抽，老抽，盐，冰糖，花椒，小米辣椒，姜等调味，煮至水沸腾； 3.牛肉不用切（腱子肉）用清水清…",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-007-卤牛肉.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2057,7 +2057,7 @@
       "excerpt": "1、餐边柜高级感，吊柜内退（吊柜比地柜退 10 公分）",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-008-房屋装修-餐边柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2067,7 +2067,7 @@
       "excerpt": "2、移动轨道插座",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-009-房屋装修-插座.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2077,7 +2077,7 @@
       "excerpt": "3、下柜比上柜要高 10-15 公分",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-010-房屋装修-下柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2087,7 +2087,7 @@
       "excerpt": "4、门边柜做高柜（挂外套），中间当换鞋凳，底下两层抽屉，顶柜放不常用物品",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-011-房屋装修-门边柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2097,7 +2097,7 @@
       "excerpt": "5、连接到顶鞋柜，顶部放鞋盒，中间旋转鞋架（两边收纳），底下预留 35 公分，两边固定滑轨，设计两层踢脚抽，侧边薄柜做到顶，下方挂雨伞，上方放摆件贴上全身镜",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-012-房屋装修-门边鞋柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2107,7 +2107,7 @@
       "excerpt": "6.柜门婷兰灰，柜体深空灰，餐边柜内嵌直饮机",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-013-房屋装修-柜门.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2117,7 +2117,7 @@
       "excerpt": "7、不要推拉门，要打通阳台，要落地电视柜，通刷乳胶漆，不要柜拉手，要免拉手，不要贵妃椅，要直排沙发，要窗帘盒不要罗马杆，不包门套，极简地轨，通铺瓷砖",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-014-房屋装修-拉门拉手.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2127,7 +2127,7 @@
       "excerpt": "8、开关倒着装试用，整齐又美观",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-015-房屋装修-开关.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2137,7 +2137,7 @@
       "excerpt": "9、厨房高低洗碗炒菜做台面",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-016-房屋装修-洗碗.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2147,7 +2147,7 @@
       "excerpt": "10、水量伺服器+噪音小",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-017-房屋装修-水量.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2157,7 +2157,7 @@
       "excerpt": "11、全屋净水，安装前置过滤器+厨下净水机",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-018-房屋装修-全屋净水.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2167,7 +2167,7 @@
       "excerpt": "12、洗碗机替代消毒柜",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-019-房屋装修-洗碗机.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2177,7 +2177,7 @@
       "excerpt": "13、墙面边角做半圆形包边处理",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-020-房屋装修-墙面边角.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2187,7 +2187,7 @@
       "excerpt": "14、客厅尽量用简易吸顶灯，直排真皮沙发",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-021-房屋装修-沙发.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2197,7 +2197,7 @@
       "excerpt": "15、厨房不装 90° 转角柜，要装钻石型切角柜，双层吊柜，预留调料窗口",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-022-房屋装修-切角柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2207,7 +2207,7 @@
       "excerpt": "16、洞洞板可以考虑",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-023-房屋装修-衣柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2217,7 +2217,7 @@
       "excerpt": "17、客厅瓷砖通铺，（广东佛山 800×800）全瓷或超白胚奶油色柔光砖+与砖同色环氧彩砂（天鹅绒釉面 10-20° 反光），门不做滑轨门槛，厨房 400×800 素色砖",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-024-房屋装修-瓷砖.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2227,7 +2227,7 @@
       "excerpt": "18、隐藏式穿衣镜考虑",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-025-房屋装修-穿衣镜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2237,7 +2237,7 @@
       "excerpt": "19、卫生间墙面不贴小砖，大砖上墙，墙地砖对缝",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-026-房屋装修-卫生间大砖.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2247,7 +2247,7 @@
       "excerpt": "20、灯光: 客厅无主灯设计，小山丘射灯",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-027-房屋装修-灯光.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2257,7 +2257,7 @@
       "excerpt": "21、空调排水管和电线要预留管槽做隐藏式设计",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-028-房屋装修-隐藏.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2267,7 +2267,7 @@
       "excerpt": "22、全屋考虑清洁无死角，电视柜悬空设计，端头做斜角，电线滑轨抽屉，隐藏网电线，电视插座内退 2 公分",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-029-房屋装修-清洁.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2277,7 +2277,7 @@
       "excerpt": "23、厨房做单边折叠推拉门，顶端做滑轨",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-030-房屋装修-厨房单边推拉.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2287,7 +2287,7 @@
       "excerpt": "24、全屋做隐藏式储物设计",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-031-房屋装修-储物.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2297,7 +2297,7 @@
       "excerpt": "25、金属衣架+推拉门可以考虑",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-032-房屋装修-衣柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2307,7 +2307,7 @@
       "excerpt": "26、鞋柜要做四段式，衣柜做分段式柜门，橱柜门选 pet 高光板，餐边柜少做玻璃门，地柜深度 40 公分，柜门做无拉手设计，衣柜门选哑光版",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-033-房屋装修-鞋柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2317,7 +2317,7 @@
       "excerpt": "27、恒温枪灰色花洒，风暖浴霸，电热毛巾架，洗烘套装",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-034-房屋装修-花洒.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2327,7 +2327,7 @@
       "excerpt": "28、砸墙砌墙、封阳台、水电路改造、下水管包隔音棉",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-035-房屋装修-隔音棉.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2337,7 +2337,7 @@
       "excerpt": "29、家里绿植:南天竹、龙血树、白犀牛、黄金榕、黑金刚、百合竹",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-036-房屋装修-绿植.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2347,7 +2347,7 @@
       "excerpt": "30、卫生间马桶安装反水加厚止逆阀",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-037-房屋装修-马桶.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2357,7 +2357,7 @@
       "excerpt": "31、鞋柜设计踢脚抽，做两层，底下一层 至少 20 厘米 ，放 大鞋 ，上一层至少 10 厘米，放拖鞋",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-038-房屋装修-鞋柜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2367,7 +2367,7 @@
       "excerpt": "32、入户门贴砖砖缝留两边，不要留中间（门中缝穿堂上不吉利）",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-039-房屋装修-入户门.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2377,7 +2377,7 @@
       "excerpt": "33、岛台餐桌可考虑，阳台折叠收衣架",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-040-房屋装修-餐桌衣架.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2387,7 +2387,7 @@
       "excerpt": "34、家电购买:洗衣机小天鹅，洗烘分体机选海尔，智能小家电选小米，空调选格力或海尔，冰箱热水器选海尔，电视买创维液晶不要激光，美的都均衡",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-041-房屋装修-家电.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2397,7 +2397,7 @@
       "excerpt": "荔枝煮水补气血 7颗荔枝+3颗桂圆+3颗去核红枣+1大勺醪糟+1个鸡蛋 大半碗清水，冷水上锅蒸20分钟",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-042-荔枝煮水补气血.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2407,7 +2407,7 @@
       "excerpt": "葱姜花椒八角开水浸泡放凉捞出残渣保留料水，料水分次加到肉馅儿里并搅拌均匀，放生抽老抽食盐胡椒粉，打入鸡蛋，香油十三香放入一个方向搅上浆，最后放葱花并浇热油激香",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-043-调饺子肉馅.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2417,7 +2417,7 @@
       "excerpt": "辣椒粉，蒜末，葱花，小米辣，芝麻浇热油激香，放生抽陈醋白糖提鲜，加食盐搅拌均匀",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-044-拌凉菜.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2427,7 +2427,7 @@
       "excerpt": "材质选择雪尼尔高精密 褶皱选择两倍褶皱 纱帘选择幻影纱，透光不透人 轨道选择加厚铝合金轨道，耐用结实",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-045-房屋装修-窗帘.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2437,7 +2437,7 @@
       "excerpt": "日落灯、转角时钟、音乐太空人、电视柜灯带、电表箱装饰画、入户门地垫、感应灯带、桌垫、门后挂钩、路由器收纳盒、蔬菜收纳桶、双层鞋架、厨房灶台墙面静电保护膜",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-046-客厅神器.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2447,7 +2447,7 @@
       "excerpt": "一块火锅底料+牛奶+清水，烧开即可，下各种吃的，煮熟后放喜欢的麻油酱汁蒜末即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-047-麻辣烫做法.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2457,7 +2457,7 @@
       "excerpt": "冷水下改好刀的鲈鱼，放葱姜盐巴，浸泡15分钟，粉丝打底放鲈鱼，一勺猪油，蒸15分钟，放三丝（青红椒、姜丝等）浇热油，淋蒸鱼豉油即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-051-清蒸鲈鱼.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2467,7 +2467,7 @@
       "excerpt": "2个鸡蛋+若干基围虾，少油煎好，淋入开水，倒入粉丝，倒入肉末，少量生抽+老抽，生菜叶煮熟即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-052-鸡蛋虾片粉.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2477,7 +2477,7 @@
       "excerpt": "紫皮洋葱+苹果，均切丝，放入碗中加盐，清水浸泡5分钟，沥干水份，放一勺香醋，少许芝麻油。撒上白芝麻和香菜段，翻拌均匀即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-053-苹果拌洋葱.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2487,7 +2487,7 @@
       "excerpt": "鲈鱼用葱姜水去腥后洗干净再用开水烫一下，3个鸡蛋加开水（1:1.5），加盐搅散，撇去浮沫，淋上鸡蛋液，两勺蒜蓉酱，，扣盖上汽蒸10分钟关火焖2分钟，葱花用热油呛炒淋入盘里，蒸鱼豉油用热锅呛一下即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-054-鲈鱼蒸蛋.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2497,7 +2497,7 @@
       "excerpt": "豆腐切小方块排队放入盘中，在豆腐上面放上基围虾，倒入蛋液，大火蒸6分钟，蒸鱼豉油淋上，姜末葱花热油炸香淋上即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-055-虾仁豆腐蒸蛋.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2507,7 +2507,7 @@
       "excerpt": "七喜汽水+红酒+AD钙奶",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-057-红酒特调.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2517,7 +2517,7 @@
       "excerpt": "起锅下肥肉煸香，爆出油脂后下红椒碎，再下蒜子辣椒粉，将辣椒的香味激发出来，倒入半碗清水，调味只加盐，水开后下瘦肉（前腿肉）快速滑散，下蒜苗起锅即可",
       "category": "日常生活",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-daily-058-带汤辣椒炒肉.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2527,7 +2527,7 @@
       "excerpt": "钦州：大海，沙滩超级海景房，粉色海豚",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-001-小众宝藏旅游地.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2537,7 +2537,7 @@
       "excerpt": "河池：适合一人散心，三门海喀斯特地貌",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-002-条目-2.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2547,7 +2547,7 @@
       "excerpt": "腾冲：舒适宜居地，繁华终年不败，无需空调避暑，温泉，应季水果",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-003-条目-3.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2557,7 +2557,7 @@
       "excerpt": "茶峒古镇：边城，一脚跨三省（湖南贵州重庆），拉拉渡到重庆",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-004-条目-4.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2567,7 +2567,7 @@
       "excerpt": "海螺沟：贡嘎雪山脚下的冰川秘境，冰川与温泉",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-005-条目-5.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2577,7 +2577,7 @@
       "excerpt": "甘南扎尕拉：藏式风情、雪山巍峨、草原广袤",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-006-条目-6.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2587,7 +2587,7 @@
       "excerpt": "云南弥勒：雪山壮丽、花园浪漫、万花筒城堡、",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-007-条目-7.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2597,7 +2597,7 @@
       "excerpt": "贵州荔波：领略山河、七孔古桥",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-008-条目-8.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2607,7 +2607,7 @@
       "excerpt": "格聂：神山脚下的藏民族村落",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-009-条目-9.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2617,7 +2617,7 @@
       "excerpt": "第一天飞长春，高铁到长白山，住二道白河镇民宿，晚上吃当地美食； 第二天到长白山景区，游览长白山天池，长白山瀑布，晚上入驻特色民宿； 第三天游览延边朝鲜族民宿村，晚上网红墙打开，当地美食； 第四天中国雪乡，棒槌山栈道，晚上花车巡游； 第五天…",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-010-6日东北游.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2627,7 +2627,7 @@
       "excerpt": "第一天南昌打卡滕王阁，夜游秋水广场，第二天三清山，望仙谷，第三天 婺源篁岭，第四天鄱阳湖，第五天庐山，三叠飞流瀑布 高山草甸武功山，丹霞盆景龟峰，道教圣地龙虎山，云海仙境羊狮幕，悬崖村落望仙谷",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-011-江西.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2637,7 +2637,7 @@
       "excerpt": "第一天登上景山，俯瞰紫禁城全貌，晚上去前门大街特色小吃，第二天故宫，北京胡同，第三天升旗仪式，八达岭长城，第四天去颐和园，昆明湖溜冰场，清华北大，第五天天坛公园，恭王府 餐饮：故宫旁四级民福、尹三豆汁、宝瑞门钉肉饼、刘记炙子烤肉、南门涮肉…",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-012-冬季北京.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2647,7 +2647,7 @@
       "excerpt": "广州塔、东山口、大佛古寺、陈家祠、沙面岛、永庆坊、圣心大教堂、流花湖公园、广州文化馆新馆、广州新光大桥",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-013-广州.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2657,7 +2657,7 @@
       "excerpt": "春熙路、太古里、大慈寺、望平街、九眼桥、大熊猫基地、文殊院、杜甫草堂、武侯祠、锦里、成都博物馆、天府广场、人民公园、宽窄巷子、奎星楼街、仰天窝广场、都江堰、灌县古城、文庙街、南桥、鹤鸣茶社烟火茶馆（人民公园内） 岳富贵老火锅、翠嬢嬢老火锅…",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-014-成都-景点预约.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2667,7 +2667,7 @@
       "excerpt": "沙坡尾厦门港、八市小吃一条街、海上地铁1号线、园林植物园、鼓浪屿日光岩、环岛双层巴士、黄厝沙滩、途纪咖啡馆下午茶、帆船出海、钟鼓索道",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-015-厦门.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2677,7 +2677,7 @@
       "excerpt": "南澳岛、长山尾灯塔、北回归线、冰淇淋灯塔、深海浮潜、妈屿岛、汕头小公园、礐石（Quèshí）轮渡、潮州古城、牌坊街、城隍庙、开元寺、广济桥、揭阳楼、进贤门",
       "category": "旅游攻略",
       "date": "",
-      "cover": "",
+      "cover": "/media/images/covers/life-travel-016-广东潮汕.jpg",
       "mediaType": "",
       "mediaUrl": ""
     }

@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "海报/logo设计"
 date: 2025-12-17
 source: "https://ideogram.ai/t/explore"
+cover: "/media/images/covers/tools-ai-041-ideogram-Ai.jpg"
 ---
 
 # ideogram Ai

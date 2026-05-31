@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "PPT"
 date: 2025-06-13
 source: "https://gamma.app/"
+cover: "/media/images/covers/tools-ai-002-Gammas.jpg"
 ---
 
 # Gammas

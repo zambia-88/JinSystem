@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "列出话题但未分析原因，排版缺美感，PDF有内容但有AI味。"
 date: 2025-06-13
 source: "MiniMax Agent"
+cover: "/media/images/covers/tools-ai-029-主流AI-MiniMax-Agent.jpg"
 ---
 
 # 主流AI-MiniMax Agent

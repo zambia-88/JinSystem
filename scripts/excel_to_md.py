@@ -155,8 +155,36 @@ def parse_sheet(ws) -> list[dict]:
     return entries
 
 
+def read_existing_frontmatter(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    fm, _ = read_frontmatter_file(path.read_text(encoding="utf-8"))
+    return fm
+
+
+def read_frontmatter_file(text: str) -> tuple[dict[str, str], str]:
+    if not text.startswith("---"):
+        return {}, text
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return {}, text
+    fm: dict[str, str] = {}
+    for line in parts[1].strip().splitlines():
+        if ":" in line:
+            k, _, v = line.partition(":")
+            fm[k.strip()] = v.strip().strip('"').strip("'")
+    return fm, parts[2]
+
+
 def write_entry(path: Path, entry: dict, category: str, slug_path: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    existing = read_existing_frontmatter(path)
+    if not entry["cover"] and existing.get("cover"):
+        entry["cover"] = existing["cover"]
+    if not entry["mediaType"] and existing.get("mediaType"):
+        entry["mediaType"] = existing["mediaType"]
+    if not entry["mediaUrl"] and existing.get("mediaUrl"):
+        entry["mediaUrl"] = existing["mediaUrl"]
     excerpt = make_excerpt(entry["content"])
     lines = [
         "---",
@@ -256,7 +284,15 @@ def main() -> None:
         for i, entry in enumerate(entries, start=1):
             fname = slugify(entry["title"], i) + ".md"
             rel = f"/{slug}/{fname.replace('.md', '')}"
-            write_entry(cat_dir / fname, entry, cn_title, slug)
+            md_path = cat_dir / fname
+            existing = read_existing_frontmatter(md_path)
+            if not entry["cover"] and existing.get("cover"):
+                entry["cover"] = existing["cover"]
+            if not entry["mediaType"] and existing.get("mediaType"):
+                entry["mediaType"] = existing["mediaType"]
+            if not entry["mediaUrl"] and existing.get("mediaUrl"):
+                entry["mediaUrl"] = existing["mediaUrl"]
+            write_entry(md_path, entry, cn_title, slug)
             items.append((entry["title"].split("\n")[0], rel))
             all_posts.append(
                 {

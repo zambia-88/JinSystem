@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "已安装好了在电脑：🚀 极简安装指南（Windows/macOS） 1. 下载核心引擎 访问 Python 官网：python.org/downloads。 点击那个黄色的大按钮 'Download Python 3.x.x'（它会自动识别…"
 date: 2026-1-13
 source: "python.org/downloads。"
+cover: "/media/images/covers/tools-ai-054-Python开发代码环境.jpg"
 ---
 
 # Python开发代码环境

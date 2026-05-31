@@ -4,6 +4,7 @@ category: AI 工具库
 excerpt: "HTML规整、图表丰富、PDF可读性好，对话题分析细致，表现出色"
 date: 2025-06-13
 source: "Genspark超级智能体"
+cover: "/media/images/covers/tools-ai-026-主流AI-Genspark超级智能体.jpg"
 ---
 
 # 主流AI-Genspark超级智能体
