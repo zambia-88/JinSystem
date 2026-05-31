@@ -46,7 +46,7 @@ export default defineConfig({
   title: "JinSystem",
   description: "JinSystem · 物质低配 · 认知高配 · 心态顶配",
   base: resolveBase(),
-  appearance: "dark",
+  appearance: { initialValue: "dark" },
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
@@ -87,6 +87,9 @@ export default defineConfig({
       provider: "local",
     },
     outline: { level: [2, 3] },
+    darkModeSwitchLabel: "主题",
+    lightModeSwitchTitle: "切换浅色模式",
+    darkModeSwitchTitle: "切换深色模式",
     /** 页眉状态栏：默认武汉，浏览器定位成功则显示「本地」 */
     statusBar: {
       city: "武汉",
