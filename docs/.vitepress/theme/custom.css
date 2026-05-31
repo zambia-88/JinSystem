@@ -62,6 +62,10 @@
 
 /* ── 页眉状态栏：导航下方独立一行 ── */
 .jin-status-outer {
+  position: sticky;
+  top: var(--vp-nav-height);
+  z-index: calc(var(--vp-z-index-nav) - 1);
+  flex-shrink: 0;
   width: 100%;
   background: rgba(10, 10, 12, 0.96);
   border-bottom: 1px solid var(--jin-border);
@@ -166,9 +170,15 @@
     font-size: 0.68rem;
     opacity: 0.92;
   }
-}
 
-@media (max-width: 767px) {
+  .VPHero {
+    padding-top: 2rem !important;
+  }
+
+  .VPHome::before {
+    top: var(--jin-status-height);
+  }
+
   .VPLocalNav {
     top: calc(var(--vp-nav-height) + var(--jin-status-height)) !important;
   }
@@ -243,8 +253,14 @@
 }
 
 .VPHero {
-  padding: 5rem 0 1.5rem !important;
+  /* 取消默认负边距，避免盖住状态栏 */
+  margin-top: 0 !important;
+  padding: 2.75rem 0 1.5rem !important;
   overflow: visible;
+}
+
+.VPHome .VPHero {
+  padding-top: 2.5rem !important;
 }
 
 .VPHero .heading {
