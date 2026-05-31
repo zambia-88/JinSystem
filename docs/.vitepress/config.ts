@@ -26,9 +26,8 @@ function loadSidebar(): Record<string, SidebarItem[]> {
 
 const sidebar = loadSidebar();
 
-/** 线上地址（自定义域名就绪后再改 SITE_URL 与 CNAME） */
-const SITE_URL = "https://zambia-88.github.io/JinSystem";
-const GITHUB_PAGES_BASE = "/JinSystem/";
+/** 自定义域名 jinsystem.cn（根路径部署） */
+const SITE_URL = "https://jinsystem.cn";
 
 function resolveBase(): string {
   if (process.env.VP_BASE_URL) {
@@ -37,7 +36,7 @@ function resolveBase(): string {
     return base.endsWith("/") ? base : `${base}/`;
   }
   if (process.env.GITHUB_ACTIONS === "true") {
-    return GITHUB_PAGES_BASE;
+    return "/";
   }
   return "/";
 }

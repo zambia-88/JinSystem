@@ -33,7 +33,7 @@ jobs:
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_ACTIONS: "true"
-          VP_BASE_URL: /JinSystem/
+          VP_BASE_URL: /
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
