@@ -51,6 +51,50 @@
   color: transparent !important;
 }
 
+/* 手机顶栏「关于」入口（与桌面导航一致） */
+.mobile-about-link {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-about-link {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 4px;
+    padding: 0 10px;
+    min-height: 36px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--jin-text-muted);
+    text-decoration: none;
+    border-radius: 2px;
+    pointer-events: auto;
+    transition: color 0.2s;
+  }
+
+  .mobile-about-link:hover,
+  .mobile-about-link.active {
+    color: var(--jin-gold-light);
+  }
+
+  .mobile-about-link.active {
+    font-weight: 600;
+  }
+}
+
+/* 手机端文档页：确保「本页导航」可见可点 */
+@media (max-width: 1279px) {
+  .VPLocalNav {
+    z-index: calc(var(--vp-z-index-local-nav) + 1);
+  }
+
+  .VPLocalNav .container {
+    min-height: 44px;
+  }
+}
+
 /* ── 首页 Hero（wojc 式简洁头图） ── */
 .VPHome::before {
   content: "";

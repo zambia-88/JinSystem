@@ -49,6 +49,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
+      { text: "关于", link: "/about" },
       {
         text: "认知",
         items: [
@@ -72,7 +73,6 @@ export default defineConfig({
           { text: "旅游攻略", link: "/life/travel/" },
         ],
       },
-      { text: "关于", link: "/about" },
     ],
     sidebar,
     socialLinks: [],
