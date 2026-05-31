@@ -363,26 +363,263 @@
   border-top: 1px solid var(--jin-border);
 }
 
-@media (max-width: 640px) {
+/* ── 全局：防横向溢出、触控优化 ── */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: clip;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: rgba(201, 169, 98, 0.15);
+}
+
+/* ── 文档阅读（含关于页 / 文章页） ── */
+.vp-doc {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.vp-doc img,
+.vp-doc video,
+.vp-doc audio {
+  max-width: 100%;
+  height: auto;
+}
+
+.vp-doc table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.vp-doc pre,
+.vp-doc div[class*="language-"] {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 关于页等抒情段落：移动端更易读 */
+.reading-prose p {
+  line-height: 1.95;
+  letter-spacing: 0.02em;
+}
+
+.reading-prose p + p {
+  margin-top: 0.85em;
+}
+
+/* ── 平板 ── */
+@media (max-width: 960px) {
+  .post-card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+
+  .post-grid-section {
+    padding: 0 20px 3.5rem;
+  }
+}
+
+/* ── 手机 ── */
+@media (max-width: 768px) {
+  .VPHome::before {
+    height: 320px;
+  }
+
+  .VPHero {
+    padding: 3.5rem 1rem 1.25rem !important;
+  }
+
   .VPHero .name {
-    font-size: 2.2rem !important;
+    font-size: 2.4rem !important;
+    letter-spacing: 0.1em !important;
   }
 
   .VPHero .text {
-    font-size: 1rem !important;
-    letter-spacing: 0.08em !important;
+    font-size: 1.05rem !important;
+    letter-spacing: 0.06em !important;
+    line-height: 1.8 !important;
+    padding: 0 0.25rem;
   }
 
   .VPHero .tagline {
-    font-size: 0.85rem !important;
-    letter-spacing: 0.12em !important;
+    font-size: 0.88rem !important;
+    letter-spacing: 0.1em !important;
+    padding: 0 0.5rem;
+  }
+
+  .VPHero .actions {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 0.65rem !important;
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .VPHero .action {
+    width: 100%;
+  }
+
+  .VPHero .action .VPButton {
+    width: 100%;
+    min-height: 44px;
+    justify-content: center;
+  }
+
+  .post-grid-section {
+    padding: 0 max(16px, env(safe-area-inset-left)) 3rem
+      max(16px, env(safe-area-inset-right));
+  }
+
+  .post-grid-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+
+  .category-tabs {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 0.35rem;
+    padding-bottom: 0.35rem;
+    mask-image: linear-gradient(to right, #000 92%, transparent);
+  }
+
+  .category-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-tab {
+    flex-shrink: 0;
+    min-height: 40px;
+    padding: 0.45rem 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .post-card-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .post-card-cover {
+    height: 152px;
+  }
+
+  .post-card-body {
+    padding: 1rem 1.1rem 1.15rem;
+  }
+
+  .post-card-title {
+    font-size: 1rem;
+  }
+
+  .post-pagination {
+    gap: 0.85rem;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+  }
+
+  .post-pagination button {
+    min-height: 44px;
+    min-width: 88px;
+    padding: 0.5rem 1.1rem;
+  }
+
+  .doc-cover {
+    max-height: 240px;
+  }
+
+  .doc-video {
+    max-height: 280px;
+  }
+
+  .vp-doc {
+    font-size: 1.02rem;
+    line-height: 1.88;
+  }
+
+  .vp-doc h1 {
+    font-size: 1.55rem;
+    line-height: 1.35;
+    margin-top: 0.5rem;
+  }
+
+  .vp-doc h2 {
+    font-size: 1.22rem;
+    line-height: 1.4;
+    margin-top: 1.75rem;
+  }
+
+  .vp-doc h3 {
+    font-size: 1.08rem;
+  }
+
+  .vp-doc p,
+  .vp-doc li {
+    line-height: 1.88;
+  }
+
+  .vp-doc blockquote {
+    padding: 0.85rem 1rem;
+    margin: 1.25rem 0;
+    font-size: 0.98rem;
+  }
+
+  .VPDoc .container,
+  .VPDoc .content {
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+  }
+
+  .VPFooter {
+    padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 640px) {
+  .VPHero .name {
+    font-size: 2rem !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  .VPHero .text {
+    font-size: 0.95rem !important;
+    letter-spacing: 0.05em !important;
+  }
+
+  .VPHero .tagline {
+    font-size: 0.82rem !important;
+    letter-spacing: 0.08em !important;
   }
 
   .post-card-grid {
     grid-template-columns: 1fr;
   }
+}
 
-  .category-tabs {
-    width: 100%;
+@media (max-width: 380px) {
+  .VPHero .name {
+    font-size: 1.75rem !important;
+  }
+
+  .VPHero .text {
+    font-size: 0.88rem !important;
+  }
+
+  .category-tab {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.7rem;
   }
 }
