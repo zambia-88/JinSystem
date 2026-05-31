@@ -1,0 +1,30 @@
+:root {
+  --vp-c-brand-1: #3d6b5a;
+  --vp-c-brand-2: #2d4a3e;
+  --vp-c-brand-3: #1f3329;
+  --vp-c-brand-soft: rgba(61, 107, 90, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #6aab92;
+  --vp-c-brand-2: #4d8a74;
+  --vp-c-brand-3: #3d6b5a;
+}
+
+.VPHero .name {
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.VPHero .text {
+  font-size: 1.35rem;
+  font-weight: 400;
+  opacity: 0.92;
+}
+
+.vp-doc blockquote {
+  border-left: 3px solid var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  padding: 0.75rem 1rem;
+  border-radius: 0 6px 6px 0;
+}

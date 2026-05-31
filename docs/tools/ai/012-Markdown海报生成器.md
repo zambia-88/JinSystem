@@ -1,0 +1,13 @@
+---
+title: "Markdown海报生成器"
+category: AI 工具库
+date: 2025-06-13
+source: "https://md.hi-dhl.com/"
+---
+
+# Markdown海报生成器
+
+在该网站通过Markdown文本可一键转换为多种风格的图文海报，能给平常带文字的图片增添质感。
+有青花瓷、玄幻、动漫和古典等各种风格，适用于各个社交媒体平台，免费使用，支持预览后高清大图导出，还能自行添加水印和二维码。
+
+**来源：** [https://md.hi-dhl.com/](https://md.hi-dhl.com/)

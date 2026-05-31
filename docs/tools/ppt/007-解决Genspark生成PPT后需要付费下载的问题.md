@@ -1,0 +1,57 @@
+---
+title: "解决Genspark生成PPT后需要付费下载的问题"
+category: PPT 技巧
+source: "1、利用Genspark生成PPT
+2、利用浏览器扩展 html.to.design爬取生成的全部页面并下载
+3、运行Figma软件或网页，在 Figma 新建一个空白草稿（Draft），右键点击画布 -> Plugins -> html.to.design。
+4、导入文件：在弹出的插件窗口中，将刚才下载的 .h2d 文件拖拽进去。
+自动渲染：Figma 会开始解析 HTML 结构。几秒钟后，原本的网页会以“图层”形式出现在画布上。
+提示：如果提示缺少字体，选择 'Replace fonts' 替换为系统自带字体即可。
+导出为 PDF/图片：
+选中整个页面（Frame）。
+在右侧边栏最下方找到 'Export'。
+选择格式（PNG, JPG, 或 PDF），点击导出。
+5、智能格式转换（PDF → Canva → PPT）
+核心工具： Canva (国际版推荐)
+
+导入与适配：
+
+直接将 PDF 拖入 Canva 首页进行解析。
+
+使用 'Magic Switch'（魔法转换）功能，选择 Presentation (16:9)，系统会自动拆分长图页面。
+
+导出 PPTX：
+
+点击 Share (分享) -> More (更多) -> 搜索并选择 Microsoft PowerPoint 图标下载。
+
+注意：不要直接点 Download，否则可能只下载成静态图片。"
+---
+
+# 解决Genspark生成PPT后需要付费下载的问题
+
+解决高质量PPT付费下载
+
+**来源：** 1、利用Genspark生成PPT
+2、利用浏览器扩展 html.to.design爬取生成的全部页面并下载
+3、运行Figma软件或网页，在 Figma 新建一个空白草稿（Draft），右键点击画布 -> Plugins -> html.to.design。
+4、导入文件：在弹出的插件窗口中，将刚才下载的 .h2d 文件拖拽进去。
+自动渲染：Figma 会开始解析 HTML 结构。几秒钟后，原本的网页会以“图层”形式出现在画布上。
+提示：如果提示缺少字体，选择 "Replace fonts" 替换为系统自带字体即可。
+导出为 PDF/图片：
+选中整个页面（Frame）。
+在右侧边栏最下方找到 "Export"。
+选择格式（PNG, JPG, 或 PDF），点击导出。
+5、智能格式转换（PDF → Canva → PPT）
+核心工具： Canva (国际版推荐)
+
+导入与适配：
+
+直接将 PDF 拖入 Canva 首页进行解析。
+
+使用 "Magic Switch"（魔法转换）功能，选择 Presentation (16:9)，系统会自动拆分长图页面。
+
+导出 PPTX：
+
+点击 Share (分享) -> More (更多) -> 搜索并选择 Microsoft PowerPoint 图标下载。
+
+注意：不要直接点 Download，否则可能只下载成静态图片。
