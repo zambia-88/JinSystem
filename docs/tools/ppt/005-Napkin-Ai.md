@@ -1,7 +1,8 @@
 ---
 title: "Napkin Ai"
 category: PPT 技巧
-date: 2025.8.12
+excerpt: "文字生成图表或组织架构图"
+date: 2025-8-12
 source: "https://www.napkin.ai/"
 ---
 

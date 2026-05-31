@@ -1,7 +1,8 @@
 ---
 title: "deepseek"
 category: AI 工具库
-date: 2025.12.17
+excerpt: "写文案强项"
+date: 2025-12-17
 ---
 
 # deepseek

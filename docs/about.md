@@ -24,6 +24,18 @@ title: 关于
 2. 运行 `npm run sync` 同步 Markdown
 3. 运行 `npm run dev` 本地预览，或 `npm run build` 构建静态站
 
+### 媒体资源（图片 / 视频 / 音乐）
+
+在 Excel 中可为每条记录增加可选列：
+
+| 列名 | 说明 | 示例 |
+|------|------|------|
+| 封面 | 卡片封面图 | `/media/images/cover.jpg` 或完整 URL |
+| 媒体类型 | image / video / audio | `video` |
+| 媒体链接 | 视频或音频地址 | `/media/videos/demo.mp4` |
+
+媒体文件放在 `docs/public/media/` 对应子目录，同步后自动在首页卡片和详情页展示。
+
 ## 技术栈
 
 - [VitePress](https://vitepress.dev/) — 静态知识库站点
@@ -42,8 +54,11 @@ title: 关于
 1. 在 GitHub 新建仓库 **`JinSystem`**（或推送至已有同名仓库）
 2. 将 `website` 目录**内的全部文件**推送到 `main` 分支
 3. 打开 **Settings → Pages → Build and deployment**
-4. **Source** 选择 **GitHub Actions**
-5. 推送后等待 Actions 完成，访问上方地址
+4. **Source** 选择 **Deploy from a branch**
+5. **Branch** 选 **`gh-pages`**，文件夹选 **`/ (root)`**，点 Save
+6. 推送后等待 Actions 完成，访问上方地址
+
+> 若曾选 GitHub Actions 导致 deploy 404，按上面改为 **Deploy from a branch** 即可。
 
 ### 本地推送示例
 

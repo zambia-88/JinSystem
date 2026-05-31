@@ -1,4 +1,16 @@
+import { h } from "vue";
 import DefaultTheme from "vitepress/theme";
+import PostGrid from "./PostGrid.vue";
+import DocMedia from "./DocMedia.vue";
 import "./custom.css";
 
-export default DefaultTheme;
+const Layout = DefaultTheme.Layout;
+
+export default {
+  extends: DefaultTheme,
+  Layout: () =>
+    h(Layout, null, {
+      "home-hero-after": () => h(PostGrid),
+      "doc-before": () => h(DocMedia),
+    }),
+};

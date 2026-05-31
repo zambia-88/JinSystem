@@ -1,30 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
 :root {
-  --vp-c-brand-1: #3d6b5a;
-  --vp-c-brand-2: #2d4a3e;
-  --vp-c-brand-3: #1f3329;
-  --vp-c-brand-soft: rgba(61, 107, 90, 0.14);
+  --jin-bg: #0c0c0e;
+  --jin-bg-elevated: #141418;
+  --jin-bg-card: #18181c;
+  --jin-gold: #c9a962;
+  --jin-gold-light: #e8d5a3;
+  --jin-gold-dim: rgba(201, 169, 98, 0.28);
+  --jin-text: #eceae6;
+  --jin-text-muted: #888480;
+  --jin-border: rgba(255, 255, 255, 0.07);
+  --jin-radius: 6px;
+
+  --vp-c-bg: var(--jin-bg);
+  --vp-c-bg-alt: var(--jin-bg-elevated);
+  --vp-c-bg-soft: rgba(255, 255, 255, 0.03);
+  --vp-c-brand-1: var(--jin-gold);
+  --vp-c-brand-2: #a8884a;
+  --vp-c-brand-3: #7a6535;
+  --vp-c-brand-soft: rgba(201, 169, 98, 0.1);
+  --vp-c-text-1: var(--jin-text);
+  --vp-c-text-2: #b0aca4;
+  --vp-c-text-3: var(--jin-text-muted);
+  --vp-c-divider: var(--jin-border);
+  --vp-font-family-base: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #f2ebd8, #c9a962 55%, #96783a);
+  --vp-home-hero-image-background-image: none;
 }
 
 .dark {
-  --vp-c-brand-1: #6aab92;
-  --vp-c-brand-2: #4d8a74;
-  --vp-c-brand-3: #3d6b5a;
+  --vp-c-bg: var(--jin-bg);
+  --vp-c-bg-alt: var(--jin-bg-elevated);
+}
+
+/* ── 导航 ── */
+.VPNav {
+  backdrop-filter: blur(14px);
+  background: rgba(12, 12, 14, 0.88) !important;
+  border-bottom: 1px solid var(--jin-border);
+}
+
+.VPNavBarTitle .title {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  background: linear-gradient(90deg, var(--jin-gold-light), var(--jin-gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+
+/* ── 首页 Hero（wojc 式简洁头图） ── */
+.VPHome::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 420px;
+  pointer-events: none;
+  background: radial-gradient(ellipse 70% 60% at 50% 0%, rgba(201, 169, 98, 0.09), transparent);
+}
+
+.VPHero {
+  padding: 5rem 0 1.5rem !important;
 }
 
 .VPHero .name {
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-family: "Noto Serif SC", serif !important;
+  font-size: 3.2rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.16em !important;
 }
 
 .VPHero .text {
-  font-size: 1.35rem;
-  font-weight: 400;
-  opacity: 0.92;
+  font-family: "Noto Serif SC", serif !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.22em !important;
+  color: var(--jin-gold-light) !important;
+}
+
+.VPHero .tagline {
+  font-size: 0.78rem !important;
+  letter-spacing: 0.32em !important;
+  color: var(--jin-text-muted) !important;
+  text-transform: uppercase;
+}
+
+.VPHero .actions {
+  margin-top: 1.75rem !important;
+}
+
+.VPHero .action .VPButton.brand {
+  background: linear-gradient(135deg, #c9a962, #9a7b3a) !important;
+  border: none !important;
+  color: #0c0c0e !important;
+  font-weight: 600 !important;
+  border-radius: 2px !important;
+}
+
+.VPHero .action .VPButton.alt {
+  border: 1px solid var(--jin-gold-dim) !important;
+  color: var(--jin-gold-light) !important;
+  background: transparent !important;
+  border-radius: 2px !important;
+}
+
+/* 隐藏默认 features，用 PostGrid 替代 */
+.VPFeatures,
+.VPHome .VPHomeFeatures,
+.VPHome .main .vp-doc {
+  display: none !important;
+}
+
+/* ── 文章卡片网格（wojc 风格） ── */
+.post-grid-section {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 4rem;
+}
+
+.post-grid-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--jin-border);
+}
+
+.post-grid-stats {
+  font-size: 0.85rem;
+  color: var(--jin-text-muted);
+  letter-spacing: 0.06em;
+}
+
+.post-grid-stats strong {
+  color: var(--jin-gold);
+  font-weight: 600;
+}
+
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.category-tab {
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--jin-border);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--jin-text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.category-tab:hover {
+  border-color: var(--jin-gold-dim);
+  color: var(--jin-gold-light);
+}
+
+.category-tab.active {
+  background: rgba(201, 169, 98, 0.12);
+  border-color: var(--jin-gold-dim);
+  color: var(--jin-gold-light);
+}
+
+.post-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--jin-bg-card);
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  overflow: hidden;
+  text-decoration: none !important;
+  transition: transform 0.22s, border-color 0.22s, box-shadow 0.22s;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--jin-gold-dim);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+}
+
+.post-card-cover {
+  position: relative;
+  height: 168px;
+  background-size: cover;
+  background-position: center;
+  background-color: #1a1a1e;
+}
+
+.post-card-category {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.55rem;
+  background: rgba(8, 8, 10, 0.72);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--jin-gold-dim);
+  color: var(--jin-gold-light);
+  border-radius: 2px;
+}
+
+.post-media-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(8, 8, 10, 0.75);
+  border: 1px solid var(--jin-gold-dim);
+  border-radius: 50%;
+  color: var(--jin-gold-light);
+  font-size: 0.75rem;
+}
+
+.post-card-body {
+  padding: 1.1rem 1.25rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card-title {
+  font-family: "Noto Serif SC", serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--jin-text);
+  margin: 0 0 0.55rem;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.post-card-excerpt {
+  font-size: 0.82rem;
+  color: var(--jin-text-muted);
+  line-height: 1.65;
+  margin: 0 0 0.85rem;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.post-card-meta {
+  font-size: 0.72rem;
+  color: var(--jin-text-muted);
+  letter-spacing: 0.06em;
+}
+
+.post-no-date {
+  opacity: 0.7;
+}
+
+.post-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+  font-size: 0.85rem;
+  color: var(--jin-text-muted);
+}
+
+.post-pagination button {
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--jin-border);
+  background: transparent;
+  color: var(--jin-text-muted);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.post-pagination button:hover:not(:disabled) {
+  border-color: var(--jin-gold-dim);
+  color: var(--jin-gold-light);
+}
+
+.post-pagination button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ── 文章页媒体 ── */
+.doc-media {
+  margin-bottom: 1.75rem;
+}
+
+.doc-cover {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: var(--jin-radius);
+  border: 1px solid var(--jin-border);
+}
+
+.doc-cover-poster {
+  margin-bottom: 0.75rem;
+}
+
+.doc-video {
+  width: 100%;
+  max-height: 480px;
+  border-radius: var(--jin-radius);
+  border: 1px solid var(--jin-border);
+  background: #000;
+}
+
+.doc-audio {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* ── 文档页 ── */
+.vp-doc h1 {
+  font-family: "Noto Serif SC", serif;
+  letter-spacing: 0.05em;
 }
 
 .vp-doc blockquote {
-  border-left: 3px solid var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  padding: 0.75rem 1rem;
-  border-radius: 0 6px 6px 0;
+  border-left: 2px solid var(--jin-gold);
+  background: rgba(201, 169, 98, 0.06);
+  padding: 1rem 1.25rem;
+  border-radius: 0 4px 4px 0;
+  font-family: "Noto Serif SC", serif;
+}
+
+.VPSidebar {
+  background: var(--jin-bg-elevated) !important;
+  border-right: 1px solid var(--jin-border);
+}
+
+.VPFooter {
+  border-top: 1px solid var(--jin-border);
+}
+
+@media (max-width: 640px) {
+  .VPHero .name {
+    font-size: 2.2rem !important;
+  }
+
+  .post-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-tabs {
+    width: 100%;
+  }
 }

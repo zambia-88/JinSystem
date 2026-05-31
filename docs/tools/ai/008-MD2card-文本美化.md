@@ -1,7 +1,7 @@
 ---
-title: "MD2card（文本美化）
-海报生成器"
+title: "MD2card（文本美化） 海报生成器"
 category: AI 工具库
+excerpt: "文档转知识卡片"
 date: 2025-06-13
 source: "MD2card客户端"
 ---

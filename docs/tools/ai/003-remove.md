@@ -1,6 +1,7 @@
 ---
 title: "remove"
 category: AI 工具库
+excerpt: "照片背景替换"
 date: 2025-06-13
 source: "remove.bg"
 ---

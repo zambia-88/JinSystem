@@ -50,6 +50,7 @@ export default defineConfig({
   title: "JinSystem",
   description: "JinSystem · 物质低配 · 认知高配 · 心态顶配",
   base: resolveBase(),
+  appearance: "dark",
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
@@ -91,5 +92,9 @@ export default defineConfig({
     },
     outline: { level: [2, 3] },
   },
-  head: [["meta", { name: "theme-color", content: "#2d4a3e" }]],
+  head: [
+    ["meta", { name: "theme-color", content: "#080809" }],
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
+  ],
 });

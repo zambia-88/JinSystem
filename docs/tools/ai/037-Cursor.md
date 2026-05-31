@@ -1,7 +1,8 @@
 ---
 title: "Cursor"
 category: AI 工具库
-date: 2025.12.7
+excerpt: "写程式的Ai，输入需求，写成整个网页"
+date: 2025-12-7
 source: "https://cursor.com/cn"
 ---
 
