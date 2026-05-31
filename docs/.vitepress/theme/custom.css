@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap");
-
 :root {
   --jin-gold: #c9a962;
   --jin-gold-light: #e8d5a3;
@@ -113,7 +111,7 @@ html:not(.dark) {
   z-index: 2;
 }
 
-.VPNavBarSearch.search :deep(.DocSearch-Button) {
+.VPNavBarSearch.search .DocSearch-Button {
   width: auto !important;
 }
 
@@ -305,7 +303,7 @@ html:not(.dark) {
 }
 
 .VPSwitchAppearance,
-.VPNavBarSearch :deep(*) {
+.VPNavBarSearch * {
   pointer-events: auto !important;
 }
 
@@ -417,11 +415,12 @@ html:not(.dark) {
 
   .jin-status-outer {
     flex: 1 1 auto;
-    max-width: none;
+    min-width: 0;
+    max-width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    mask-image: linear-gradient(to right, #000 88%, transparent);
+    mask-image: none;
   }
 
   .jin-status-outer::-webkit-scrollbar {
@@ -441,6 +440,66 @@ html:not(.dark) {
 
   .nav-status-time {
     font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .VPNavBar .title {
+    max-width: 34vw;
+  }
+
+  .VPNavBar .content-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto auto;
+    align-items: center;
+    gap: 0.3rem 0.35rem;
+  }
+
+  .jin-status-outer {
+    grid-column: 1;
+    grid-row: 1;
+    flex: none;
+  }
+
+  .VPNavBarSearch.search {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 0 !important;
+  }
+
+  .VPNavBarSearch.search .DocSearch-Button {
+    width: 36px !important;
+    min-width: 36px !important;
+    padding: 0 !important;
+  }
+
+  .VPNavBarSearch.search .DocSearch-Button-Placeholder,
+  .VPNavBarSearch.search .DocSearch-Button-Keys {
+    display: none !important;
+  }
+
+  .mobile-about-link {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .VPNavBarHamburger {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  .VPNavBarMenu,
+  .VPNavBarAppearance,
+  .VPNavBarExtra,
+  .VPNavBarTranslations {
+    display: none !important;
+  }
+
+  .nav-status-solar,
+  .nav-status-sep--solar,
+  .nav-status-sep--lunar,
+  .nav-status-lunar {
+    display: none;
   }
 }
 

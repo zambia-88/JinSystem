@@ -16,8 +16,17 @@ function syncRightGroup() {
   if (!host || !body || !search || !appearance || !status) return;
 
   if (window.innerWidth < 960) {
-    for (const el of [search, appearance, status]) {
-      if (el.parentElement === host) body.appendChild(el);
+    if (status.parentElement === host) {
+      body.insertBefore(status, body.firstChild);
+    }
+    const about = body.querySelector(".mobile-about-link");
+    const hamburger = body.querySelector(".VPNavBarHamburger");
+    const anchor = about ?? hamburger;
+    if (search.parentElement === host && anchor) {
+      body.insertBefore(search, anchor);
+    }
+    if (appearance.parentElement === host && anchor) {
+      body.insertBefore(appearance, anchor);
     }
     host.hidden = true;
     return;

@@ -116,9 +116,9 @@ onUnmounted(() => {
   <div class="jin-status-outer">
     <div class="nav-status-bar" aria-label="时间日期与天气">
       <span class="nav-status-chip nav-status-time">{{ timeText }}</span>
-      <span class="nav-status-sep" aria-hidden="true" />
-      <span class="nav-status-chip">{{ solarText }}</span>
-      <span class="nav-status-sep" aria-hidden="true" />
+      <span class="nav-status-sep nav-status-sep--time" aria-hidden="true" />
+      <span class="nav-status-chip nav-status-solar">{{ solarText }}</span>
+      <span class="nav-status-sep nav-status-sep--solar" aria-hidden="true" />
       <span class="nav-status-chip nav-status-week">{{ weekText }}</span>
       <span class="nav-status-sep nav-status-sep--lunar" aria-hidden="true" />
       <span class="nav-status-chip nav-status-lunar">{{ lunarText }}</span>
