@@ -11,6 +11,7 @@
   --jin-text-muted: #888480;
   --jin-border: rgba(255, 255, 255, 0.07);
   --jin-radius: 6px;
+  --jin-status-height: 2rem;
 
   --vp-c-bg: var(--jin-bg);
   --vp-c-bg-alt: var(--jin-bg-elevated);
@@ -35,40 +36,61 @@
 }
 
 /* ── 导航 ── */
+.Layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.Layout > * {
+  order: 10;
+}
+
+.Layout > .VPNav {
+  order: 1;
+}
+
+.Layout > .jin-status-outer {
+  order: 2;
+  width: 100%;
+}
+
 .VPNav {
   backdrop-filter: blur(14px);
   background: rgba(12, 12, 14, 0.88) !important;
-  border-bottom: 1px solid var(--jin-border);
+  border-bottom: none;
 }
 
-/* ── 页眉状态栏：嵌入导航栏 ── */
-.VPNavBar .content-body {
-  flex-wrap: wrap;
-  justify-content: flex-end;
+/* ── 页眉状态栏：导航下方独立一行 ── */
+.jin-status-outer {
+  width: 100%;
+  background: rgba(10, 10, 12, 0.96);
+  border-bottom: 1px solid var(--jin-border);
+  backdrop-filter: blur(12px);
 }
 
 .nav-status-bar {
   display: flex;
   align-items: center;
-  flex: 1 1 auto;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: nowrap;
-  gap: 0.45rem 0.65rem;
-  min-width: 0;
-  margin-right: 0.35rem;
-  padding: 0.15rem 0;
-  font-size: 0.72rem;
+  gap: 0.5rem 0.75rem;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0.45rem max(16px, env(safe-area-inset-left))
+    0.45rem max(16px, env(safe-area-inset-right));
+  font-size: 0.74rem;
   letter-spacing: 0.03em;
   color: var(--jin-text-muted);
-  line-height: 1.35;
-  pointer-events: auto;
-  overflow: hidden;
+  line-height: 1.4;
+}
+
+.nav-status-line {
+  display: contents;
 }
 
 .nav-status-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
   white-space: nowrap;
 }
 
@@ -76,108 +98,83 @@
   font-variant-numeric: tabular-nums;
   font-weight: 600;
   color: var(--jin-gold-light);
-  min-width: 4.5rem;
-  justify-content: center;
-}
-
-.nav-status-solar {
-  gap: 0.45rem;
+  font-size: 0.82rem;
 }
 
 .nav-status-week {
   color: var(--jin-text-muted);
 }
 
-.nav-status-week::before {
-  content: "·";
-  margin-right: 0.45rem;
-  opacity: 0.45;
-}
-
 .nav-status-lunar {
   font-family: "Noto Serif SC", serif;
-  color: var(--jin-text-muted);
-}
-
-.nav-status-weather {
-  color: var(--jin-text-muted);
 }
 
 .nav-status-sep {
   width: 1px;
-  height: 0.75rem;
+  height: 0.7rem;
   background: var(--jin-border);
   flex-shrink: 0;
 }
 
 @media (min-width: 768px) {
-  .nav-status-bar {
-    font-size: 0.74rem;
-    gap: 0.5rem 0.75rem;
-    max-width: min(52vw, 640px);
+  :root {
+    --jin-status-height: 2.15rem;
   }
 
-  .nav-status-time {
-    font-size: 0.8rem;
-  }
-}
-
-@media (min-width: 960px) {
   .nav-status-bar {
-    max-width: min(46vw, 720px);
+    font-size: 0.76rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }
 
 @media (max-width: 767px) {
-  .VPNavBar .content-body {
-    flex-wrap: nowrap;
+  :root {
+    --jin-status-height: 3.6rem;
   }
 
   .nav-status-bar {
-    flex: 1 1 0;
-    justify-content: flex-start;
-    margin-right: 0.15rem;
-    gap: 0.35rem;
-    font-size: 0.68rem;
-    mask-image: linear-gradient(to right, #000 88%, transparent);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.3rem;
+    padding-top: 0.38rem;
+    padding-bottom: 0.38rem;
+    font-size: 0.72rem;
   }
 
-  .nav-status-sep--lunar,
-  .nav-status-lunar {
-    display: none;
+  .nav-status-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.55rem;
   }
 
-  .nav-status-solar .nav-status-date {
-    display: none;
-  }
-
-  .nav-status-week::before {
-    display: none;
+  .nav-status-line--primary {
+    padding-bottom: 0.05rem;
   }
 
   .nav-status-time {
-    min-width: auto;
-    font-size: 0.72rem;
+    font-size: 0.78rem;
+  }
+
+  .nav-status-sep--week {
+    display: none;
+  }
+
+  .nav-status-line--secondary {
+    font-size: 0.68rem;
+    opacity: 0.92;
   }
 }
 
-@media (max-width: 480px) {
-  .nav-status-sep--weather {
-    display: none;
+@media (max-width: 767px) {
+  .VPLocalNav {
+    top: calc(var(--vp-nav-height) + var(--jin-status-height)) !important;
   }
 
-  .nav-status-weather {
-    font-size: 0.65rem;
-  }
-}
-
-@media (max-width: 380px) {
-  .nav-status-solar {
-    display: none;
-  }
-
-  .nav-status-sep:first-of-type {
-    display: none;
+  .VPNavScreen {
+    top: calc(var(--vp-nav-height) + var(--jin-status-height)) !important;
   }
 }
 

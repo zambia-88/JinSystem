@@ -37,10 +37,7 @@ const timeText = computed(() => {
 
 const solarText = computed(() => {
   const d = now.value;
-  const y = d.getFullYear();
-  const mo = d.getMonth() + 1;
-  const da = d.getDate();
-  return `${y}年${mo}月${da}日`;
+  return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
 });
 
 const weekText = computed(() => `星期${WEEK[now.value.getDay()]}`);
@@ -48,9 +45,7 @@ const weekText = computed(() => `星期${WEEK[now.value.getDay()]}`);
 const lunarText = computed(() => {
   try {
     const lunar = Solar.fromDate(now.value).getLunar();
-    const month = lunar.getMonthInChinese();
-    const day = lunar.getDayInChinese();
-    return `农历${month}月${day}`;
+    return `农历${lunar.getMonthInChinese()}月${lunar.getDayInChinese()}`;
   } catch {
     return "";
   }
@@ -66,12 +61,7 @@ async function loadWeather(lat: number, lon: number, city: string) {
   try {
     weather.value = await fetchWeather(lat, lon, city);
   } catch {
-    weather.value = {
-      temp: null,
-      desc: "—",
-      icon: "◌",
-      city,
-    };
+    weather.value = { temp: null, desc: "—", icon: "◌", city };
   }
 }
 
@@ -111,7 +101,6 @@ onMounted(async () => {
   const { lat, lon, city } = await resolveLocation();
   await loadWeather(lat, lon, city);
 
-  // 每 30 分钟刷新天气
   setInterval(async () => {
     const loc = await resolveLocation();
     await loadWeather(loc.lat, loc.lon, loc.city);
@@ -124,18 +113,25 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="nav-status-bar" aria-label="时间日期与天气">
-    <span class="nav-status-chip nav-status-time">{{ timeText }}</span>
-    <span class="nav-status-sep" aria-hidden="true" />
-    <span class="nav-status-chip nav-status-solar">
-      <span class="nav-status-date">{{ solarText }}</span>
-      <span class="nav-status-week">{{ weekText }}</span>
-    </span>
-    <span class="nav-status-sep nav-status-sep--lunar" aria-hidden="true" />
-    <span class="nav-status-chip nav-status-lunar">{{ lunarText }}</span>
-    <span class="nav-status-sep nav-status-sep--weather" aria-hidden="true" />
-    <span class="nav-status-chip nav-status-weather" :title="weather.city">
-      {{ weatherLine }}
-    </span>
+  <div class="jin-status-outer">
+    <div class="nav-status-bar" aria-label="时间日期与天气">
+      <div class="nav-status-line nav-status-line--primary">
+        <span class="nav-status-chip nav-status-time">{{ timeText }}</span>
+        <span class="nav-status-sep" aria-hidden="true" />
+        <span class="nav-status-chip">{{ solarText }}</span>
+        <span class="nav-status-sep nav-status-sep--week" aria-hidden="true" />
+        <span class="nav-status-chip nav-status-week">{{ weekText }}</span>
+      </div>
+      <div class="nav-status-line nav-status-line--secondary">
+        <span class="nav-status-chip nav-status-lunar">{{ lunarText }}</span>
+        <span class="nav-status-sep" aria-hidden="true" />
+        <span
+          class="nav-status-chip nav-status-weather"
+          :title="weather.city"
+        >
+          {{ weatherLine }}
+        </span>
+      </div>
+    </div>
   </div>
 </template>
