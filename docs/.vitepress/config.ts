@@ -26,21 +26,14 @@ function loadSidebar(): Record<string, SidebarItem[]> {
 
 const sidebar = loadSidebar();
 
-/** 站点部署在 GitHub Pages 项目路径 /JinSystem/ */
-const SITE_BASE = "/JinSystem/";
+/** 自定义域名 jinsystem.com，站点部署于根路径 */
+const SITE_URL = "https://jinsystem.com";
 
 function resolveBase(): string {
   if (process.env.VP_BASE_URL) {
     const base = process.env.VP_BASE_URL.trim();
     if (base === "/") return "/";
     return base.endsWith("/") ? base : `${base}/`;
-  }
-  const repo = process.env.GITHUB_REPOSITORY?.split("/")[1];
-  if (repo && !repo.endsWith(".github.io")) {
-    return `/${repo}/`;
-  }
-  if (process.env.GITHUB_ACTIONS === "true") {
-    return SITE_BASE;
   }
   return "/";
 }
@@ -104,6 +97,7 @@ export default defineConfig({
     ["meta", { name: "theme-color", content: "#080809" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     ["meta", { name: "format-detection", content: "telephone=no" }],
+    ["link", { rel: "canonical", href: `${SITE_URL}/` }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
   ],
