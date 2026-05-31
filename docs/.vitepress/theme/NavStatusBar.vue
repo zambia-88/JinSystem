@@ -19,7 +19,7 @@ type StatusBarConfig = {
 
 const WEEK = ["日", "一", "二", "三", "四", "五", "六"] as const;
 const MOBILE_MARQUEE_MAX = 767;
-const MARQUEE_PX_PER_SEC = 36;
+const MARQUEE_PX_PER_SEC = 58;
 
 const { theme } = useData();
 const cfg = computed(
@@ -135,7 +135,7 @@ function syncMarquee() {
   }
 
   const loopWidth = bar.scrollWidth + 32;
-  const duration = Math.max(14, loopWidth / MARQUEE_PX_PER_SEC);
+  const duration = Math.max(10, loopWidth / MARQUEE_PX_PER_SEC);
   track.style.setProperty("--marquee-duration", `${duration}s`);
   track.style.setProperty("--marquee-shift", `${loopWidth}px`);
 }
