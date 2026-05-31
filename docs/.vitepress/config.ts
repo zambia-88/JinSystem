@@ -84,7 +84,7 @@ export default defineConfig({
     sidebar,
     socialLinks: [],
     footer: {
-      message: "JinSystem · 2025–2035 · 物质低配 · 认知高配 · 心态顶配",
+      message: "2025–2035 · 物质低配 · 认知高配 · 心态顶配",
       copyright: "JinSystem",
     },
     search: {
