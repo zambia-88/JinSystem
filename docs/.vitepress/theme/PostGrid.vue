@@ -17,17 +17,30 @@ type Post = {
 const PAGE_SIZE = 12;
 const posts = postsData.posts as Post[];
 
+const PILLAR_MAP: Record<string, string> = {
+  格局提升: "财富成长",
+  人性洞察: "财富成长",
+  "AI 工具库": "AI 知识库",
+  "Excel 技巧": "AI 知识库",
+  "Word 技巧": "AI 知识库",
+  "PPT 技巧": "AI 知识库",
+  日常生活: "生活",
+  旅游攻略: "生活",
+};
+
 const currentPage = ref(1);
 const activeCategory = ref("全部");
 
 const categories = computed(() => {
-  const set = new Set(posts.map((p) => p.category));
-  return ["全部", ...Array.from(set)];
+  const set = new Set(posts.map((p) => PILLAR_MAP[p.category] ?? p.category));
+  return ["全部", ...Array.from(set).sort()];
 });
 
 const filtered = computed(() => {
   if (activeCategory.value === "全部") return posts;
-  return posts.filter((p) => p.category === activeCategory.value);
+  return posts.filter(
+    (p) => (PILLAR_MAP[p.category] ?? p.category) === activeCategory.value
+  );
 });
 
 const totalPages = computed(() =>
@@ -93,12 +106,13 @@ function mediaIcon(post: Post) {
 </script>
 
 <template>
-  <section class="post-grid-section">
+  <section id="latest-articles" class="post-grid-section">
     <div class="post-grid-header">
       <div class="post-grid-stats">
         共 <strong>{{ filtered.length }}</strong> 篇
         <span v-if="activeCategory !== '全部'">· {{ activeCategory }}</span>
       </div>
+      <p class="post-grid-label">最新文章 · Latest</p>
       <div class="category-tabs">
         <button
           v-for="cat in categories"
@@ -123,7 +137,9 @@ function mediaIcon(post: Post) {
           <span v-if="mediaIcon(post)" class="post-media-badge">{{
             mediaIcon(post)
           }}</span>
-          <span class="post-card-category">{{ post.category }}</span>
+          <span class="post-card-category">{{
+            PILLAR_MAP[post.category] ?? post.category
+          }}</span>
         </div>
         <div class="post-card-body">
           <h3 class="post-card-title">{{ post.title }}</h3>

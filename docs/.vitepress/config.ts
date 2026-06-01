@@ -26,6 +26,13 @@ function loadSidebar(): Record<string, SidebarItem[]> {
 
 const sidebar = loadSidebar();
 
+const miningSidebar = [
+  { text: "矿业研究", link: "/mining/" },
+  { text: "肯尼亚矿业报告", link: "/mining/kenya/" },
+  { text: "赞比亚国情资料", link: "/mining/zambia/" },
+  { text: "境外投资流程", link: "/mining/odi/" },
+];
+
 /** 自定义域名 jinsystem.cn（根路径部署） */
 const SITE_URL = "https://jinsystem.cn";
 
@@ -41,14 +48,20 @@ function resolveBase(): string {
   return "/";
 }
 
+const SITE_DESC =
+  "JinSystem · 个人品牌官网 · AI 知识库 · 矿业研究 · 财富成长社区。Think Deep. Act Long.";
+
 export default defineConfig({
   lang: "zh-CN",
   title: "JinSystem",
-  description: "JinSystem · 物质低配 · 认知高配 · 心态顶配",
+  description: SITE_DESC,
   base: resolveBase(),
   appearance: { initialValue: "dark" },
   cleanUrls: true,
   lastUpdated: true,
+  sitemap: {
+    hostname: SITE_URL,
+  },
   /** 本地 dev 首选 5201，避免与 stock-sentiment 等 Vite 默认 5173 冲突 */
   vite: {
     server: {
@@ -64,34 +77,37 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "关于", link: "/about" },
+      { text: "Now", link: "/now/" },
+      { text: "矿业", link: "/mining/" },
       {
-        text: "认知",
+        text: "AI",
         items: [
+          { text: "AI 工具库", link: "/tools/ai/" },
+          { text: "资源中心", link: "/resources/" },
+        ],
+      },
+      {
+        text: "Investing",
+        items: [
+          { text: "财富认知", link: "/investing/" },
           { text: "格局提升", link: "/cognition/mindset/" },
           { text: "人性洞察", link: "/cognition/insight/" },
         ],
       },
-      {
-        text: "工具箱",
-        items: [
-          { text: "AI 工具库", link: "/tools/ai/" },
-          { text: "Excel", link: "/tools/excel/" },
-          { text: "Word", link: "/tools/word/" },
-          { text: "PPT", link: "/tools/ppt/" },
-        ],
-      },
-      {
-        text: "生活",
-        items: [
-          { text: "日常生活", link: "/life/daily/" },
-          { text: "旅游攻略", link: "/life/travel/" },
-        ],
-      },
+      { text: "Growth", link: "/growth/" },
+      { text: "社区", link: "/community/" },
     ],
-    sidebar,
+    sidebar: {
+      ...sidebar,
+      "/mining/": miningSidebar,
+      "/mining/kenya/": miningSidebar,
+      "/mining/zambia/": miningSidebar,
+      "/mining/odi/": miningSidebar,
+    },
     footer: {
-      message: "2025–2035 · 物质低配 · 认知高配 · 心态顶配",
-      copyright: "JinSystem",
+      message:
+        "Think Deep. Act Long. · 2025–2035 · 物质低配 · 认知高配 · 心态顶配",
+      copyright: "JinSystem · Knowledge · Wealth · Growth",
     },
     search: {
       provider: "local",
@@ -120,6 +136,41 @@ export default defineConfig({
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     ["meta", { name: "format-detection", content: "telephone=no" }],
     ["link", { rel: "canonical", href: `${SITE_URL}/` }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "JinSystem,个人品牌,AI知识库,矿业研究,铜矿,财富成长,投资认知,长期主义,Think Deep Act Long",
+      },
+    ],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:site_name", content: "JinSystem" }],
+    ["meta", { property: "og:title", content: "JinSystem | Think Deep. Act Long." }],
+    ["meta", { property: "og:description", content: SITE_DESC }],
+    ["meta", { property: "og:url", content: `${SITE_URL}/` }],
+    ["meta", { property: "og:locale", content: "zh_CN" }],
+    ["meta", { name: "twitter:card", content: "summary" }],
+    ["meta", { name: "twitter:title", content: "JinSystem | Think Deep. Act Long." }],
+    ["meta", { name: "twitter:description", content: SITE_DESC }],
+    [
+      "script",
+      {
+        type: "application/ld+json",
+      },
+      JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "JinSystem",
+        url: SITE_URL,
+        description: SITE_DESC,
+        inLanguage: "zh-CN",
+        publisher: {
+          "@type": "Person",
+          name: "JinSystem",
+        },
+      }),
+    ],
     ["link", { rel: "preconnect", href: "https://api.open-meteo.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],

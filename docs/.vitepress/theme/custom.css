@@ -690,6 +690,702 @@ html:not(.dark) {
   display: none !important;
 }
 
+/* ── 首页区块通用 ── */
+.home-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.home-section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-section-head--inset {
+  padding: 0 0.25rem;
+}
+
+.home-section-title {
+  font-family: "Noto Serif SC", serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--jin-text);
+  margin: 0;
+}
+
+.home-section-sub {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--jin-text-muted);
+}
+
+/* ── 品牌介绍条 ── */
+.home-intro {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 2rem;
+  text-align: center;
+}
+
+.home-intro-lead {
+  font-family: "Noto Serif SC", serif;
+  font-size: 0.95rem;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
+  color: var(--jin-text-muted);
+  margin: 0 0 1.25rem;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-intro-formula {
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--jin-gold);
+  margin: 0 0 0.85rem;
+}
+
+.home-intro-desc {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--jin-text);
+  margin: 0 0 0.5rem;
+}
+
+.home-intro-desc-en {
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: var(--jin-text-muted);
+  margin: 0 0 1rem;
+}
+
+.home-intro-slogan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  color: var(--jin-gold-light);
+}
+
+.home-intro-slogan-zh {
+  color: var(--jin-text-muted);
+}
+
+/* ── 数据卡片 ── */
+.home-stats {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 2.5rem;
+}
+
+.home-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.85rem;
+}
+
+.home-stat-card {
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  background: var(--jin-bg-card);
+  text-align: center;
+}
+
+.home-stat-value {
+  font-family: "Inter", sans-serif;
+  font-size: 1.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--jin-gold-light);
+  line-height: 1.2;
+}
+
+.home-stat-label {
+  font-family: "Noto Serif SC", serif;
+  font-size: 0.88rem;
+  margin-top: 0.35rem;
+  letter-spacing: 0.08em;
+  color: var(--jin-text);
+}
+
+.home-stat-en {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--jin-text-muted);
+  margin-top: 0.25rem;
+}
+
+/* ── 首页四大支柱 ── */
+.home-pillars {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 2.5rem;
+}
+
+.home-pillars-inner {
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  background: color-mix(in srgb, var(--jin-bg-card) 88%, transparent);
+  padding: 1.5rem 1.5rem 1.25rem;
+}
+
+.home-pillars-slogan {
+  display: none;
+}
+
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
+}
+
+.pillar-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  background: var(--jin-bg-card);
+  text-decoration: none !important;
+  transition: border-color 0.22s, transform 0.22s, box-shadow 0.22s;
+}
+
+.pillar-card:hover {
+  border-color: var(--jin-gold-dim);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+.pillar-icon {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--jin-gold);
+  border: 1px solid var(--jin-gold-dim);
+  border-radius: 50%;
+}
+
+.pillar-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pillar-title {
+  font-family: "Noto Serif SC", serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--jin-text);
+  margin: 0;
+  letter-spacing: 0.06em;
+}
+
+.pillar-en {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--jin-text-muted);
+  margin-top: 0.15rem;
+}
+
+.pillar-desc {
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--jin-text-muted);
+  margin: 0.45rem 0 0;
+}
+
+.pillar-arrow {
+  flex-shrink: 0;
+  align-self: center;
+  color: var(--jin-gold-dim);
+  font-size: 0.9rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.pillar-card:hover .pillar-arrow {
+  color: var(--jin-gold-light);
+  transform: translateX(3px);
+}
+
+.pillar-card:hover .pillar-arrow {
+  color: var(--jin-gold-light);
+  transform: translateX(3px);
+}
+
+/* ── 精选文章 ── */
+.home-featured {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 2.5rem;
+}
+
+.home-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.home-featured-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  overflow: hidden;
+  background: var(--jin-bg-card);
+  text-decoration: none !important;
+  transition: border-color 0.22s, transform 0.22s;
+}
+
+.home-featured-card:hover {
+  border-color: var(--jin-gold-dim);
+  transform: translateY(-3px);
+}
+
+.home-featured-cover {
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  background-color: #1a1a1e;
+  position: relative;
+}
+
+.home-featured-tag {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 0.65rem;
+  padding: 0.15rem 0.45rem;
+  background: rgba(8, 8, 10, 0.75);
+  border: 1px solid var(--jin-gold-dim);
+  color: var(--jin-gold-light);
+  border-radius: 2px;
+}
+
+.home-featured-body {
+  padding: 0.9rem 1rem 1rem;
+}
+
+.home-featured-body h3 {
+  font-family: "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--jin-text);
+  margin: 0 0 0.4rem;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.home-featured-body p {
+  font-size: 0.75rem;
+  color: var(--jin-text-muted);
+  margin: 0 0 0.5rem;
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.home-featured-body time {
+  font-size: 0.68rem;
+  color: var(--jin-text-muted);
+}
+
+/* ── 首页关于 ── */
+.home-about {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 2.5rem;
+}
+
+.home-about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1.25rem;
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  padding: 1.5rem;
+  background: var(--jin-bg-card);
+}
+
+.home-about-lead {
+  font-family: "Noto Serif SC", serif;
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+
+.home-about-en {
+  font-size: 0.78rem;
+  color: var(--jin-text-muted);
+  font-style: italic;
+  margin: 0 0 0.75rem;
+}
+
+.home-about-copy p {
+  font-size: 0.88rem;
+  line-height: 1.75;
+  color: var(--jin-text-2, var(--jin-text-muted));
+  margin: 0 0 0.65rem;
+}
+
+.home-about-beliefs {
+  margin: 1rem 0;
+  padding-left: 1.1rem;
+  font-family: "Noto Serif SC", serif;
+  font-size: 0.9rem;
+  color: var(--jin-gold-light);
+}
+
+.home-about-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--jin-gold-light);
+  text-decoration: none;
+}
+
+.home-about-focus h3 {
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--jin-text-muted);
+  margin: 0 0 0.85rem;
+}
+
+.home-about-focus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-about-focus li {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--jin-border);
+  color: var(--jin-text-muted);
+}
+
+.home-about-focus li span {
+  display: inline-block;
+  min-width: 4.5rem;
+  font-weight: 600;
+  color: var(--jin-gold);
+  margin-right: 0.35rem;
+}
+
+/* ── 联系方式 ── */
+.home-contact {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 4rem;
+}
+
+.home-contact-note {
+  font-size: 0.85rem;
+  color: var(--jin-text-muted);
+  margin: 0 0 1.25rem;
+}
+
+.home-contact-note a {
+  color: var(--jin-gold-light);
+}
+
+.home-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.85rem;
+}
+
+.home-contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  background: var(--jin-bg-card);
+  text-decoration: none !important;
+  color: var(--jin-text);
+  transition: border-color 0.2s;
+}
+
+.home-contact-item:hover {
+  border-color: var(--jin-gold-dim);
+}
+
+.home-contact-item--placeholder {
+  opacity: 0.72;
+}
+
+.home-contact-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--jin-gold-dim);
+  border-radius: 50%;
+  color: var(--jin-gold);
+  font-size: 0.85rem;
+}
+
+.home-contact-item small {
+  font-size: 0.72rem;
+  color: var(--jin-text-muted);
+}
+
+.post-grid-label {
+  width: 100%;
+  margin: 0;
+  font-family: "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  letter-spacing: 0.14em;
+  color: var(--jin-text-muted);
+}
+
+.about-links,
+.pillar-cta {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
+.about-links a,
+.pillar-cta a {
+  color: var(--jin-gold-light);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.about-links a:hover,
+.pillar-cta a:hover {
+  border-bottom-color: var(--jin-gold-dim);
+}
+
+/* ── About 页 · 中英堆叠 ── */
+.about-hero-tagline {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--jin-gold);
+  margin: -0.5rem 0 2rem;
+}
+
+.bio-block {
+  margin: 1.25rem 0 1.75rem;
+}
+
+.bio-zh {
+  font-family: "Noto Serif SC", serif;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--jin-text);
+  margin: 0 0 0.35rem;
+}
+
+.bio-en {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--jin-text-muted);
+  font-style: italic;
+  margin: 0 0 1.1rem;
+}
+
+.bio-label {
+  margin-bottom: 0.5rem !important;
+}
+
+.manifesto-block .bio-zh {
+  font-weight: 500;
+}
+
+.positioning-block {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--jin-gold-dim);
+  border-radius: var(--jin-radius);
+  background: rgba(201, 169, 98, 0.06);
+  text-align: center;
+}
+
+.positioning-block .bio-en {
+  margin-bottom: 0;
+}
+
+.core-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.core-focus-card {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  background: var(--jin-bg-card);
+  text-decoration: none !important;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.core-focus-card:hover {
+  border-color: var(--jin-gold-dim);
+  transform: translateY(-2px);
+}
+
+.core-focus-card strong {
+  display: block;
+  font-family: "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  color: var(--jin-text);
+  margin-bottom: 0.35rem;
+}
+
+.core-focus-card span {
+  font-size: 0.72rem;
+  color: var(--jin-text-muted);
+  line-height: 1.5;
+}
+
+.timeline-list {
+  margin: 1.25rem 0 1.75rem;
+  border-left: 2px solid var(--jin-gold-dim);
+  padding-left: 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 1rem;
+  padding: 0 0 1.25rem 1.25rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -0.45rem;
+  top: 0.35rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--jin-gold);
+  box-shadow: 0 0 0 3px var(--jin-bg);
+}
+
+.timeline-year {
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--jin-gold-light);
+  padding-top: 0.1rem;
+}
+
+.timeline-body .bio-en {
+  margin-bottom: 0;
+}
+
+.about-philosophy-link {
+  font-size: 0.88rem;
+  color: var(--jin-text-muted);
+  margin: 0 0 2rem;
+}
+
+.about-philosophy-link a {
+  color: var(--jin-gold-light);
+}
+
+.about-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.about-contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1.15rem 0.85rem;
+  border: 1px solid var(--jin-border);
+  border-radius: var(--jin-radius);
+  background: var(--jin-bg-card);
+  text-decoration: none !important;
+  color: var(--jin-text);
+  transition: border-color 0.2s;
+}
+
+.about-contact-item:hover {
+  border-color: var(--jin-gold-dim);
+}
+
+.about-contact-item--muted {
+  opacity: 0.72;
+}
+
+.about-contact-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--jin-gold-dim);
+  border-radius: 50%;
+  color: var(--jin-gold);
+  font-size: 0.85rem;
+}
+
+.about-contact-item small {
+  font-size: 0.72rem;
+  color: var(--jin-text-muted);
+  word-break: break-all;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .core-focus-grid,
+  .about-contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+}
+
 /* ── 文章卡片网格（wojc 风格） ── */
 .post-grid-section {
   max-width: 1120px;
@@ -989,6 +1685,22 @@ button {
 
 /* ── 平板 ── */
 @media (max-width: 960px) {
+  .home-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-contact-grid {
+    grid-template-columns: 1fr;
+  }
+
   .post-card-grid {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1rem;
@@ -1001,6 +1713,34 @@ button {
 
 /* ── 手机 ── */
 @media (max-width: 768px) {
+  .home-pillars {
+    padding: 0 max(16px, env(safe-area-inset-left)) 2rem
+      max(16px, env(safe-area-inset-right));
+  }
+
+  .home-pillars-inner {
+    padding: 1.25rem 1rem 1rem;
+  }
+
+  .pillar-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-stats-grid,
+  .home-featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-intro,
+  .home-stats,
+  .home-pillars,
+  .home-featured,
+  .home-about,
+  .home-contact {
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+  }
+
   .VPHome::before {
     height: 320px;
   }

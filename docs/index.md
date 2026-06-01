@@ -1,17 +1,20 @@
 ---
 layout: home
 title: JinSystem
-titleTemplate: 个人知识库
+titleTemplate: Think Deep. Act Long.
 
 hero:
   name: JinSystem
-  text: 2025–2035 · 寻自己的道、渡自己的劫、走自己的路
-  tagline: 记录是一种习惯 · 认知是一种态度
+  text: 矿业投资实践者｜AI应用实践者｜长期主义践行者
+  tagline: 寻自己的道 · 渡自己的劫 · 走自己的路
   actions:
     - theme: brand
-      text: 格局提升
-      link: /cognition/mindset/
+      text: 阅读文章
+      link: "#latest-articles"
     - theme: alt
-      text: AI 工具库
-      link: /tools/ai/
+      text: 关于我
+      link: /about
+    - theme: alt
+      text: 资源中心
+      link: /resources/
 ---

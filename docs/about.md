@@ -1,58 +1,177 @@
 ---
-title: 关于
+title: 关于 Nicholas
+description: Nicholas，JinSystem 创始人。非洲矿业投资、AI 应用、财富认知与长期主义实践。Building Systems for Knowledge, Wealth, and Long-Term Growth.
 ---
 
-# 关于 JinSystem
+# 关于 Nicholas | About Nicholas
 
-**JinSystem** 是基于 Excel 知识库自动生成的个人认知站点，遵循一个简单原则：
+<p class="about-hero-tagline">Think Deep. Act Long.</p>
 
-> **物质低配 · 认知高配 · 心态顶配**
+## About Nicholas
 
-## 元认知：在正确的道路上长期主义
+<div class="bio-block">
 
-<div class="reading-prose">
+<p class="bio-zh">我是 <strong>Nicholas</strong>，JinSystem 创始人。</p>
+<p class="bio-en">I am Nicholas, the founder of JinSystem.</p>
 
-真正的成长，  
-从来不是一时的激情与爆发…  
-而是：  
-能够不断审视自己、修正自己，并始终走在正确的方向上。
+<p class="bio-zh">长期从事非洲矿业投资与项目运营管理，同时持续研究人工智能应用、投资体系建设以及个人成长方法论。</p>
+<p class="bio-en">My professional focus spans mining investment, project operations, artificial intelligence, investment research, and personal development.</p>
 
-清晰的目标指引方向，  
-匹配的难度带来突破，  
-极度的专注沉淀势能，  
-即时的反馈强化坚持。
+<p class="bio-zh">在长期实践中，我逐渐认识到：真正决定一个人成长高度的，并非天赋或运气，而是是否建立了一套能够持续迭代与优化的系统。</p>
+<p class="bio-en">Through years of practice, I have learned that long-term success is rarely determined by talent or luck, but by the systems we build and continuously improve.</p>
 
-而这一切的核心，都源于「元认知」。
+<p class="bio-zh">正因如此，我创建了 JinSystem。</p>
+<p class="bio-en">This belief inspired me to create JinSystem.</p>
 
-所谓元认知，就是：  
-能跳出当下情绪与环境，更高维度地观察自己。
-
-知道自己为什么焦虑；  
-知道自己为什么懒散；  
-知道什么值得长期坚持；  
-也知道什么只是短期诱惑。
-
-不被情绪牵引，  
-不被外界裹挟，  
-不因暂时没有结果而轻易否定自己。
-
-因为真正有价值的东西，往往都需要长期积累：
-
-- 认知如此；
-- 财富如此；
-- 能力如此；
-- 身体如此；
-- 人生亦如此。
-
-真正厉害的人，未必是最快成功的人，而是：  
-在正确道路上，依然能够长期保持清醒、专注与迭代的人。
-
-允许缓慢，但绝不停止；  
-允许孤独，但绝不迷失。
-
-专注自身，持续精进。  
-在无人喝彩的日子里，默默完成认知与生命层级的跃迁。
-
-终有一天，时间会奖励那个：始终清醒前行的人。
+<p class="bio-zh">这里不仅是一个知识记录平台，更是一个关于认知、财富与成长的实践系统。</p>
+<p class="bio-en">More than a knowledge repository, it is a practical system for knowledge, wealth, and personal growth.</p>
 
 </div>
+
+## Core Focus · 持续关注
+
+<p class="bio-zh bio-label">我持续关注以下领域：</p>
+<p class="bio-en bio-label">My primary areas of focus include:</p>
+
+<div class="core-focus-grid">
+
+<a class="core-focus-card" href="/mining/">
+<strong>矿业投资与资源开发</strong>
+<span>Mining Investment &amp; Resource Development</span>
+</a>
+
+<a class="core-focus-card" href="/tools/ai/">
+<strong>人工智能与效率提升</strong>
+<span>Artificial Intelligence &amp; Productivity</span>
+</a>
+
+<a class="core-focus-card" href="/investing/">
+<strong>财富认知与投资研究</strong>
+<span>Wealth Building &amp; Investment Research</span>
+</a>
+
+<a class="core-focus-card" href="/growth/">
+<strong>长期主义与个人成长</strong>
+<span>Long-Term Thinking &amp; Personal Growth</span>
+</a>
+
+</div>
+
+<div class="bio-block">
+
+<p class="bio-zh">我相信：认知决定方向，行动创造价值，坚持成就未来。</p>
+<p class="bio-en">I believe that knowledge shapes direction, action creates value, and persistence builds the future.</p>
+
+<p class="bio-zh">希望通过持续学习、持续思考、持续实践与持续分享，将零散经验沉淀为可复制、可复用、可传承的方法体系。</p>
+<p class="bio-en">Through continuous learning, reflection, execution, and sharing, I aim to transform fragmented experiences into repeatable, scalable, and sustainable systems.</p>
+
+</div>
+
+## Brand Manifesto · 品牌宣言
+
+<div class="bio-block manifesto-block">
+
+<p class="bio-zh">寻自己的道，渡自己的劫，走自己的路。</p>
+<p class="bio-en">Find Your Path. Face Your Challenges. Walk Your Own Journey.</p>
+
+<p class="bio-zh">在变化中保持清醒，在不确定中保持成长。</p>
+<p class="bio-en">Stay clear-minded through change and keep growing amid uncertainty.</p>
+
+<p class="bio-zh">以认知拓宽边界，以行动创造价值，以时间积累复利。</p>
+<p class="bio-en">Expand your horizons through knowledge, create value through action, and compound growth through time.</p>
+
+<p class="bio-zh">这里记录成长，分享思考，沉淀系统。</p>
+<p class="bio-en">A place to document growth, share insights, and build systems that last.</p>
+
+</div>
+
+## Brand Positioning · 品牌定位
+
+<div class="positioning-block">
+
+<p class="bio-zh"><strong>JinSystem —— 构建认知、财富与成长的长期主义实践系统。</strong></p>
+<p class="bio-en"><strong>JinSystem — Building Systems for Knowledge, Wealth, and Long-Term Growth.</strong></p>
+
+</div>
+
+## Timeline · 成长轨迹
+
+<div class="timeline-list">
+
+<div class="timeline-item">
+<span class="timeline-year">2018–2022</span>
+<div class="timeline-body">
+<p class="bio-zh">深入非洲矿业项目投资与现场运营管理，建立行业认知框架。</p>
+<p class="bio-en">Deep engagement in African mining investment and on-site project operations.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<span class="timeline-year">2023–2024</span>
+<div class="timeline-body">
+<p class="bio-zh">系统研究 AI 工具与工作流，将效率方法融入投研与日常实践。</p>
+<p class="bio-en">Systematic exploration of AI tools and workflows for research and productivity.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<span class="timeline-year">2025</span>
+<div class="timeline-body">
+<p class="bio-zh">创建 JinSystem，开始公开沉淀认知、矿业、AI 与财富成长笔记。</p>
+<p class="bio-en">Founded JinSystem to document and share insights on cognition, mining, AI, and growth.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<span class="timeline-year">2026</span>
+<div class="timeline-body">
+<p class="bio-zh">升级个人品牌官网，构建 Mining × AI × Investing × Growth 四大支柱平台。</p>
+<p class="bio-en">Upgraded the personal brand site into a four-pillar platform.</p>
+</div>
+</div>
+
+</div>
+
+## Vision · 愿景
+
+<div class="bio-block">
+
+<p class="bio-zh"><strong>2025–2035</strong>：将 JinSystem 打造为可传承的认知与方法论系统——连接矿业产业、AI 效率、投资框架与长期成长社区，影响更多长期主义者。</p>
+<p class="bio-en"><strong>2025–2035</strong>: Build JinSystem into a lasting system of knowledge and methods—connecting mining, AI, investing, and a community of long-term thinkers.</p>
+
+</div>
+
+<p class="about-philosophy-link">
+  延伸阅读：<a href="/cognition/mindset/052-元认知-在正确的道路上长期主义">元认知：在正确的道路上长期主义</a>
+</p>
+
+## Contact · 联系方式
+
+<div class="about-contact-grid">
+
+<a class="about-contact-item" href="mailto:Jinsystem@gmail.com">
+<span class="about-contact-icon">✉</span>
+<span>Email</span>
+<small>Jinsystem@gmail.com</small>
+</a>
+
+<a class="about-contact-item" href="https://github.com/zambia-88" target="_blank" rel="noopener noreferrer">
+<span class="about-contact-icon">⌘</span>
+<span>GitHub</span>
+<small>@zambia-88</small>
+</a>
+
+<div class="about-contact-item about-contact-item--muted">
+<span class="about-contact-icon">微</span>
+<span>微信 / 公众号</span>
+<small>即将开放</small>
+</div>
+
+</div>
+
+<p class="about-links">
+  <a href="/mining/">矿业研究 →</a> ·
+  <a href="/tools/ai/">AI 知识库 →</a> ·
+  <a href="/investing/">财富成长 →</a> ·
+  <a href="/now/">Now 页面 →</a>
+</p>
