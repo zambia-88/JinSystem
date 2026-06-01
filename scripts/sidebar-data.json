@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T09:24:41.402855",
+  "generatedAt": "2026-06-01T15:14:46.011429",
   "categories": {
     "cognition/mindset": {
       "title": "格局提升",
@@ -207,10 +207,6 @@
         {
           "text": "对事物本质与发展必然的持续洞察",
           "link": "/cognition/mindset/051-对事物本质与发展必然的持续洞察"
-        },
-        {
-          "text": "元认知：在正确的道路上长期主义",
-          "link": "/cognition/mindset/052-元认知-在正确的道路上长期主义"
         }
       ]
     },
@@ -689,7 +685,7 @@
         },
         {
           "text": "AI图表生成各类柱状图饼状图等(Google Colab)",
-          "link": "/tools/excel/040-AI图表生成各类柱状图饼状图等-Google-Colab"
+          "link": "/tools/excel/034-AI图表生成各类柱状图饼状图等-Google-Colab"
         },
         {
           "text": "同一列数据中，用逗号分开的有两个数据。解决将这两个数据交换位置在同一个单元格。",
@@ -836,215 +832,215 @@
         },
         {
           "text": "房屋装修-餐边柜",
-          "link": "/life/daily/008-房屋装修-餐边柜"
+          "link": "/life/daily/009-房屋装修-餐边柜"
         },
         {
           "text": "房屋装修-插座",
-          "link": "/life/daily/009-房屋装修-插座"
+          "link": "/life/daily/010-房屋装修-插座"
         },
         {
           "text": "房屋装修-下柜",
-          "link": "/life/daily/010-房屋装修-下柜"
+          "link": "/life/daily/011-房屋装修-下柜"
         },
         {
           "text": "房屋装修-门边柜",
-          "link": "/life/daily/011-房屋装修-门边柜"
+          "link": "/life/daily/012-房屋装修-门边柜"
         },
         {
           "text": "房屋装修-门边鞋柜",
-          "link": "/life/daily/012-房屋装修-门边鞋柜"
+          "link": "/life/daily/013-房屋装修-门边鞋柜"
         },
         {
           "text": "房屋装修-柜门",
-          "link": "/life/daily/013-房屋装修-柜门"
+          "link": "/life/daily/014-房屋装修-柜门"
         },
         {
           "text": "房屋装修-拉门拉手",
-          "link": "/life/daily/014-房屋装修-拉门拉手"
+          "link": "/life/daily/015-房屋装修-拉门拉手"
         },
         {
           "text": "房屋装修-开关",
-          "link": "/life/daily/015-房屋装修-开关"
+          "link": "/life/daily/016-房屋装修-开关"
         },
         {
           "text": "房屋装修-洗碗",
-          "link": "/life/daily/016-房屋装修-洗碗"
+          "link": "/life/daily/017-房屋装修-洗碗"
         },
         {
           "text": "房屋装修-水量",
-          "link": "/life/daily/017-房屋装修-水量"
+          "link": "/life/daily/018-房屋装修-水量"
         },
         {
           "text": "房屋装修-全屋净水",
-          "link": "/life/daily/018-房屋装修-全屋净水"
+          "link": "/life/daily/019-房屋装修-全屋净水"
         },
         {
           "text": "房屋装修-洗碗机",
-          "link": "/life/daily/019-房屋装修-洗碗机"
+          "link": "/life/daily/020-房屋装修-洗碗机"
         },
         {
           "text": "房屋装修-墙面边角",
-          "link": "/life/daily/020-房屋装修-墙面边角"
+          "link": "/life/daily/021-房屋装修-墙面边角"
         },
         {
           "text": "房屋装修-沙发",
-          "link": "/life/daily/021-房屋装修-沙发"
+          "link": "/life/daily/022-房屋装修-沙发"
         },
         {
           "text": "房屋装修-切角柜",
-          "link": "/life/daily/022-房屋装修-切角柜"
+          "link": "/life/daily/023-房屋装修-切角柜"
         },
         {
           "text": "房屋装修-衣柜",
-          "link": "/life/daily/023-房屋装修-衣柜"
+          "link": "/life/daily/024-房屋装修-衣柜"
         },
         {
           "text": "房屋装修-瓷砖",
-          "link": "/life/daily/024-房屋装修-瓷砖"
+          "link": "/life/daily/025-房屋装修-瓷砖"
         },
         {
           "text": "房屋装修-穿衣镜",
-          "link": "/life/daily/025-房屋装修-穿衣镜"
+          "link": "/life/daily/026-房屋装修-穿衣镜"
         },
         {
           "text": "房屋装修-卫生间大砖",
-          "link": "/life/daily/026-房屋装修-卫生间大砖"
+          "link": "/life/daily/027-房屋装修-卫生间大砖"
         },
         {
           "text": "房屋装修-灯光",
-          "link": "/life/daily/027-房屋装修-灯光"
+          "link": "/life/daily/028-房屋装修-灯光"
         },
         {
           "text": "房屋装修-隐藏",
-          "link": "/life/daily/028-房屋装修-隐藏"
+          "link": "/life/daily/029-房屋装修-隐藏"
         },
         {
           "text": "房屋装修-清洁",
-          "link": "/life/daily/029-房屋装修-清洁"
+          "link": "/life/daily/030-房屋装修-清洁"
         },
         {
           "text": "房屋装修-厨房单边推拉",
-          "link": "/life/daily/030-房屋装修-厨房单边推拉"
+          "link": "/life/daily/031-房屋装修-厨房单边推拉"
         },
         {
           "text": "房屋装修-储物",
-          "link": "/life/daily/031-房屋装修-储物"
+          "link": "/life/daily/032-房屋装修-储物"
         },
         {
           "text": "房屋装修-衣柜",
-          "link": "/life/daily/032-房屋装修-衣柜"
+          "link": "/life/daily/033-房屋装修-衣柜"
         },
         {
           "text": "房屋装修-鞋柜",
-          "link": "/life/daily/033-房屋装修-鞋柜"
+          "link": "/life/daily/034-房屋装修-鞋柜"
         },
         {
           "text": "房屋装修-花洒",
-          "link": "/life/daily/034-房屋装修-花洒"
+          "link": "/life/daily/035-房屋装修-花洒"
         },
         {
           "text": "房屋装修-隔音棉",
-          "link": "/life/daily/035-房屋装修-隔音棉"
+          "link": "/life/daily/036-房屋装修-隔音棉"
         },
         {
           "text": "房屋装修-绿植",
-          "link": "/life/daily/036-房屋装修-绿植"
+          "link": "/life/daily/037-房屋装修-绿植"
         },
         {
           "text": "房屋装修-马桶",
-          "link": "/life/daily/037-房屋装修-马桶"
+          "link": "/life/daily/038-房屋装修-马桶"
         },
         {
           "text": "房屋装修-鞋柜",
-          "link": "/life/daily/038-房屋装修-鞋柜"
+          "link": "/life/daily/039-房屋装修-鞋柜"
         },
         {
           "text": "房屋装修-入户门",
-          "link": "/life/daily/039-房屋装修-入户门"
+          "link": "/life/daily/040-房屋装修-入户门"
         },
         {
           "text": "房屋装修-餐桌衣架",
-          "link": "/life/daily/040-房屋装修-餐桌衣架"
+          "link": "/life/daily/041-房屋装修-餐桌衣架"
         },
         {
           "text": "房屋装修-家电",
-          "link": "/life/daily/041-房屋装修-家电"
+          "link": "/life/daily/042-房屋装修-家电"
         },
         {
           "text": "荔枝煮水补气血",
-          "link": "/life/daily/042-荔枝煮水补气血"
+          "link": "/life/daily/043-荔枝煮水补气血"
         },
         {
           "text": "调饺子肉馅",
-          "link": "/life/daily/043-调饺子肉馅"
+          "link": "/life/daily/044-调饺子肉馅"
         },
         {
           "text": "拌凉菜",
-          "link": "/life/daily/044-拌凉菜"
+          "link": "/life/daily/045-拌凉菜"
         },
         {
           "text": "房屋装修-窗帘",
-          "link": "/life/daily/045-房屋装修-窗帘"
+          "link": "/life/daily/046-房屋装修-窗帘"
         },
         {
           "text": "客厅神器",
-          "link": "/life/daily/046-客厅神器"
+          "link": "/life/daily/047-客厅神器"
         },
         {
           "text": "麻辣烫做法",
-          "link": "/life/daily/047-麻辣烫做法"
+          "link": "/life/daily/048-麻辣烫做法"
         },
         {
           "text": "左手刷牙",
-          "link": "/life/daily/048-左手刷牙"
+          "link": "/life/daily/049-左手刷牙"
         },
         {
           "text": "饺子皮葱油饼",
-          "link": "/life/daily/049-饺子皮葱油饼"
+          "link": "/life/daily/050-饺子皮葱油饼"
         },
         {
           "text": "无盐酸菜",
-          "link": "/life/daily/050-无盐酸菜"
+          "link": "/life/daily/051-无盐酸菜"
         },
         {
           "text": "清蒸鲈鱼",
-          "link": "/life/daily/051-清蒸鲈鱼"
+          "link": "/life/daily/052-清蒸鲈鱼"
         },
         {
           "text": "鸡蛋虾片粉",
-          "link": "/life/daily/052-鸡蛋虾片粉"
+          "link": "/life/daily/053-鸡蛋虾片粉"
         },
         {
           "text": "苹果拌洋葱",
-          "link": "/life/daily/053-苹果拌洋葱"
+          "link": "/life/daily/054-苹果拌洋葱"
         },
         {
           "text": "鲈鱼蒸蛋",
-          "link": "/life/daily/054-鲈鱼蒸蛋"
+          "link": "/life/daily/055-鲈鱼蒸蛋"
         },
         {
           "text": "虾仁豆腐蒸蛋",
-          "link": "/life/daily/055-虾仁豆腐蒸蛋"
+          "link": "/life/daily/056-虾仁豆腐蒸蛋"
         },
         {
           "text": "墙面裂缝处理",
-          "link": "/life/daily/056-墙面裂缝处理"
+          "link": "/life/daily/057-墙面裂缝处理"
         },
         {
           "text": "红酒特调",
-          "link": "/life/daily/057-红酒特调"
+          "link": "/life/daily/058-红酒特调"
         },
         {
           "text": "带汤辣椒炒肉",
-          "link": "/life/daily/058-带汤辣椒炒肉"
+          "link": "/life/daily/059-带汤辣椒炒肉"
         },
         {
           "text": "粉蒸肉：榨广椒排骨",
-          "link": "/life/daily/059-粉蒸肉-榨广椒排骨"
+          "link": "/life/daily/060-粉蒸肉-榨广椒排骨"
         },
         {
           "text": "腊肉锅巴饭",
-          "link": "/life/daily/060-腊肉锅巴饭"
+          "link": "/life/daily/061-腊肉锅巴饭"
         }
       ]
     },

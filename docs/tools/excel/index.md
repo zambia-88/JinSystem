@@ -45,5 +45,5 @@ title: Excel 技巧
 - [图片表格转EXCEL](/tools/excel/037-图片表格转EXCEL)
 - [席位牌](/tools/excel/038-席位牌)
 - [表格求和](/tools/excel/039-表格求和)
-- [AI图表生成各类柱状图饼状图等(Google Colab)](/tools/excel/040-AI图表生成各类柱状图饼状图等-Google-Colab)
+- [AI图表生成各类柱状图饼状图等(Google Colab)](/tools/excel/034-AI图表生成各类柱状图饼状图等-Google-Colab)
 - [同一列数据中，用逗号分开的有两个数据。解决将这两个数据交换位置在同一个单元格。](/tools/excel/041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格)

@@ -32,17 +32,25 @@
 html:not(.dark) {
   --jin-bg: #f4f2ec;
   --jin-bg-elevated: #ebe8e0;
-  --jin-bg-card: #faf9f6;
-  --jin-text: #1c1b19;
-  --jin-text-muted: #6b6760;
-  --jin-border: rgba(0, 0, 0, 0.08);
+  --jin-bg-card: #ffffff;
+  --jin-text: #121110;
+  --jin-text-muted: #3d3a34;
+  --jin-border: rgba(45, 38, 22, 0.18);
+  --jin-gold: #4a3f22;
+  --jin-gold-light: #5c4d28;
+  --jin-gold-dim: rgba(74, 63, 34, 0.48);
+  --jin-card-shadow: 0 1px 2px rgba(60, 50, 30, 0.06), 0 4px 14px rgba(60, 50, 30, 0.08);
   --vp-c-bg: var(--jin-bg);
   --vp-c-bg-alt: var(--jin-bg-elevated);
-  --vp-c-bg-soft: rgba(0, 0, 0, 0.03);
+  --vp-c-bg-soft: rgba(0, 0, 0, 0.04);
   --vp-c-text-1: var(--jin-text);
-  --vp-c-text-2: #4a4740;
+  --vp-c-text-2: #2f2c28;
   --vp-c-text-3: var(--jin-text-muted);
   --vp-c-divider: var(--jin-border);
+  --vp-c-brand-1: #4a3f22;
+  --vp-c-brand-2: #3d3420;
+  --vp-c-brand-3: #2f2818;
+  --vp-home-hero-name-background: linear-gradient(135deg, #3d3420, #6b5a2e 55%, #4a3f22);
 }
 
 /* ── 导航 + 顶栏状态 ── */
@@ -1936,6 +1944,282 @@ button {
     font-size: 0.75rem;
     padding: 0.4rem 0.7rem;
   }
+}
+
+/* ── 浅色主题 · 全站对比度与可读性 ── */
+html:not(.dark) .VPNavBarTitle .title {
+  background: linear-gradient(90deg, #3d3420, #6b5a2e);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+html:not(.dark) .VPMenuLink {
+  color: var(--jin-text) !important;
+  font-weight: 500;
+  opacity: 1;
+}
+
+html:not(.dark) .VPMenuLink.active,
+html:not(.dark) .VPMenuLink:hover {
+  color: var(--jin-gold) !important;
+  font-weight: 600;
+}
+
+html:not(.dark) .VPMenuGroup .button {
+  color: var(--vp-c-text-1) !important;
+}
+
+html:not(.dark) .VPMenuGroup .button:hover,
+html:not(.dark) .VPMenuGroup .button.active {
+  color: var(--jin-gold) !important;
+}
+
+html:not(.dark) .nav-status-bar {
+  color: var(--jin-text-muted);
+}
+
+html:not(.dark) .nav-status-time {
+  color: var(--jin-gold);
+}
+
+html:not(.dark) .VPHero .text {
+  color: var(--jin-text) !important;
+  font-weight: 600 !important;
+}
+
+html:not(.dark) .VPHero .tagline {
+  color: var(--jin-text-muted) !important;
+  font-weight: 500 !important;
+}
+
+html:not(.dark) .VPHero .action .VPButton.brand {
+  background: linear-gradient(135deg, #6b5a2e, #4a3f22) !important;
+  color: #faf8f3 !important;
+  border: 1px solid #3d3420 !important;
+  font-weight: 700 !important;
+}
+
+html:not(.dark) .VPHero .action .VPButton.brand:hover {
+  background: linear-gradient(135deg, #5c4d28, #3d3420) !important;
+}
+
+html:not(.dark) .VPHero .action .VPButton.alt {
+  border: 1.5px solid var(--jin-gold) !important;
+  color: var(--jin-gold) !important;
+  background: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+html:not(.dark) .VPHero .action .VPButton.alt:hover {
+  border-color: #3d3420 !important;
+  background: #faf8f3 !important;
+  color: #3d3420 !important;
+}
+
+/* 浅色 · 全站标题加深 */
+html:not(.dark) .home-section-title,
+html:not(.dark) .post-card-title,
+html:not(.dark) .pillar-title,
+html:not(.dark) .home-featured-body h3,
+html:not(.dark) .home-stat-label,
+html:not(.dark) .post-grid-label,
+html:not(.dark) .core-focus-card strong,
+html:not(.dark) .home-about-lead,
+html:not(.dark) .vp-doc h1,
+html:not(.dark) .vp-doc h2,
+html:not(.dark) .vp-doc h3,
+html:not(.dark) .jin-comments-head .home-section-title {
+  color: var(--jin-text) !important;
+  font-weight: 600;
+}
+
+html:not(.dark) .home-stat-value,
+html:not(.dark) .home-intro-formula,
+html:not(.dark) .about-hero-tagline {
+  color: var(--jin-gold) !important;
+  font-weight: 700;
+}
+
+html:not(.dark) .home-stat-card,
+html:not(.dark) .pillar-card,
+html:not(.dark) .home-featured-card,
+html:not(.dark) .home-about-grid,
+html:not(.dark) .home-contact-item,
+html:not(.dark) .home-pillars-inner,
+html:not(.dark) .post-card,
+html:not(.dark) .core-focus-card,
+html:not(.dark) .about-contact-item,
+html:not(.dark) .positioning-block,
+html:not(.dark) .jin-comments-pending {
+  box-shadow: var(--jin-card-shadow);
+}
+
+html:not(.dark) .pillar-card:hover,
+html:not(.dark) .post-card:hover,
+html:not(.dark) .home-featured-card:hover {
+  box-shadow: 0 8px 24px rgba(60, 50, 30, 0.12);
+}
+
+html:not(.dark) .home-intro-lead,
+html:not(.dark) .home-intro-desc-en {
+  color: var(--jin-text-muted);
+}
+
+html:not(.dark) .home-intro-slogan {
+  color: var(--jin-gold);
+  font-weight: 600;
+}
+
+html:not(.dark) .category-tab {
+  color: var(--jin-text-muted);
+  border: 1.5px solid var(--jin-border);
+  background: #ffffff;
+  font-weight: 500;
+}
+
+html:not(.dark) .category-tab:hover,
+html:not(.dark) .category-tab.active {
+  color: var(--jin-gold);
+  border-color: var(--jin-gold);
+  background: rgba(74, 63, 34, 0.08);
+  font-weight: 600;
+}
+
+html:not(.dark) .post-pagination button {
+  color: var(--jin-text);
+  background: #ffffff;
+  border: 1.5px solid var(--jin-border);
+  font-weight: 600;
+}
+
+html:not(.dark) .post-pagination button:hover:not(:disabled) {
+  color: var(--jin-gold);
+  border-color: var(--jin-gold);
+}
+
+html:not(.dark) .VPButton.brand {
+  background: linear-gradient(135deg, #6b5a2e, #4a3f22) !important;
+  color: #faf8f3 !important;
+  border: 1px solid #3d3420 !important;
+  font-weight: 600 !important;
+}
+
+html:not(.dark) .VPButton.alt {
+  border: 1.5px solid var(--jin-gold) !important;
+  color: var(--jin-gold) !important;
+  background: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+html:not(.dark) .DocSearch-Button {
+  border: 1.5px solid var(--jin-border) !important;
+  color: var(--jin-text) !important;
+  font-weight: 500;
+}
+
+html:not(.dark) .DocSearch-Button:hover {
+  border-color: var(--jin-gold) !important;
+  color: var(--jin-gold) !important;
+}
+
+html:not(.dark) .home-about-beliefs,
+html:not(.dark) .home-about-link,
+html:not(.dark) .home-contact-note a,
+html:not(.dark) .about-links a,
+html:not(.dark) .pillar-cta a,
+html:not(.dark) .about-philosophy-link a,
+html:not(.dark) .timeline-year {
+  color: var(--jin-gold);
+}
+
+html:not(.dark) .vp-doc a {
+  color: var(--jin-gold);
+}
+
+html:not(.dark) .vp-doc a:hover {
+  color: #5c4d28;
+}
+
+html:not(.dark) .VPSidebarItem.level-0.is-active > .item > .link,
+html:not(.dark) .VPSidebarItem.level-1.is-active > .item > .link {
+  color: var(--jin-gold) !important;
+}
+
+html:not(.dark) .VPSidebarItem .link {
+  color: var(--vp-c-text-2) !important;
+}
+
+html:not(.dark) .VPSidebarItem .link:hover {
+  color: var(--jin-gold) !important;
+}
+
+html:not(.dark) .VPLocalNavOutlineDropdown button {
+  color: var(--jin-text);
+}
+
+html:not(.dark) .VPFooter {
+  color: var(--jin-text-muted);
+}
+
+html:not(.dark) .jin-comments-label {
+  background: rgba(255, 255, 255, 0.75);
+  color: var(--jin-text-muted);
+  border-color: var(--jin-border);
+}
+
+html:not(.dark) .mobile-about-link:hover,
+html:not(.dark) .mobile-about-link.active {
+  color: var(--jin-gold);
+}
+
+html:not(.dark) .VPLocalNav {
+  background: color-mix(in srgb, var(--jin-bg) 96%, transparent);
+  border-bottom-color: var(--jin-border);
+}
+
+html:not(.dark) .vp-doc blockquote {
+  background: rgba(201, 169, 98, 0.08);
+  border-left-color: var(--jin-gold);
+}
+
+html:not(.dark) .outline-link.active {
+  color: var(--jin-gold) !important;
+}
+
+html:not(.dark) .VPSwitchAppearance .check {
+  background: var(--jin-gold-dim);
+}
+
+html:not(.dark) .VPSwitchAppearance .icon {
+  color: var(--jin-gold);
+}
+
+html:not(.dark) .waline-root .wl-btn.primary {
+  background: linear-gradient(135deg, #6b5a2e, #4a3f22) !important;
+  color: #faf8f3 !important;
+  font-weight: 600 !important;
+}
+
+html:not(.dark) .waline-root .wl-btn:not(.primary) {
+  color: var(--jin-gold) !important;
+  border-color: var(--jin-gold-dim) !important;
+  font-weight: 600;
+}
+
+html:not(.dark) .waline-root {
+  --waline-theme-color: var(--jin-gold);
+  --waline-active-color: #3d3420;
+  --waline-white: var(--jin-text);
+  --waline-light-grey: var(--jin-text-muted);
+  --waline-dark-grey: #3d3a34;
+  --waline-bg-color: #ffffff;
+  --waline-bg-color-light: #f8f6f0;
+  --waline-bg-color-hover: rgba(74, 63, 34, 0.08);
+  --waline-border-color: var(--jin-border);
+  --waline-color: var(--jin-text);
+  --waline-disable-bg-color: rgba(0, 0, 0, 0.04);
+  --waline-info-bg-color: rgba(74, 63, 34, 0.08);
+  --waline-info-color: var(--jin-text-muted);
 }
 
 /* ── Waline 留言 · JinSystem 风格 ── */

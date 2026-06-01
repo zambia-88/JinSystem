@@ -6,7 +6,6 @@ title: 格局提升
 
 修行、长期主义与内心秩序
 
-- [元认知：在正确的道路上长期主义](/cognition/mindset/052-元认知-在正确的道路上长期主义)
 - [修行](/cognition/mindset/001-修行)
 - [隐](/cognition/mindset/002-隐)
 - [为人处世](/cognition/mindset/003-为人处世)
