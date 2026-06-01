@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "sync": "python scripts/excel_to_md.py",
+    "publish": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/publish.ps1",
     "mining": "python scripts/build_mining.py",
     "covers": "python scripts/generate_covers.py",
     "covers:test": "python scripts/generate_covers.py --limit 3",

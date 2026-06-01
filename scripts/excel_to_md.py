@@ -84,6 +84,28 @@ def normalize_media_type(raw: str) -> str:
     return mapping.get(raw.lower() if raw.isascii() else raw, mapping.get(raw, ""))
 
 
+OFFLINE_VALUES = {"否", "no", "n", "0", "不公开", "下线", "隐藏"}
+DELETE_VALUES = {"是", "yes", "y", "1", "删除", "删"}
+
+
+def flag_match(value: str, options: set[str]) -> bool:
+    v = (value or "").strip()
+    if not v:
+        return False
+    lowered = {o.lower() for o in options}
+    return v.lower() in lowered
+
+
+def row_is_published(cells: list[str], get) -> bool:
+    """可选列「删除」「上线/公开」：标记删除或下线的行不会导出。"""
+    if flag_match(get(cells, "删除"), DELETE_VALUES):
+        return False
+    pub = get(cells, "上线", "公开", "发布")
+    if pub and flag_match(pub, OFFLINE_VALUES):
+        return False
+    return True
+
+
 def is_valid_row(title: str, content: str) -> bool:
     if not title and not content:
         return False
@@ -127,6 +149,8 @@ def parse_sheet(ws) -> list[dict]:
         title = get(cells, "主题/标题", "主题")
         content = get(cells, "核心内容简述", "核心内容", "主要事件")
         if not is_valid_row(title, content):
+            continue
+        if not row_is_published(cells, get):
             continue
         date_val = ""
         if "记录日期" in col and col["记录日期"] < len(row):
@@ -242,6 +266,20 @@ def write_index(path: Path, title: str, desc: str, items: list[tuple[str, str]])
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def cleanup_stale_markdown(cat_dir: Path, keep: set[Path]) -> int:
+    """删除 Excel 中已不存在或已下线的 .md（保留 index.md）。"""
+    removed = 0
+    if not cat_dir.is_dir():
+        return removed
+    for md in cat_dir.glob("*.md"):
+        if md.name == "index.md" or md in keep:
+            continue
+        md.unlink()
+        print(f"  删除: {md.relative_to(ROOT)}")
+        removed += 1
+    return removed
+
+
 def build_sidebar_manifest(categories: dict) -> None:
     manifest = {"generatedAt": datetime.now().isoformat(), "categories": categories}
     out = ROOT / "scripts" / "sidebar-data.json"
@@ -281,10 +319,16 @@ def main() -> None:
         cat_dir = DOCS / slug.replace("/", "/")
         items: list[tuple[str, str]] = []
 
+        generated: set[Path] = {cat_dir / "index.md"}
         for i, entry in enumerate(entries, start=1):
-            fname = slugify(entry["title"], i) + ".md"
+            try:
+                num = int(re.sub(r"\D", "", str(entry["index"])) or i)
+            except ValueError:
+                num = i
+            fname = slugify(entry["title"], num) + ".md"
             rel = f"/{slug}/{fname.replace('.md', '')}"
             md_path = cat_dir / fname
+            generated.add(md_path)
             existing = read_existing_frontmatter(md_path)
             if not entry["cover"] and existing.get("cover"):
                 entry["cover"] = existing["cover"]
@@ -308,8 +352,11 @@ def main() -> None:
             )
 
         write_index(cat_dir / "index.md", cn_title, desc, items)
+        removed = cleanup_stale_markdown(cat_dir, generated)
         stats[slug] = len(entries)
         sidebar[slug] = {"title": cn_title, "items": [{"text": t, "link": l} for t, l in items]}
+        if removed:
+            print(f"  {slug}: 清理 {removed} 个已下线/已删条目")
 
     wb.close()
     build_sidebar_manifest(sidebar)
