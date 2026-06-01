@@ -1,0 +1,9 @@
+{
+  "name": "jinsystem-waline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JinSystem Waline comment server (deploy to Vercel separately)",
+  "dependencies": {
+    "@waline/vercel": "^1.39.3"
+  }
+}

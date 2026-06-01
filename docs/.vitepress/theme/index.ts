@@ -11,6 +11,7 @@ import DocMedia from "./DocMedia.vue";
 import MobileAboutLink from "./MobileAboutLink.vue";
 import NavStatusBar from "./NavStatusBar.vue";
 import NavRightMount from "./NavRightMount.vue";
+import WalineComment from "./WalineComment.vue";
 import "./custom.css";
 
 const Layout = DefaultTheme.Layout;
@@ -36,5 +37,6 @@ export default {
           h(HomeContact),
         ]),
       "doc-before": () => h(DocMedia),
+      "doc-after": () => h(WalineComment),
     }),
 };

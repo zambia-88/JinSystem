@@ -64,6 +64,9 @@ export default defineConfig({
   },
   /** 本地 dev 首选 5201，避免与 stock-sentiment 等 Vite 默认 5173 冲突 */
   vite: {
+    define: {
+      __WALINE_SERVER__: JSON.stringify(process.env.WALINE_SERVER_URL || ""),
+    },
     server: {
       port: 5201,
       strictPort: false,

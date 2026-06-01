@@ -1937,3 +1937,89 @@ button {
     padding: 0.4rem 0.7rem;
   }
 }
+
+/* ── Waline 留言 · JinSystem 风格 ── */
+.jin-comments {
+  margin-top: 2.75rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--jin-border);
+}
+
+.jin-comments-head {
+  margin-bottom: 1.25rem;
+}
+
+.jin-comments-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  padding: 0.25rem 0.65rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--jin-border);
+  border-radius: 2px;
+  color: var(--jin-text-muted);
+}
+
+.jin-comments-hint {
+  margin: 0.75rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--jin-text-muted);
+}
+
+.jin-comments-pending {
+  padding: 1.25rem 1rem;
+  border: 1px dashed var(--jin-border);
+  border-radius: var(--jin-radius);
+  background: var(--jin-bg-card);
+  color: var(--jin-text-muted);
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.waline-root {
+  --waline-theme-color: var(--jin-gold);
+  --waline-active-color: var(--jin-gold-light);
+  --waline-bg-color: var(--jin-bg-card);
+  --waline-bg-color-light: rgba(255, 255, 255, 0.03);
+  --waline-bg-color-hover: rgba(201, 169, 98, 0.08);
+  --waline-border-color: var(--jin-border);
+  --waline-disable-bg-color: rgba(255, 255, 255, 0.04);
+  --waline-disable-color: var(--jin-text-muted);
+  --waline-info-bg-color: rgba(201, 169, 98, 0.06);
+  --waline-info-color: var(--jin-text-muted);
+  --waline-color: var(--jin-text);
+  --waline-font-size: 0.92rem;
+}
+
+html.dark .waline-root {
+  --waline-white: var(--jin-text);
+  --waline-light-grey: var(--jin-text-muted);
+  --waline-dark-grey: var(--jin-text-muted);
+  --waline-bg-color: #121214;
+  --waline-bg-color-light: #1a1a1e;
+  --waline-border-color: var(--jin-border);
+  --waline-color: var(--jin-text);
+}
+
+.waline-root .wl-panel,
+.waline-root .wl-card {
+  border-radius: var(--jin-radius);
+}
+
+.waline-root .wl-btn.primary {
+  background: linear-gradient(135deg, #c9a962, #9a7b3a) !important;
+  border: none !important;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .jin-comments {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .waline-root {
+    --waline-font-size: 0.88rem;
+  }
+}

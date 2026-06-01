@@ -34,6 +34,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_ACTIONS: "true"
           VP_BASE_URL: /
+          WALINE_SERVER_URL: ${{ secrets.WALINE_SERVER_URL }}
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
