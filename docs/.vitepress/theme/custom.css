@@ -33,24 +33,26 @@ html:not(.dark) {
   --jin-bg: #f4f2ec;
   --jin-bg-elevated: #ebe8e0;
   --jin-bg-card: #ffffff;
-  --jin-text: #121110;
-  --jin-text-muted: #3d3a34;
-  --jin-border: rgba(45, 38, 22, 0.18);
-  --jin-gold: #4a3f22;
-  --jin-gold-light: #5c4d28;
-  --jin-gold-dim: rgba(74, 63, 34, 0.48);
+  --jin-text: #1c1b19;
+  --jin-text-muted: #5c574f;
+  --jin-border: rgba(120, 100, 60, 0.16);
+  /* 浅色：可读深金 + 品牌亮金，兼顾对比与金色质感 */
+  --jin-gold: #8a7340;
+  --jin-gold-light: #96783a;
+  --jin-gold-bright: #b89550;
+  --jin-gold-dim: rgba(138, 115, 64, 0.36);
   --jin-card-shadow: 0 1px 2px rgba(60, 50, 30, 0.06), 0 4px 14px rgba(60, 50, 30, 0.08);
   --vp-c-bg: var(--jin-bg);
   --vp-c-bg-alt: var(--jin-bg-elevated);
   --vp-c-bg-soft: rgba(0, 0, 0, 0.04);
   --vp-c-text-1: var(--jin-text);
-  --vp-c-text-2: #2f2c28;
+  --vp-c-text-2: #4a4740;
   --vp-c-text-3: var(--jin-text-muted);
   --vp-c-divider: var(--jin-border);
-  --vp-c-brand-1: #4a3f22;
-  --vp-c-brand-2: #3d3420;
-  --vp-c-brand-3: #2f2818;
-  --vp-home-hero-name-background: linear-gradient(135deg, #3d3420, #6b5a2e 55%, #4a3f22);
+  --vp-c-brand-1: #8a7340;
+  --vp-c-brand-2: #96783a;
+  --vp-c-brand-3: #7a6535;
+  --vp-home-hero-name-background: linear-gradient(135deg, #7a6535, #c9a962 55%, #96783a);
 }
 
 /* ── 导航 + 顶栏状态 ── */
@@ -1948,7 +1950,7 @@ button {
 
 /* ── 浅色主题 · 全站对比度与可读性 ── */
 html:not(.dark) .VPNavBarTitle .title {
-  background: linear-gradient(90deg, #3d3420, #6b5a2e);
+  background: linear-gradient(90deg, #7a6535, #c9a962);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -1983,7 +1985,7 @@ html:not(.dark) .nav-status-time {
 }
 
 html:not(.dark) .VPHero .text {
-  color: var(--jin-text) !important;
+  color: var(--jin-gold) !important;
   font-weight: 600 !important;
 }
 
@@ -1993,50 +1995,57 @@ html:not(.dark) .VPHero .tagline {
 }
 
 html:not(.dark) .VPHero .action .VPButton.brand {
-  background: linear-gradient(135deg, #6b5a2e, #4a3f22) !important;
-  color: #faf8f3 !important;
-  border: 1px solid #3d3420 !important;
-  font-weight: 700 !important;
+  background: linear-gradient(135deg, #c9a962, #9a7b3a) !important;
+  color: #1a1814 !important;
+  border: 1px solid #96783a !important;
+  font-weight: 600 !important;
 }
 
 html:not(.dark) .VPHero .action .VPButton.brand:hover {
-  background: linear-gradient(135deg, #5c4d28, #3d3420) !important;
+  background: linear-gradient(135deg, #d4b872, #8a7340) !important;
 }
 
 html:not(.dark) .VPHero .action .VPButton.alt {
-  border: 1.5px solid var(--jin-gold) !important;
+  border: 1px solid var(--jin-gold-dim) !important;
   color: var(--jin-gold) !important;
-  background: #ffffff !important;
+  background: rgba(255, 255, 255, 0.85) !important;
   font-weight: 600 !important;
 }
 
 html:not(.dark) .VPHero .action .VPButton.alt:hover {
-  border-color: #3d3420 !important;
-  background: #faf8f3 !important;
-  color: #3d3420 !important;
+  border-color: var(--jin-gold) !important;
+  background: #ffffff !important;
+  color: #7a6535 !important;
 }
 
-/* 浅色 · 全站标题加深 */
+/* 浅色 · 标题：区块用金色，正文标题用暖棕保证可读 */
 html:not(.dark) .home-section-title,
+html:not(.dark) .post-grid-label,
+html:not(.dark) .home-about-lead {
+  color: var(--jin-gold) !important;
+  font-weight: 600;
+}
+
 html:not(.dark) .post-card-title,
 html:not(.dark) .pillar-title,
 html:not(.dark) .home-featured-body h3,
-html:not(.dark) .home-stat-label,
-html:not(.dark) .post-grid-label,
 html:not(.dark) .core-focus-card strong,
-html:not(.dark) .home-about-lead,
 html:not(.dark) .vp-doc h1,
 html:not(.dark) .vp-doc h2,
-html:not(.dark) .vp-doc h3,
-html:not(.dark) .jin-comments-head .home-section-title {
-  color: var(--jin-text) !important;
+html:not(.dark) .vp-doc h3 {
+  color: #3d3420 !important;
   font-weight: 600;
+}
+
+html:not(.dark) .home-stat-label {
+  color: var(--jin-text) !important;
+  font-weight: 500;
 }
 
 html:not(.dark) .home-stat-value,
 html:not(.dark) .home-intro-formula,
 html:not(.dark) .about-hero-tagline {
-  color: var(--jin-gold) !important;
+  color: var(--jin-gold-bright) !important;
   font-weight: 700;
 }
 
@@ -2066,13 +2075,13 @@ html:not(.dark) .home-intro-desc-en {
 }
 
 html:not(.dark) .home-intro-slogan {
-  color: var(--jin-gold);
+  color: var(--jin-gold-light);
   font-weight: 600;
 }
 
 html:not(.dark) .category-tab {
   color: var(--jin-text-muted);
-  border: 1.5px solid var(--jin-border);
+  border: 1px solid var(--jin-border);
   background: #ffffff;
   font-weight: 500;
 }
@@ -2080,34 +2089,34 @@ html:not(.dark) .category-tab {
 html:not(.dark) .category-tab:hover,
 html:not(.dark) .category-tab.active {
   color: var(--jin-gold);
-  border-color: var(--jin-gold);
-  background: rgba(74, 63, 34, 0.08);
+  border-color: var(--jin-gold-dim);
+  background: rgba(201, 169, 98, 0.12);
   font-weight: 600;
 }
 
 html:not(.dark) .post-pagination button {
-  color: var(--jin-text);
+  color: var(--jin-text-muted);
   background: #ffffff;
-  border: 1.5px solid var(--jin-border);
-  font-weight: 600;
+  border: 1px solid var(--jin-border);
+  font-weight: 500;
 }
 
 html:not(.dark) .post-pagination button:hover:not(:disabled) {
   color: var(--jin-gold);
-  border-color: var(--jin-gold);
+  border-color: var(--jin-gold-dim);
 }
 
 html:not(.dark) .VPButton.brand {
-  background: linear-gradient(135deg, #6b5a2e, #4a3f22) !important;
-  color: #faf8f3 !important;
-  border: 1px solid #3d3420 !important;
+  background: linear-gradient(135deg, #c9a962, #9a7b3a) !important;
+  color: #1a1814 !important;
+  border: 1px solid #96783a !important;
   font-weight: 600 !important;
 }
 
 html:not(.dark) .VPButton.alt {
-  border: 1.5px solid var(--jin-gold) !important;
+  border: 1px solid var(--jin-gold-dim) !important;
   color: var(--jin-gold) !important;
-  background: #ffffff !important;
+  background: rgba(255, 255, 255, 0.9) !important;
   font-weight: 600 !important;
 }
 
@@ -2137,7 +2146,11 @@ html:not(.dark) .vp-doc a {
 }
 
 html:not(.dark) .vp-doc a:hover {
-  color: #5c4d28;
+  color: #7a6535;
+}
+
+html:not(.dark) .jin-comments-head .home-section-title {
+  color: var(--jin-gold) !important;
 }
 
 html:not(.dark) .VPSidebarItem.level-0.is-active > .item > .link,
@@ -2195,8 +2208,8 @@ html:not(.dark) .VPSwitchAppearance .icon {
 }
 
 html:not(.dark) .waline-root .wl-btn.primary {
-  background: linear-gradient(135deg, #6b5a2e, #4a3f22) !important;
-  color: #faf8f3 !important;
+  background: linear-gradient(135deg, #c9a962, #9a7b3a) !important;
+  color: #1a1814 !important;
   font-weight: 600 !important;
 }
 
@@ -2208,17 +2221,17 @@ html:not(.dark) .waline-root .wl-btn:not(.primary) {
 
 html:not(.dark) .waline-root {
   --waline-theme-color: var(--jin-gold);
-  --waline-active-color: #3d3420;
+  --waline-active-color: #7a6535;
   --waline-white: var(--jin-text);
   --waline-light-grey: var(--jin-text-muted);
   --waline-dark-grey: #3d3a34;
   --waline-bg-color: #ffffff;
   --waline-bg-color-light: #f8f6f0;
-  --waline-bg-color-hover: rgba(74, 63, 34, 0.08);
+  --waline-bg-color-hover: rgba(201, 169, 98, 0.1);
   --waline-border-color: var(--jin-border);
   --waline-color: var(--jin-text);
   --waline-disable-bg-color: rgba(0, 0, 0, 0.04);
-  --waline-info-bg-color: rgba(74, 63, 34, 0.08);
+  --waline-info-bg-color: rgba(201, 169, 98, 0.08);
   --waline-info-color: var(--jin-text-muted);
 }
 
