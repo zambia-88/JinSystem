@@ -52,9 +52,19 @@ jobs:
 
       - name: Sync filtered docs to public repo
         run: |
-          rsync -av --delete public-site/docs/ public-repo/docs/
-          cp public-site/scripts/sidebar-data.json public-repo/scripts/
-          cd public-repo
+          # 只同步 Markdown / 媒体 / posts.json，保留公开库 .vitepress/theme 与 config.ts
+          find public-repo/docs -name '*.md' -type f -delete
+          cd public-site/docs
+          find . -name '*.md' -type f | while IFS= read -r f; do
+            rel="${f#./}"
+            mkdir -p "../../public-repo/docs/$(dirname "$rel")"
+            cp "$f" "../../public-repo/docs/$rel"
+          done
+          rsync -av --delete ./public/ ../../public-repo/docs/public/
+          mkdir -p ../../public-repo/docs/.vitepress
+          cp .vitepress/posts.json ../../public-repo/docs/.vitepress/posts.json
+          cp ../scripts/sidebar-data.json ../../public-repo/scripts/
+          cd ../../public-repo
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/ scripts/sidebar-data.json
@@ -68,7 +78,7 @@ jobs:
       - name: Trigger public site deploy
         run: |
           curl -sf -X POST \
-            -H "Accept: application/vnd.github/vnd.github+json" \
+            -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.PUBLIC_REPO_TOKEN }}" \
             "https://api.github.com/repos/${{ secrets.PUBLIC_REPO }}/actions/workflows/deploy.yml/dispatches" \
             -d '{"ref":"main"}'
