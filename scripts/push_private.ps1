@@ -24,10 +24,14 @@ New-Item -ItemType Directory -Force -Path (Join-Path $Tmp '.github/workflows') |
 Copy-Item -Force '.github/workflows/sync-public.yml.template' (Join-Path $Tmp '.github/workflows/sync-public.yml')
 
 Set-Location $Tmp
-git init | Out-Null
-git checkout -b $Branch 2>$null
-git add source permissions.json content-manifest.json scripts package.json requirements.txt .github
-git commit -m "sync: private content $(Get-Date -Format 'yyyy-MM-dd HH:mm')" 2>$null
+$prevEap = $ErrorActionPreference
+$ErrorActionPreference = 'Continue'
+git init 2>&1 | Out-Null
+git checkout -B $Branch 2>&1 | Out-Null
+git add source permissions.json content-manifest.json scripts package.json requirements.txt .github 2>&1 | Out-Null
+$commitMsg = "sync: private content $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git commit -m $commitMsg 2>&1 | Out-Null
+$ErrorActionPreference = $prevEap
 
 $url = git -C $Root remote get-url $Remote 2>$null
 if (-not $url) {
@@ -36,6 +40,12 @@ if (-not $url) {
     exit 1
 }
 
-git remote add origin $url
+git remote add origin $url 2>&1 | Out-Null
+$ErrorActionPreference = 'Continue'
 git push -u origin $Branch --force
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "push failed: check GitHub credentials" -ForegroundColor Red
+    exit $LASTEXITCODE
+}
+$ErrorActionPreference = $prevEap
 Write-Host "已推送到 $Remote ($Branch)" -ForegroundColor Green
