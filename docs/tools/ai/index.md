@@ -54,7 +54,6 @@ title: AI 工具库
 - [即梦Ai](/tools/ai/046-即梦Ai)
 - [可灵Ai](/tools/ai/047-可灵Ai)
 - [千问Ai](/tools/ai/048-千问Ai)
-- [Kimi Ai](/tools/ai/049-Kimi-Ai)
 - [Suno Ai](/tools/ai/050-Suno-Ai)
 - [Cursor Ai](/tools/ai/051-Cursor-Ai)
 - [Google Gemini Ai](/tools/ai/052-Google-Gemini-Ai)
