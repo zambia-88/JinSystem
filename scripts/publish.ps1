@@ -33,7 +33,8 @@ if ($Mining) {
     python scripts/init_permissions.py
 }
 
-Write-Host '==> 2/4 按权限生成公开 docs/' -ForegroundColor Cyan
+Write-Host '==> 2/4 拉取 Web 权限并生成公开 docs/' -ForegroundColor Cyan
+python scripts/pull_permissions.py
 python scripts/build_public.py
 if ($LASTEXITCODE -ne 0) {
     Write-Host 'build_public 失败，已中止。' -ForegroundColor Red

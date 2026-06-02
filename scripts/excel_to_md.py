@@ -281,6 +281,10 @@ def main() -> None:
     if not EXCEL.exists():
         raise SystemExit(f"找不到 Excel: {EXCEL}")
 
+    from pull_permissions import pull as pull_permissions
+
+    pull_permissions()
+
     from permissions_lib import (
         ensure_permission_entry,
         load_manifest,

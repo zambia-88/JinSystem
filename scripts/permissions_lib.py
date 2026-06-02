@@ -111,10 +111,28 @@ def save_manifest(data: dict[str, Any]) -> None:
     )
 
 
+def normalize_slug(slug: str) -> str:
+    s = (slug or "").strip()
+    if not s or s == "/":
+        return "/"
+    if not s.startswith("/"):
+        s = f"/{s}"
+    return s.rstrip("/") if s != "/" else s
+
+
 def is_public(slug: str, perms: dict[str, Any], manifest_entry: dict | None) -> bool:
+    slug = normalize_slug(slug)
     entries = perms.get("entries", {})
+
+    # 父路径任一显式设为 false → 整棵子树非公开
+    parts = [p for p in slug.strip("/").split("/") if p]
+    for i in range(len(parts)):
+        prefix = f"/{'/'.join(parts[: i + 1])}"
+        if prefix in entries and entries[prefix] is False:
+            return False
     if slug in entries:
         return bool(entries[slug])
+
     defaults = perms.get("defaults", DEFAULTS)
     if manifest_entry:
         ctype = manifest_entry.get("type", "manual")

@@ -10,6 +10,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from pull_permissions import pull as pull_permissions
 from permissions_lib import (
     PUBLIC_DOCS,
     POSTS_JSON,
@@ -113,6 +114,8 @@ def main() -> None:
         raise SystemExit(
             f"找不到 source/docs。请先运行: python scripts/init_source.py"
         )
+
+    pull_permissions()
 
     perms = load_permissions()
     manifest = load_manifest()

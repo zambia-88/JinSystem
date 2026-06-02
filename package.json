@@ -6,7 +6,8 @@
   "scripts": {
     "sync": "python scripts/excel_to_md.py",
     "build:public": "python scripts/build_public.py",
-    "sync:all": "python scripts/excel_to_md.py && python scripts/build_public.py",
+    "pull:permissions": "python scripts/pull_permissions.py",
+    "sync:all": "python scripts/pull_permissions.py && python scripts/excel_to_md.py && python scripts/build_public.py",
     "init:source": "python scripts/init_source.py",
     "init:permissions": "python scripts/init_permissions.py",
     "push:private": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/push_private.ps1",
