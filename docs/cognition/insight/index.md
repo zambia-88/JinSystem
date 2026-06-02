@@ -19,6 +19,7 @@ title: 人性洞察
 - [负面诋毁](/cognition/insight/011-负面诋毁)
 - [看人下菜](/cognition/insight/012-看人下菜)
 - [原则底线](/cognition/insight/013-原则底线)
+- [2025年对自己的总结](/cognition/insight/014-2025年对自己的总结)
 - [关于决断力](/cognition/insight/015-关于决断力)
 - [关于心理优势](/cognition/insight/016-关于心理优势)
 - [关于为人处事](/cognition/insight/017-关于为人处事)
