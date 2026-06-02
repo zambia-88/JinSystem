@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T11:08:11.686028",
+  "generatedAt": "2026-06-02T09:46:39.979750",
   "categories": {
     "/cognition/insight/": {
       "title": "人性洞察",
@@ -795,10 +795,6 @@
         {
           "text": "千问Ai",
           "link": "/tools/ai/048-千问Ai"
-        },
-        {
-          "text": "Kimi Ai",
-          "link": "/tools/ai/049-Kimi-Ai"
         },
         {
           "text": "Suno Ai",

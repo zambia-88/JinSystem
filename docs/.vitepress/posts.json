@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T11:08:11.686900",
+  "generatedAt": "2026-06-02T09:46:39.982036",
   "posts": [
     {
       "title": "粉蒸肉：榨广椒排骨",
@@ -268,16 +268,6 @@
       "category": "AI 工具库",
       "date": "2025-12-17",
       "cover": "/media/images/covers/tools-ai-048-千问Ai.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "Kimi Ai",
-      "link": "/tools/ai/049-Kimi-Ai",
-      "excerpt": "做PPT的",
-      "category": "AI 工具库",
-      "date": "2025-12-17",
-      "cover": "/media/images/covers/tools-ai-049-Kimi-Ai.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
