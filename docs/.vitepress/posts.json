@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T15:16:37.536358",
+  "generatedAt": "2026-06-02T11:08:11.686900",
   "posts": [
     {
       "title": "粉蒸肉：榨广椒排骨",
@@ -32,7 +32,7 @@
       "mediaUrl": ""
     },
     {
-      "title": "谷歌编程（Google Antigravity）",
+      "title": "谷歌编程（Google Antigravity） 更牛逼的3D可视化生成及演示",
       "link": "/tools/ai/057-谷歌编程-Google-Antigravity",
       "excerpt": "先在电脑桌面上新建一个名为 3D_Project 的纯英文文件夹，把 .xlsx 放进去，再通过 Open Folder 打开这个特定的文件夹。这样可以避免扫描整个磁盘带来的系统沉重感。 使用方法：利用Gemini设计提示词，上传Goog…",
       "category": "AI 工具库",
@@ -44,7 +44,7 @@
     {
       "title": "Python开发代码环境",
       "link": "/tools/ai/054-Python开发代码环境",
-      "excerpt": "已安装好了在电脑：🚀 极简安装指南（Windows/macOS） 1. 下载核心引擎 访问 Python 官网：python.org/downloads。 点击那个黄色的大按钮 \"Download Python 3.x.x\"（它会自动识别…",
+      "excerpt": "已安装好了在电脑：🚀 极简安装指南（Windows/macOS） 1. 下载核心引擎 访问 Python 官网：python.org/downloads。 点击那个黄色的大按钮 'Download Python 3.x.x'（它会自动识别…",
       "category": "AI 工具库",
       "date": "2026-1-13",
       "cover": "/media/images/covers/tools-ai-054-Python开发代码环境.jpg",
@@ -52,7 +52,7 @@
       "mediaUrl": ""
     },
     {
-      "title": "利用谷歌colab直接生成",
+      "title": "利用谷歌colab直接生成 3D可视化图表",
       "link": "/tools/ai/055-利用谷歌colab直接生成",
       "excerpt": "1、上传目标数据，描述需求即可； 2、制作好后下载为HTML文件至本地更好。",
       "category": "AI 工具库",
@@ -157,6 +157,26 @@
       "excerpt": "先把附近裂缝的灰擦干净，然后把香皂放到白醋里浸泡一小时，再用香皂在有裂缝的地方来回滚涂，最后再挤上牙膏用手抹平，等两小时以后干透，裂缝就好了",
       "category": "日常生活",
       "date": "2025-12-31",
+      "cover": "",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "饺子皮葱油饼",
+      "link": "/life/daily/050-饺子皮葱油饼",
+      "excerpt": "用小葱炸葱油，均匀刷在一块饺子皮上，再盖上一块饺子皮，继续刷小葱和葱油，再盖上一块饺子皮，用器具擀平，然后卷起来，竖向用手掌用力压平成饼胚，保鲜膜封住醒面十分钟放在油锅里两面煎至金黄即可",
+      "category": "日常生活",
+      "date": "2025-12-17",
+      "cover": "",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "无盐酸菜",
+      "link": "/life/daily/051-无盐酸菜",
+      "excerpt": "把淘米水烧开，放入带叶子大白菜，先烫根部再整体放进去，翻滚均匀，变色后捞出，放到无油的容器里，放小米辣、蒜粒和烧开的淘米水，放白醋，用盘子压实，盖盖，第二天或多几天即可",
+      "category": "日常生活",
+      "date": "2025-12-17",
       "cover": "",
       "mediaType": "",
       "mediaUrl": ""
@@ -292,26 +312,6 @@
       "mediaUrl": ""
     },
     {
-      "title": "饺子皮葱油饼",
-      "link": "/life/daily/050-饺子皮葱油饼",
-      "excerpt": "用小葱炸葱油，均匀刷在一块饺子皮上，再盖上一块饺子皮，继续刷小葱和葱油，再盖上一块饺子皮，用器具擀平，然后卷起来，竖向用手掌用力压平成饼胚，保鲜膜封住醒面十分钟放在油锅里两面煎至金黄即可",
-      "category": "日常生活",
-      "date": "2025-12-17",
-      "cover": "",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "无盐酸菜",
-      "link": "/life/daily/051-无盐酸菜",
-      "excerpt": "把淘米水烧开，放入带叶子大白菜，先烫根部再整体放进去，翻滚均匀，变色后捞出，放到无油的容器里，放小米辣、蒜粒和烧开的淘米水，放白醋，用盘子压实，盖盖，第二天或多几天即可",
-      "category": "日常生活",
-      "date": "2025-12-17",
-      "cover": "",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
       "title": "微信公众号Markdown编辑器",
       "link": "/tools/ai/032-微信公众号Markdown编辑器",
       "excerpt": "即编辑即出效果",
@@ -392,7 +392,7 @@
       "mediaUrl": ""
     },
     {
-      "title": "MD2card（文本美化）",
+      "title": "MD2card（文本美化） 海报生成器",
       "link": "/tools/ai/008-MD2card-文本美化",
       "excerpt": "文档转知识卡片",
       "category": "AI 工具库",
@@ -632,6 +632,186 @@
       "mediaUrl": ""
     },
     {
+      "title": "尊重人性为先",
+      "link": "/cognition/insight/001-尊重人性为先",
+      "excerpt": "大多数人不会因为你待他真诚、善良，就心怀感激、知恩图报。相反，他们往往会把你的好视作理所当然，甚至利用你的善意来谋求自身利益与成长。 在人际关系中，善良固然重要，但更重要的是建立起边界与规则，树立让人敬重的底线与权威。唯有如此，才能赢得真…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-001-尊重人性为先.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "因果",
+      "link": "/cognition/insight/002-因果",
+      "excerpt": "人们相信美好，却又选择性的忽略了事物发展相关的因果必然性。如果美好是左，因果是右，那人生就是一个不断被左右的过程。我们负重前行，只为在因果的必然性中创造美好。 左手美好，右手因果。人生，一场于必然之右，求索美好之左的执着。我们被“左右”，…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-002-因果.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "职场画饼",
+      "link": "/cognition/insight/003-职场画饼",
+      "excerpt": "职场不是是非题， 不要等待老板画的饼， 更不要相信同事之间的情， 你我皆牛马，化不了龙也成不了凤。 即使前路再黑暗，也要做自己的一束光…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-003-职场画饼.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "职场能力",
+      "link": "/cognition/insight/004-职场能力",
+      "excerpt": "千万，不要过度透支自己的能力: 能力透支的本质是时间维度上的失衡。 真正成熟的职场人，都懂得在'全力以赴'与'留白生长'间找到平衡点。 守住能力边界，方能细水长流； 持续赋能更新，才是永续之道。",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-004-职场能力.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "功亏一篑",
+      "link": "/cognition/insight/005-功亏一篑",
+      "excerpt": "《第99次跃起》 当你数到第99次跃起时 脚尖已提前勾勒出胜利的弧线 可就在那本该完美的终章 绳柄突然亲吻脚踝 在离地3厘米处 完成了一次对骄傲的精准绞杀 我们总在潜意识里提前鸣响庆贺的钟声 却让最后一记心跳 成为溃败的号角 那些被风吹散…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-005-功亏一篑.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "待人",
+      "link": "/cognition/insight/006-待人",
+      "excerpt": "近则不恭，远则不逊…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-006-待人.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "看破",
+      "link": "/cognition/insight/007-看破",
+      "excerpt": "不与愚人争对错，只与智者谈利弊… 第1层，破是非相， 第2层，破传统权威和乌合之众相， 第3层，破一切众生相:破文字相、破关系相、破情绪相、破时间相、破观念相、破我相…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-007-看破.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "职场是非",
+      "link": "/cognition/insight/008-职场是非",
+      "excerpt": "职场，不能执着于“是非对错”， 毕竟除了对错，更还有“利弊”， 与其顾着你那微乎其微的自尊和面子， 还不如先跪着把钱挣了，再站着做选择…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-008-职场是非.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "认知水平",
+      "link": "/cognition/insight/009-认知水平",
+      "excerpt": "认知水平越低的人，动物本性就越强，他就越不识好歹，你表现出来的善良，在他看来就是好欺负，他就总想着占那点便宜。他根本就不明白，你善良背后的可贵之处，他们只会不知不觉的把你当成弱者来看待，欺负你的心理，就像欺负一只蚂蚁一样。正如俗话说:小人…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-009-认知水平.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "原则立场",
+      "link": "/cognition/insight/010-原则立场",
+      "excerpt": "1、“很多事，我不是不可以，我只是个人层面的不喜欢，如果要做也行，但前提是得我乐意，得按我的规矩办。” 2、“很多时候，‘翻脸’代表着你的态度和立场，代表着你的底线和原则，更代表了在人际交往之中一个人最基本的权利：被尊重。”",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-010-原则立场.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "负面诋毁",
+      "link": "/cognition/insight/011-负面诋毁",
+      "excerpt": "所有负面的声音，只能证明一件事情: 诋毁本身，就是对你的一种仰望…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-011-负面诋毁.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "看人下菜",
+      "link": "/cognition/insight/012-看人下菜",
+      "excerpt": "我们身边总有一些毫无血性的阴阳人，对上级，他当狗；对下级，他当狼；对同级，他当鬼。这种人却被称赞为“高情商”。 ——王朔",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-012-看人下菜.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "原则底线",
+      "link": "/cognition/insight/013-原则底线",
+      "excerpt": "如果善良得不到应有的尊重，那么最好的方式就是翻脸。 ——稻盛和夫 我瞧不起的人太多了，虽然我自己狗屁不是，但这两者并不冲突。 ——王朔",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-013-原则底线.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "2025年对自己的总结",
+      "link": "/cognition/insight/014-2025年对自己的总结",
+      "excerpt": "2025 年的我: 这一年，我用一次从减肥到增肌的转变，完成了对自身生命底色的重写，也由此真正看清了底层能力建设的逻辑。 我逐渐意识到，真正可靠的改变，从来不是依赖某一次状态或爆发，而是建立了一套可以长期兑现结果的能力系统。 身体的变化，…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-014-2025年对自己的总结.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "关于决断力",
+      "link": "/cognition/insight/015-关于决断力",
+      "excerpt": "难走的路，不是叫你停下来的 晨跑本就消耗体能，遇到难跑的路，停下来休息，在逻辑上完全成立。那一刻，我清楚地知道：这是一个“足够合理”的接口。 但我还是选择拒绝执行。因为我意识到，停下来确实可以暂时轻松，却会拉长整体时间成本，更重要的是—它…",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-015-关于决断力.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "关于心理优势",
+      "link": "/cognition/insight/016-关于心理优势",
+      "excerpt": "真正的领先，是后来者开始模仿你 当你在长期坚持中，看见清晰、可验证的变化，有一天你会突然发现：周围的人开始以你为参照，甚至不自绝地效仿你的选择。 那一刻，你才会明白，心理优势从来不是某次爆发带来的，而是时间在你身上不短累积后的自然结果。 …",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-016-关于心理优势.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "关于为人处事",
+      "link": "/cognition/insight/017-关于为人处事",
+      "excerpt": "与其在争执中急于表达情绪，不如稳住内核，不怒自威 很多时候，真正有分量的不是话语本身，而是你站在那里所呈现出的状态。 气质与格局，从不是表演出来的，而是建立在长期自我构建的底色之上。",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-017-关于为人处事.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "关于内耗",
+      "link": "/cognition/insight/018-关于内耗",
+      "excerpt": "自即日起（2026.5.24）：不抱怨任何事，不抱怨任何人，不内耗自己： 专注自身，立足当下，布局长远，谋定而后动。 在正确的道路上，坚持长期主义。 以持续输出，换取长期复利。 维持正向反馈的输出，无王而无不利。",
+      "category": "人性洞察",
+      "date": "",
+      "cover": "/media/images/covers/cognition-insight-018-关于内耗.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
       "title": "修行",
       "link": "/cognition/mindset/001-修行",
       "excerpt": "你想发怒，但你忍住了，这就是本事； 你想放弃，但你坚持了，这就是能力； 你想辩解，但你沉默了，这就是修为… 🩲如果太在意别人的看法，就很容易活成别人的裤衩。别人放什么屁，你都🉐兜着… 人生至死要修行的一种能力:就是要压的住脾气，可以表达愤…",
@@ -792,7 +972,7 @@
       "mediaUrl": ""
     },
     {
-      "title": "意志恒心",
+      "title": "意志恒心 To be a better man",
       "link": "/cognition/mindset/017-意志恒心",
       "excerpt": "很多时候，长期主义的写照是: 成功不在于你做了什么， 而在于你没做什么； 时间是创新者的朋友， 是守城者的敌人； 寓沉雄于静穆， 藏锋芒于深思； 所谓: 初有决定不移之志； 中有勇猛精进之心； 末有坚贞永固之力！",
       "category": "格局提升",
@@ -812,7 +992,7 @@
       "mediaUrl": ""
     },
     {
-      "title": "未来十年",
+      "title": "未来十年 2025-2035",
       "link": "/cognition/mindset/019-未来十年",
       "excerpt": "物质低配，认知高配，心态顶配",
       "category": "格局提升",
@@ -1138,846 +1318,6 @@
       "category": "格局提升",
       "date": "",
       "cover": "/media/images/covers/cognition-mindset-051-对事物本质与发展必然的持续洞察.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "尊重人性为先",
-      "link": "/cognition/insight/001-尊重人性为先",
-      "excerpt": "大多数人不会因为你待他真诚、善良，就心怀感激、知恩图报。相反，他们往往会把你的好视作理所当然，甚至利用你的善意来谋求自身利益与成长。 在人际关系中，善良固然重要，但更重要的是建立起边界与规则，树立让人敬重的底线与权威。唯有如此，才能赢得真…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-001-尊重人性为先.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "因果",
-      "link": "/cognition/insight/002-因果",
-      "excerpt": "人们相信美好，却又选择性的忽略了事物发展相关的因果必然性。如果美好是左，因果是右，那人生就是一个不断被左右的过程。我们负重前行，只为在因果的必然性中创造美好。 左手美好，右手因果。人生，一场于必然之右，求索美好之左的执着。我们被“左右”，…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-002-因果.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "职场画饼",
-      "link": "/cognition/insight/003-职场画饼",
-      "excerpt": "职场不是是非题， 不要等待老板画的饼， 更不要相信同事之间的情， 你我皆牛马，化不了龙也成不了凤。 即使前路再黑暗，也要做自己的一束光…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-003-职场画饼.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "职场能力",
-      "link": "/cognition/insight/004-职场能力",
-      "excerpt": "千万，不要过度透支自己的能力: 能力透支的本质是时间维度上的失衡。 真正成熟的职场人，都懂得在\"全力以赴\"与\"留白生长\"间找到平衡点。 守住能力边界，方能细水长流； 持续赋能更新，才是永续之道。",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-004-职场能力.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "功亏一篑",
-      "link": "/cognition/insight/005-功亏一篑",
-      "excerpt": "《第99次跃起》 当你数到第99次跃起时 脚尖已提前勾勒出胜利的弧线 可就在那本该完美的终章 绳柄突然亲吻脚踝 在离地3厘米处 完成了一次对骄傲的精准绞杀 我们总在潜意识里提前鸣响庆贺的钟声 却让最后一记心跳 成为溃败的号角 那些被风吹散…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-005-功亏一篑.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "待人",
-      "link": "/cognition/insight/006-待人",
-      "excerpt": "近则不恭，远则不逊…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-006-待人.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "看破",
-      "link": "/cognition/insight/007-看破",
-      "excerpt": "不与愚人争对错，只与智者谈利弊… 第1层，破是非相， 第2层，破传统权威和乌合之众相， 第3层，破一切众生相:破文字相、破关系相、破情绪相、破时间相、破观念相、破我相…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-007-看破.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "职场是非",
-      "link": "/cognition/insight/008-职场是非",
-      "excerpt": "职场，不能执着于“是非对错”， 毕竟除了对错，更还有“利弊”， 与其顾着你那微乎其微的自尊和面子， 还不如先跪着把钱挣了，再站着做选择…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-008-职场是非.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "认知水平",
-      "link": "/cognition/insight/009-认知水平",
-      "excerpt": "认知水平越低的人，动物本性就越强，他就越不识好歹，你表现出来的善良，在他看来就是好欺负，他就总想着占那点便宜。他根本就不明白，你善良背后的可贵之处，他们只会不知不觉的把你当成弱者来看待，欺负你的心理，就像欺负一只蚂蚁一样。正如俗话说:小人…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-009-认知水平.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "原则立场",
-      "link": "/cognition/insight/010-原则立场",
-      "excerpt": "1、“很多事，我不是不可以，我只是个人层面的不喜欢，如果要做也行，但前提是得我乐意，得按我的规矩办。” 2、“很多时候，‘翻脸’代表着你的态度和立场，代表着你的底线和原则，更代表了在人际交往之中一个人最基本的权利：被尊重。”",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-010-原则立场.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "负面诋毁",
-      "link": "/cognition/insight/011-负面诋毁",
-      "excerpt": "所有负面的声音，只能证明一件事情: 诋毁本身，就是对你的一种仰望…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-011-负面诋毁.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "看人下菜",
-      "link": "/cognition/insight/012-看人下菜",
-      "excerpt": "我们身边总有一些毫无血性的阴阳人，对上级，他当狗；对下级，他当狼；对同级，他当鬼。这种人却被称赞为“高情商”。 ——王朔",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-012-看人下菜.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "原则底线",
-      "link": "/cognition/insight/013-原则底线",
-      "excerpt": "如果善良得不到应有的尊重，那么最好的方式就是翻脸。 ——稻盛和夫 我瞧不起的人太多了，虽然我自己狗屁不是，但这两者并不冲突。 ——王朔",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-013-原则底线.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "2025年对自己的总结",
-      "link": "/cognition/insight/014-2025年对自己的总结",
-      "excerpt": "2025 年的我: 这一年，我用一次从减肥到增肌的转变，完成了对自身生命底色的重写，也由此真正看清了底层能力建设的逻辑。 我逐渐意识到，真正可靠的改变，从来不是依赖某一次状态或爆发，而是建立了一套可以长期兑现结果的能力系统。 身体的变化，…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-014-2025年对自己的总结.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "关于决断力",
-      "link": "/cognition/insight/015-关于决断力",
-      "excerpt": "难走的路，不是叫你停下来的 晨跑本就消耗体能，遇到难跑的路，停下来休息，在逻辑上完全成立。那一刻，我清楚地知道：这是一个“足够合理”的接口。 但我还是选择拒绝执行。因为我意识到，停下来确实可以暂时轻松，却会拉长整体时间成本，更重要的是—它…",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-015-关于决断力.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "关于心理优势",
-      "link": "/cognition/insight/016-关于心理优势",
-      "excerpt": "真正的领先，是后来者开始模仿你 当你在长期坚持中，看见清晰、可验证的变化，有一天你会突然发现：周围的人开始以你为参照，甚至不自绝地效仿你的选择。 那一刻，你才会明白，心理优势从来不是某次爆发带来的，而是时间在你身上不短累积后的自然结果。 …",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-016-关于心理优势.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "关于为人处事",
-      "link": "/cognition/insight/017-关于为人处事",
-      "excerpt": "与其在争执中急于表达情绪，不如稳住内核，不怒自威 很多时候，真正有分量的不是话语本身，而是你站在那里所呈现出的状态。 气质与格局，从不是表演出来的，而是建立在长期自我构建的底色之上。",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-017-关于为人处事.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "关于内耗",
-      "link": "/cognition/insight/018-关于内耗",
-      "excerpt": "自即日起（2026.5.24）：不抱怨任何事，不抱怨任何人，不内耗自己： 专注自身，立足当下，布局长远，谋定而后动。 在正确的道路上，坚持长期主义。 以持续输出，换取长期复利。 维持正向反馈的输出，无王而无不利。",
-      "category": "人性洞察",
-      "date": "",
-      "cover": "/media/images/covers/cognition-insight-018-关于内耗.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "建立个人网站",
-      "link": "/tools/ai/035-建立个人网站",
-      "excerpt": "使用GitHub+Hexo搭建个人博客网站",
-      "category": "AI 工具库",
-      "date": "",
-      "cover": "/media/images/covers/tools-ai-035-建立个人网站.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "个人演示工作平台",
-      "link": "/tools/ai/056-个人演示工作平台",
-      "excerpt": "文件及网页",
-      "category": "AI 工具库",
-      "date": "",
-      "cover": "/media/images/covers/tools-ai-056-个人演示工作平台.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "百分比数据条",
-      "link": "/tools/excel/001-百分比数据条",
-      "excerpt": "数据条根据数据改动而变动 工具栏选择数字、 百分比，选择要保留的小数位数，工具栏条件格式，数据条，其它规则，选择数字，最小值和最大值设置（0-1）渐变填充，选择颜色，确定即完成",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-001-百分比数据条.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "筛选数据",
-      "link": "/tools/excel/002-筛选数据",
-      "excerpt": "Ctrl+A全选表格，再按Ctrl+T美化表格，点击插入切片器，选择对应的筛选对象即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-002-筛选数据.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "电子印章",
-      "link": "/tools/excel/003-电子印章",
-      "excerpt": "空白表格点插入形状，选择圆形，按住shift拖动鼠标拉出一个正圆形，鼠标右击设置为无填充颜色，边框设置为印章的边框颜色，粗细设置为3磅，插入艺术字，输入公司名称，点击效果，选择转换，选择上弯弧，拖动调整弧度适宜，设置字体印章颜色，插入对应…",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-003-电子印章.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "冻结表格首尾行",
-      "link": "/tools/excel/004-冻结表格首尾行",
-      "excerpt": "Ctrl+t创建超级表，往下拉选中尾行数据，菜单栏中选择视图，选择窗口，点击拆分即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-004-冻结表格首尾行.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一张表中有多个表格在单张表中插入行",
-      "link": "/tools/excel/005-一张表中有多个表格在单张表中插入行",
-      "excerpt": "首先选中需要插入列的前面一列，按住shift光标放在该列的右下角，按住鼠标左键向右拖动，想插几列拖几列",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-005-一张表中有多个表格在单张表中插入行.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "二维码制作",
-      "link": "/tools/excel/006-二维码制作",
-      "excerpt": "点击插入，右上角选择更多素材，选择二维码，根据需求选择需要包含的内容即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-006-二维码制作.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "下拉填充序号",
-      "link": "/tools/excel/007-下拉填充序号",
-      "excerpt": "输入函数=SEQUENCE（10000,1,1,1） 选中序号列，输入=ROW（）-1，然后按Ctrl+Enter一键填充，即使删除序号也能自动更新",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-007-下拉填充序号.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "合并单元格序号",
-      "link": "/tools/excel/008-合并单元格序号",
-      "excerpt": "选中需要填充序号的单元格，输入=MAX(A$1:A1)+1,按Ctrl+Enter",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-008-合并单元格序号.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "隔行添加序号",
-      "link": "/tools/excel/009-隔行添加序号",
-      "excerpt": "选中序号列，按Ctrl+G，定位空值，在第一个单元格内输入=N（A1）+1按Ctrl+Enter即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-009-隔行添加序号.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "解决多个文字名称拆分到列",
-      "link": "/tools/excel/010-解决多个文字名称拆分到列",
-      "excerpt": "单元格输入=textsplit（）选择全部文字所在的单元格，加上2个英文逗号，输入双引号顿号双引号，回车确定即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-010-解决多个文字名称拆分到列.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "核对数据",
-      "link": "/tools/excel/011-核对数据",
-      "excerpt": "列不同Ctrl+G，行差异再定位，标高光 表不同用Ctrl+c复制，粘贴时选择减，0除外",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-011-核对数据.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "文件夹侧标签",
-      "link": "/tools/excel/012-文件夹侧标签",
-      "excerpt": "全选文字加粗，点击边框添加所有框线，在字体前输入@符号回车，设置列宽改为30厘米，行高改为5厘米，最后ctrl+1摄者单元格格式，选择分散对齐即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-012-文件夹侧标签.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "表格美化",
-      "link": "/tools/excel/013-表格美化",
-      "excerpt": "Ctrl+t建立超级表",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-013-表格美化.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一键求和",
-      "link": "/tools/excel/014-一键求和",
-      "excerpt": "全选按住Alt+=",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-014-一键求和.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一键图表",
-      "link": "/tools/excel/015-一键图表",
-      "excerpt": "全选Alt+F1",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-015-一键图表.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一键找不同",
-      "link": "/tools/excel/016-一键找不同",
-      "excerpt": "Ctrl+反斜杠",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-016-一键找不同.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "文字和数据混合，一秒提取数据",
-      "link": "/tools/excel/017-文字和数据混合-一秒提取数据",
-      "excerpt": "手动提取一个数据，然后按Ctrl+E智能填充",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-017-文字和数据混合-一秒提取数据.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "日期星期时间",
-      "link": "/tools/excel/018-日期星期时间",
-      "excerpt": "rq/xq/sj",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-018-日期星期时间.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "随机选择小程序",
-      "link": "/tools/excel/019-随机选择小程序",
-      "excerpt": "表格中全部人员名单，在旁边输入公式=INDIRECT(\"a\"&RANDBETWEEN(1,10)),1,10表示随机抽取区间，按F9即可抽取",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-019-随机选择小程序.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一键智能提取数据",
-      "link": "/tools/excel/020-一键智能提取数据",
-      "excerpt": "Ctrl+E",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-020-一键智能提取数据.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一键输入当前日期",
-      "link": "/tools/excel/021-一键输入当前日期",
-      "excerpt": "Ctrl+；（分号）",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-021-一键输入当前日期.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一键输入当前时间",
-      "link": "/tools/excel/022-一键输入当前时间",
-      "excerpt": "Ctrl+shift+；（分号）",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-022-一键输入当前时间.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一秒去除小数点",
-      "link": "/tools/excel/023-一秒去除小数点",
-      "excerpt": "Ctrl+shift+1",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-023-一秒去除小数点.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一秒转换时间格式",
-      "link": "/tools/excel/024-一秒转换时间格式",
-      "excerpt": "Ctrl+shift+2",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-024-一秒转换时间格式.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一秒转换日期格式",
-      "link": "/tools/excel/025-一秒转换日期格式",
-      "excerpt": "Ctrl+shift+3",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-025-一秒转换日期格式.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一秒转换货币格式",
-      "link": "/tools/excel/026-一秒转换货币格式",
-      "excerpt": "Ctrl+shift+4",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-026-一秒转换货币格式.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "一秒转换百分比格式",
-      "link": "/tools/excel/027-一秒转换百分比格式",
-      "excerpt": "Ctrl+shift+5",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-027-一秒转换百分比格式.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "转置表格（横表变竖表）",
-      "link": "/tools/excel/028-转置表格-横表变竖表",
-      "excerpt": "全选表格，复制然后在空白处右键，选择性粘贴，点击转置即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-028-转置表格-横表变竖表.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "固定表头",
-      "link": "/tools/excel/029-固定表头",
-      "excerpt": "视图选项卡，根据需求选择冻结的首和列",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-029-固定表头.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "批量重命名图片",
-      "link": "/tools/excel/030-批量重命名图片",
-      "excerpt": "Ctrl+A全选，按F2命名其中一张图片，回车",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-030-批量重命名图片.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "条目 31",
-      "link": "/tools/excel/031-条目-31",
-      "excerpt": "知识库目录表中的C4-C12列的数据，如何与本表中其它对应分表中A3以后的数据分别相等，以实现目录表中的数据随分表序号中的数据变化自动更新",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-031-条目-31.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "图片批量整齐嵌入单元格",
-      "link": "/tools/excel/032-图片批量整齐嵌入单元格",
-      "excerpt": "先把图片全部导入，全选后右键，找到大小和属性，关闭锁定纵横比，高度、宽度调整为单元格大小，点击最后一张图片，移动到最后一个边框单元格，按住Alt键吸附边框，最后再把图片全选，找到对齐，点击左对齐，再点击对齐，好到纵向分布即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-032-图片批量整齐嵌入单元格.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "统计区间内的个数",
-      "link": "/tools/excel/033-统计区间内的个数",
-      "excerpt": "在需要统计的区间内输入函数=frequency(),第一个参数选择对象数列，输入逗号，大括号内输入区间值，逗号隔开，回车即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-033-统计区间内的个数.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "数据分列",
-      "link": "/tools/excel/034-数据分列",
-      "excerpt": "选中要将一列数据分列成若干列的数据，选择顶部菜单栏中的数据，选择分列或文本分列，选择分隔符号，勾选实际使用的分隔符，预览无误，点击确定即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-034-数据分列.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "拆分数据（拆分一个单元格中的若干数据）",
-      "link": "/tools/excel/035-拆分数据-拆分一个单元格中的若干数据",
-      "excerpt": "先正常拆分第一行数据，各自占数据格，然后在第二行按Ctrl+E智能填充",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-035-拆分数据-拆分一个单元格中的若干数据.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "标题合并单元格",
-      "link": "/tools/excel/036-标题合并单元格",
-      "excerpt": "为避免格式错误，合并单元格（特别是设置标题的时候），选中要合并的区域，右键鼠标选择设置单元格格式，选择对齐方式，选择跨列居中，回车即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-036-标题合并单元格.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "图片表格转EXCEL",
-      "link": "/tools/excel/037-图片表格转EXCEL",
-      "excerpt": "https://toexcel.zhiyakeji.com/",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-037-图片表格转EXCEL.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "席位牌",
-      "link": "/tools/excel/038-席位牌",
-      "excerpt": "复制A列名字到B列成两列，修改列宽为50，行高修改为409，字体修改为109，选中A列，文字方向修改为-90°，选中B列，文字方向修改为正90°，纸张方向修改为横向，自定义页边距，左右修改为3厘米，勾选水平和垂直，点击打印预览即可",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-038-席位牌.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "表格求和",
-      "link": "/tools/excel/039-表格求和",
-      "excerpt": "1、整体数据批量求和：选中要求和的数据，按Alt+=； 2、针对分开数据表格（数据不连续，数据之间有单元格的情况）求和：选中数据，按Ctrl+G打开定位，选择空值，回车确定，按Alt+=即可； 3、汇总不同类别的数据：输入=SUM（区域,…",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-039-表格求和.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "AI图表生成各类柱状图饼状图等(Google Colab)",
-      "link": "/tools/excel/034-AI图表生成各类柱状图饼状图等-Google-Colab",
-      "excerpt": "先准确表述需求，再用GPT生成代码（deepseek），后到谷歌免费在线Python环境生成（https://colab.research.google.com/） 1、打开 Google Colab (https://colab.res…",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "同一列数据中，用逗号分开的有两个数据。解决将这两个数据交换位置在同一个单元格。",
-      "link": "/tools/excel/041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格",
-      "excerpt": "在B列单元格输入公式，向下填充即可：=MID(A1,FIND(\",\",A1)+1,100)&\",\"&LEFT(A1,FIND(\",\",A1)-1)",
-      "category": "Excel 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-excel-041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "合同数据对比",
-      "link": "/tools/word/001-合同数据对比",
-      "excerpt": "菜单栏审阅-比较-分别选择两个文档-点击确定即可",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-001-合同数据对比.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "图片打印变清晰",
-      "link": "/tools/word/002-图片打印变清晰",
-      "excerpt": "图片导入到word，布局选项选择浮于文字上方，拖动图片铺满页面，右键设置图片格式，清晰度调整成80%，亮度调整成50%，对比度改100%即可打印（使用快速扫描也可一键完成）",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-002-图片打印变清晰.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "调整字符间距",
-      "link": "/tools/word/003-调整字符间距",
-      "excerpt": "全选文字，右击选择段落，选择换行和分页，勾选允许西文在单词中间换行，确定即可",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-003-调整字符间距.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "word表格跨页问题解决",
-      "link": "/tools/word/004-word表格跨页问题解决",
-      "excerpt": "全选表格，右击段落，取消勾选段前分页即可",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-004-word表格跨页问题解决.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "组织架构图",
-      "link": "/tools/word/005-组织架构图",
-      "excerpt": "列出组织架构，善用Ctrl和Tab键，全选复制，插入组织图，选择smartart，选取合适的样式即可",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-005-组织架构图.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "删除空白页",
-      "link": "/tools/word/006-删除空白页",
-      "excerpt": "Ctrl+delete Ctrl+Backspace 点击页面，选择删除本节 Ctrl+D打开字体框，隐藏文字勾好",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-006-删除空白页.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "生僻字",
-      "link": "/tools/word/007-生僻字",
-      "excerpt": "U+部首",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-007-生僻字.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "金额大写",
-      "link": "/tools/word/008-金额大写",
-      "excerpt": "V+数字",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-008-金额大写.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "日期星期时间",
-      "link": "/tools/word/009-日期星期时间",
-      "excerpt": "rq/xq/sj",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-009-日期星期时间.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "红头文件",
-      "link": "/tools/word/010-红头文件",
-      "excerpt": "选中需要双行显示的文字，点击段落，中文版式选择双行合一，确定即可",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-010-红头文件.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "如何拉横向直线",
-      "link": "/tools/word/011-如何拉横向直线",
-      "excerpt": "插入形状，选择直线，按住Shift键，用鼠标即可画一条直线",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-011-如何拉横向直线.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "核对对比合同差异",
-      "link": "/tools/word/012-核对对比合同差异",
-      "excerpt": "点击菜单栏审阅，选择比较并分别选择两个文档并确定即可",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-012-核对对比合同差异.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "Ctrl+U",
-      "link": "/tools/word/013-Ctrl-U",
-      "excerpt": "一秒添加下划线",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-013-Ctrl-U.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "设置上标",
-      "link": "/tools/word/014-设置上标",
-      "excerpt": "ctrl+shift+=",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-014-设置上标.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "设置下标",
-      "link": "/tools/word/015-设置下标",
-      "excerpt": "ctrl+=",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-015-设置下标.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "文档拆分表格",
-      "link": "/tools/word/016-文档拆分表格",
-      "excerpt": "ctrl+shift+回车",
-      "category": "Word 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-word-016-文档拆分表格.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "图片批量插入PPT",
-      "link": "/tools/ppt/001-图片批量插入PPT",
-      "excerpt": "点击插入图片，选择分页插图，全选图片即可",
-      "category": "PPT 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-ppt-001-图片批量插入PPT.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "PPT内图片提取",
-      "link": "/tools/ppt/002-PPT内图片提取",
-      "excerpt": "将PPT文件名后缀改为.RAR,然后解压文件，找到PPT文件，打开Media,所有图片就在",
-      "category": "PPT 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-ppt-002-PPT内图片提取.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "PPT备注演讲词",
-      "link": "/tools/ppt/003-PPT备注演讲词",
-      "excerpt": "点击放映里的演讲备注，添加演讲词即可，开启演讲者视图，别人看不到演讲词",
-      "category": "PPT 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-ppt-003-PPT备注演讲词.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "插入多张",
-      "link": "/tools/ppt/004-插入多张",
-      "excerpt": "新建画布，插入文本框，输入短横线，选中文本框，在形状格式中，文本效果，点击转换，选择图形形状（朝鲜鼓），文本选项中调整间距为紧密，度量值3磅，插入矩形，先选中文本框，再选中矩形，形状格式选拆分，复制粘贴图片，C太热了+X剪切图片，右键设置…",
-      "category": "PPT 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-ppt-004-插入多张.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "Gemini+NotebookLM",
-      "link": "/tools/ppt/006-Gemini-NotebookLM",
-      "excerpt": "把一堆资料结构化形成PPT",
-      "category": "PPT 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-ppt-006-Gemini-NotebookLM.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "解决Genspark生成PPT后需要付费下载的问题",
-      "link": "/tools/ppt/007-解决Genspark生成PPT后需要付费下载的问题",
-      "excerpt": "解决高质量PPT付费下载",
-      "category": "PPT 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-ppt-007-解决Genspark生成PPT后需要付费下载的问题.jpg",
-      "mediaType": "",
-      "mediaUrl": ""
-    },
-    {
-      "title": "WPS/PPT 后期排版标准化",
-      "link": "/tools/ppt/008-WPS-PPT-后期排版标准化",
-      "excerpt": "1、解决PPT页面高度不一致的问题 2、消除PPT页面中背景虚线网格问题",
-      "category": "PPT 技巧",
-      "date": "",
-      "cover": "/media/images/covers/tools-ppt-008-WPS-PPT-后期排版标准化.jpg",
       "mediaType": "",
       "mediaUrl": ""
     },
@@ -2678,6 +2018,666 @@
       "category": "旅游攻略",
       "date": "",
       "cover": "/media/images/covers/life-travel-016-广东潮汕.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "建立个人网站",
+      "link": "/tools/ai/035-建立个人网站",
+      "excerpt": "使用GitHub+Hexo搭建个人博客网站",
+      "category": "AI 工具库",
+      "date": "",
+      "cover": "/media/images/covers/tools-ai-035-建立个人网站.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "个人演示工作平台",
+      "link": "/tools/ai/056-个人演示工作平台",
+      "excerpt": "文件及网页",
+      "category": "AI 工具库",
+      "date": "",
+      "cover": "/media/images/covers/tools-ai-056-个人演示工作平台.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "百分比数据条",
+      "link": "/tools/excel/001-百分比数据条",
+      "excerpt": "数据条根据数据改动而变动 工具栏选择数字、 百分比，选择要保留的小数位数，工具栏条件格式，数据条，其它规则，选择数字，最小值和最大值设置（0-1）渐变填充，选择颜色，确定即完成",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-001-百分比数据条.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "筛选数据",
+      "link": "/tools/excel/002-筛选数据",
+      "excerpt": "Ctrl+A全选表格，再按Ctrl+T美化表格，点击插入切片器，选择对应的筛选对象即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-002-筛选数据.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "电子印章",
+      "link": "/tools/excel/003-电子印章",
+      "excerpt": "空白表格点插入形状，选择圆形，按住shift拖动鼠标拉出一个正圆形，鼠标右击设置为无填充颜色，边框设置为印章的边框颜色，粗细设置为3磅，插入艺术字，输入公司名称，点击效果，选择转换，选择上弯弧，拖动调整弧度适宜，设置字体印章颜色，插入对应…",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-003-电子印章.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "冻结表格首尾行",
+      "link": "/tools/excel/004-冻结表格首尾行",
+      "excerpt": "Ctrl+t创建超级表，往下拉选中尾行数据，菜单栏中选择视图，选择窗口，点击拆分即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-004-冻结表格首尾行.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一张表中有多个表格在单张表中插入行 （插入表格不变形）",
+      "link": "/tools/excel/005-一张表中有多个表格在单张表中插入行",
+      "excerpt": "首先选中需要插入列的前面一列，按住shift光标放在该列的右下角，按住鼠标左键向右拖动，想插几列拖几列",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-005-一张表中有多个表格在单张表中插入行.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "二维码制作",
+      "link": "/tools/excel/006-二维码制作",
+      "excerpt": "点击插入，右上角选择更多素材，选择二维码，根据需求选择需要包含的内容即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-006-二维码制作.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "下拉填充序号 删除行解决错乱问题",
+      "link": "/tools/excel/007-下拉填充序号",
+      "excerpt": "输入函数=SEQUENCE（10000,1,1,1） 选中序号列，输入=ROW（）-1，然后按Ctrl+Enter一键填充，即使删除序号也能自动更新",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-007-下拉填充序号.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "合并单元格序号",
+      "link": "/tools/excel/008-合并单元格序号",
+      "excerpt": "选中需要填充序号的单元格，输入=MAX(A$1:A1)+1,按Ctrl+Enter",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-008-合并单元格序号.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "隔行添加序号",
+      "link": "/tools/excel/009-隔行添加序号",
+      "excerpt": "选中序号列，按Ctrl+G，定位空值，在第一个单元格内输入=N（A1）+1按Ctrl+Enter即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-009-隔行添加序号.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "解决多个文字名称拆分到列",
+      "link": "/tools/excel/010-解决多个文字名称拆分到列",
+      "excerpt": "单元格输入=textsplit（）选择全部文字所在的单元格，加上2个英文逗号，输入双引号顿号双引号，回车确定即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-010-解决多个文字名称拆分到列.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "核对数据",
+      "link": "/tools/excel/011-核对数据",
+      "excerpt": "列不同Ctrl+G，行差异再定位，标高光 表不同用Ctrl+c复制，粘贴时选择减，0除外",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-011-核对数据.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "文件夹侧标签",
+      "link": "/tools/excel/012-文件夹侧标签",
+      "excerpt": "全选文字加粗，点击边框添加所有框线，在字体前输入@符号回车，设置列宽改为30厘米，行高改为5厘米，最后ctrl+1摄者单元格格式，选择分散对齐即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-012-文件夹侧标签.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "表格美化",
+      "link": "/tools/excel/013-表格美化",
+      "excerpt": "Ctrl+t建立超级表",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-013-表格美化.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一键求和",
+      "link": "/tools/excel/014-一键求和",
+      "excerpt": "全选按住Alt+=",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-014-一键求和.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一键图表",
+      "link": "/tools/excel/015-一键图表",
+      "excerpt": "全选Alt+F1",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-015-一键图表.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一键找不同",
+      "link": "/tools/excel/016-一键找不同",
+      "excerpt": "Ctrl+反斜杠",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-016-一键找不同.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "文字和数据混合，一秒提取数据",
+      "link": "/tools/excel/017-文字和数据混合-一秒提取数据",
+      "excerpt": "手动提取一个数据，然后按Ctrl+E智能填充",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-017-文字和数据混合-一秒提取数据.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "日期星期时间",
+      "link": "/tools/excel/018-日期星期时间",
+      "excerpt": "rq/xq/sj",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-018-日期星期时间.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "随机选择小程序",
+      "link": "/tools/excel/019-随机选择小程序",
+      "excerpt": "表格中全部人员名单，在旁边输入公式=INDIRECT('a'&RANDBETWEEN(1,10)),1,10表示随机抽取区间，按F9即可抽取",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-019-随机选择小程序.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一键智能提取数据",
+      "link": "/tools/excel/020-一键智能提取数据",
+      "excerpt": "Ctrl+E",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-020-一键智能提取数据.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一键输入当前日期",
+      "link": "/tools/excel/021-一键输入当前日期",
+      "excerpt": "Ctrl+；（分号）",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-021-一键输入当前日期.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一键输入当前时间",
+      "link": "/tools/excel/022-一键输入当前时间",
+      "excerpt": "Ctrl+shift+；（分号）",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-022-一键输入当前时间.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一秒去除小数点",
+      "link": "/tools/excel/023-一秒去除小数点",
+      "excerpt": "Ctrl+shift+1",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-023-一秒去除小数点.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一秒转换时间格式",
+      "link": "/tools/excel/024-一秒转换时间格式",
+      "excerpt": "Ctrl+shift+2",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-024-一秒转换时间格式.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一秒转换日期格式",
+      "link": "/tools/excel/025-一秒转换日期格式",
+      "excerpt": "Ctrl+shift+3",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-025-一秒转换日期格式.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一秒转换货币格式",
+      "link": "/tools/excel/026-一秒转换货币格式",
+      "excerpt": "Ctrl+shift+4",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-026-一秒转换货币格式.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "一秒转换百分比格式",
+      "link": "/tools/excel/027-一秒转换百分比格式",
+      "excerpt": "Ctrl+shift+5",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-027-一秒转换百分比格式.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "转置表格（横表变竖表）",
+      "link": "/tools/excel/028-转置表格-横表变竖表",
+      "excerpt": "全选表格，复制然后在空白处右键，选择性粘贴，点击转置即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-028-转置表格-横表变竖表.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "固定表头",
+      "link": "/tools/excel/029-固定表头",
+      "excerpt": "视图选项卡，根据需求选择冻结的首和列",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-029-固定表头.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "批量重命名图片",
+      "link": "/tools/excel/030-批量重命名图片",
+      "excerpt": "Ctrl+A全选，按F2命名其中一张图片，回车",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-030-批量重命名图片.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "条目 31",
+      "link": "/tools/excel/031-条目-31",
+      "excerpt": "知识库目录表中的C4-C12列的数据，如何与本表中其它对应分表中A3以后的数据分别相等，以实现目录表中的数据随分表序号中的数据变化自动更新",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-031-条目-31.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "图片批量整齐嵌入单元格",
+      "link": "/tools/excel/032-图片批量整齐嵌入单元格",
+      "excerpt": "先把图片全部导入，全选后右键，找到大小和属性，关闭锁定纵横比，高度、宽度调整为单元格大小，点击最后一张图片，移动到最后一个边框单元格，按住Alt键吸附边框，最后再把图片全选，找到对齐，点击左对齐，再点击对齐，好到纵向分布即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-032-图片批量整齐嵌入单元格.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "统计区间内的个数",
+      "link": "/tools/excel/033-统计区间内的个数",
+      "excerpt": "在需要统计的区间内输入函数=frequency(),第一个参数选择对象数列，输入逗号，大括号内输入区间值，逗号隔开，回车即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-033-统计区间内的个数.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "AI图表生成各类柱状图饼状图等(Google Colab)",
+      "link": "/tools/excel/034-AI图表生成各类柱状图饼状图等-Google-Colab",
+      "excerpt": "先准确表述需求，再用GPT生成代码（deepseek），后到谷歌免费在线Python环境生成（https://colab.research.google.com/） 1、打开 Google Colab (https://colab.res…",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "数据分列",
+      "link": "/tools/excel/034-数据分列",
+      "excerpt": "选中要将一列数据分列成若干列的数据，选择顶部菜单栏中的数据，选择分列或文本分列，选择分隔符号，勾选实际使用的分隔符，预览无误，点击确定即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-034-数据分列.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "拆分数据（拆分一个单元格中的若干数据）",
+      "link": "/tools/excel/035-拆分数据-拆分一个单元格中的若干数据",
+      "excerpt": "先正常拆分第一行数据，各自占数据格，然后在第二行按Ctrl+E智能填充",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-035-拆分数据-拆分一个单元格中的若干数据.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "标题合并单元格",
+      "link": "/tools/excel/036-标题合并单元格",
+      "excerpt": "为避免格式错误，合并单元格（特别是设置标题的时候），选中要合并的区域，右键鼠标选择设置单元格格式，选择对齐方式，选择跨列居中，回车即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-036-标题合并单元格.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "图片表格转EXCEL",
+      "link": "/tools/excel/037-图片表格转EXCEL",
+      "excerpt": "https://toexcel.zhiyakeji.com/",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-037-图片表格转EXCEL.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "席位牌",
+      "link": "/tools/excel/038-席位牌",
+      "excerpt": "复制A列名字到B列成两列，修改列宽为50，行高修改为409，字体修改为109，选中A列，文字方向修改为-90°，选中B列，文字方向修改为正90°，纸张方向修改为横向，自定义页边距，左右修改为3厘米，勾选水平和垂直，点击打印预览即可",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-038-席位牌.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "表格求和",
+      "link": "/tools/excel/039-表格求和",
+      "excerpt": "1、整体数据批量求和：选中要求和的数据，按Alt+=； 2、针对分开数据表格（数据不连续，数据之间有单元格的情况）求和：选中数据，按Ctrl+G打开定位，选择空值，回车确定，按Alt+=即可； 3、汇总不同类别的数据：输入=SUM（区域,…",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-039-表格求和.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "同一列数据中，用逗号分开的有两个数据。解决将这两个数据交换位置在同一个单元格。",
+      "link": "/tools/excel/041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格",
+      "excerpt": "在B列单元格输入公式，向下填充即可：=MID(A1,FIND(',',A1)+1,100)&','&LEFT(A1,FIND(',',A1)-1)",
+      "category": "Excel 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-excel-041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "图片批量插入PPT",
+      "link": "/tools/ppt/001-图片批量插入PPT",
+      "excerpt": "点击插入图片，选择分页插图，全选图片即可",
+      "category": "PPT 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-ppt-001-图片批量插入PPT.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "PPT内图片提取",
+      "link": "/tools/ppt/002-PPT内图片提取",
+      "excerpt": "将PPT文件名后缀改为.RAR,然后解压文件，找到PPT文件，打开Media,所有图片就在",
+      "category": "PPT 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-ppt-002-PPT内图片提取.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "PPT备注演讲词",
+      "link": "/tools/ppt/003-PPT备注演讲词",
+      "excerpt": "点击放映里的演讲备注，添加演讲词即可，开启演讲者视图，别人看不到演讲词",
+      "category": "PPT 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-ppt-003-PPT备注演讲词.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "插入多张 不规则图片",
+      "link": "/tools/ppt/004-插入多张",
+      "excerpt": "新建画布，插入文本框，输入短横线，选中文本框，在形状格式中，文本效果，点击转换，选择图形形状（朝鲜鼓），文本选项中调整间距为紧密，度量值3磅，插入矩形，先选中文本框，再选中矩形，形状格式选拆分，复制粘贴图片，C太热了+X剪切图片，右键设置…",
+      "category": "PPT 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-ppt-004-插入多张.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "Gemini+NotebookLM",
+      "link": "/tools/ppt/006-Gemini-NotebookLM",
+      "excerpt": "把一堆资料结构化形成PPT",
+      "category": "PPT 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-ppt-006-Gemini-NotebookLM.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "解决Genspark生成PPT后需要付费下载的问题",
+      "link": "/tools/ppt/007-解决Genspark生成PPT后需要付费下载的问题",
+      "excerpt": "解决高质量PPT付费下载",
+      "category": "PPT 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-ppt-007-解决Genspark生成PPT后需要付费下载的问题.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "WPS/PPT 后期排版标准化",
+      "link": "/tools/ppt/008-WPS-PPT-后期排版标准化",
+      "excerpt": "1、解决PPT页面高度不一致的问题 2、消除PPT页面中背景虚线网格问题",
+      "category": "PPT 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-ppt-008-WPS-PPT-后期排版标准化.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "合同数据对比",
+      "link": "/tools/word/001-合同数据对比",
+      "excerpt": "菜单栏审阅-比较-分别选择两个文档-点击确定即可",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-001-合同数据对比.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "图片打印变清晰",
+      "link": "/tools/word/002-图片打印变清晰",
+      "excerpt": "图片导入到word，布局选项选择浮于文字上方，拖动图片铺满页面，右键设置图片格式，清晰度调整成80%，亮度调整成50%，对比度改100%即可打印（使用快速扫描也可一键完成）",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-002-图片打印变清晰.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "调整字符间距 解决调到下一行导致字符间距变大的问题",
+      "link": "/tools/word/003-调整字符间距",
+      "excerpt": "全选文字，右击选择段落，选择换行和分页，勾选允许西文在单词中间换行，确定即可",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-003-调整字符间距.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "word表格跨页问题解决",
+      "link": "/tools/word/004-word表格跨页问题解决",
+      "excerpt": "全选表格，右击段落，取消勾选段前分页即可",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-004-word表格跨页问题解决.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "组织架构图",
+      "link": "/tools/word/005-组织架构图",
+      "excerpt": "列出组织架构，善用Ctrl和Tab键，全选复制，插入组织图，选择smartart，选取合适的样式即可",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-005-组织架构图.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "删除空白页",
+      "link": "/tools/word/006-删除空白页",
+      "excerpt": "Ctrl+delete Ctrl+Backspace 点击页面，选择删除本节 Ctrl+D打开字体框，隐藏文字勾好",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-006-删除空白页.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "生僻字",
+      "link": "/tools/word/007-生僻字",
+      "excerpt": "U+部首",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-007-生僻字.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "金额大写",
+      "link": "/tools/word/008-金额大写",
+      "excerpt": "V+数字",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-008-金额大写.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "日期星期时间",
+      "link": "/tools/word/009-日期星期时间",
+      "excerpt": "rq/xq/sj",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-009-日期星期时间.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "红头文件 单行内容变双行内容",
+      "link": "/tools/word/010-红头文件",
+      "excerpt": "选中需要双行显示的文字，点击段落，中文版式选择双行合一，确定即可",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-010-红头文件.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "如何拉横向直线",
+      "link": "/tools/word/011-如何拉横向直线",
+      "excerpt": "插入形状，选择直线，按住Shift键，用鼠标即可画一条直线",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-011-如何拉横向直线.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "核对对比合同差异",
+      "link": "/tools/word/012-核对对比合同差异",
+      "excerpt": "点击菜单栏审阅，选择比较并分别选择两个文档并确定即可",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-012-核对对比合同差异.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "Ctrl+U",
+      "link": "/tools/word/013-Ctrl-U",
+      "excerpt": "一秒添加下划线",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-013-Ctrl-U.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "设置上标",
+      "link": "/tools/word/014-设置上标",
+      "excerpt": "ctrl+shift+=",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-014-设置上标.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "设置下标",
+      "link": "/tools/word/015-设置下标",
+      "excerpt": "ctrl+=",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-015-设置下标.jpg",
+      "mediaType": "",
+      "mediaUrl": ""
+    },
+    {
+      "title": "文档拆分表格",
+      "link": "/tools/word/016-文档拆分表格",
+      "excerpt": "ctrl+shift+回车",
+      "category": "Word 技巧",
+      "date": "",
+      "cover": "/media/images/covers/tools-word-016-文档拆分表格.jpg",
       "mediaType": "",
       "mediaUrl": ""
     }

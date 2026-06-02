@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""将个人知识库 Excel 导出为 VitePress Markdown 文档（仅公开内容）。"""
+"""将个人知识库 Excel 导出为 source/docs Markdown（权限由 Web 控制公开范围）。"""
 
 from __future__ import annotations
 
@@ -15,8 +15,8 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCEL = ROOT.parent / "个人知识库2025-2035.xlsx"
-DOCS = ROOT / "docs"
-POSTS_JSON = DOCS / ".vitepress" / "posts.json"
+SOURCE_DOCS = ROOT / "source" / "docs"
+POSTS_JSON = SOURCE_DOCS / ".vitepress" / "posts.json"  # 占位，posts 由 build_public 生成
 
 PUBLIC_SHEETS: dict[str, tuple[str, str, str]] = {
     "cognition/mindset": ("格局提升", "格局提升", "修行、长期主义与内心秩序"),
@@ -97,11 +97,8 @@ def flag_match(value: str, options: set[str]) -> bool:
 
 
 def row_is_published(cells: list[str], get) -> bool:
-    """可选列「删除」「上线/公开」：标记删除或下线的行不会导出。"""
+    """仅尊重「删除」列；公开/非公开由 Web permissions.json 控制。"""
     if flag_match(get(cells, "删除"), DELETE_VALUES):
-        return False
-    pub = get(cells, "上线", "公开", "发布")
-    if pub and flag_match(pub, OFFLINE_VALUES):
         return False
     return True
 
@@ -280,43 +277,31 @@ def cleanup_stale_markdown(cat_dir: Path, keep: set[Path]) -> int:
     return removed
 
 
-def build_sidebar_manifest(categories: dict) -> None:
-    manifest = {"generatedAt": datetime.now().isoformat(), "categories": categories}
-    out = ROOT / "scripts" / "sidebar-data.json"
-    out.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-
-
-def build_posts_manifest(all_posts: list[dict]) -> None:
-    def sort_key(p: dict) -> str:
-        return p.get("date") or "0000-00-00"
-
-    all_posts.sort(key=sort_key, reverse=True)
-    POSTS_JSON.parent.mkdir(parents=True, exist_ok=True)
-    POSTS_JSON.write_text(
-        json.dumps(
-            {"generatedAt": datetime.now().isoformat(), "posts": all_posts},
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
-
-
 def main() -> None:
     if not EXCEL.exists():
         raise SystemExit(f"找不到 Excel: {EXCEL}")
 
+    from permissions_lib import (
+        ensure_permission_entry,
+        load_manifest,
+        load_permissions,
+        save_manifest,
+        save_permissions,
+        slug_from_path,
+        upsert_manifest_entry,
+    )
+
     wb = openpyxl.load_workbook(EXCEL, read_only=True, data_only=True)
     stats: dict[str, int] = {}
-    sidebar: dict = {}
-    all_posts: list[dict] = []
+    perms = load_permissions()
+    manifest = load_manifest()
 
     for slug, (sheet_name, cn_title, desc) in PUBLIC_SHEETS.items():
         if sheet_name not in wb.sheetnames:
             continue
         ws = wb[sheet_name]
         entries = parse_sheet(ws)
-        cat_dir = DOCS / slug.replace("/", "/")
+        cat_dir = SOURCE_DOCS / slug.replace("/", "/")
         items: list[tuple[str, str]] = []
 
         generated: set[Path] = {cat_dir / "index.md"}
@@ -326,7 +311,8 @@ def main() -> None:
             except ValueError:
                 num = i
             fname = slugify(entry["title"], num) + ".md"
-            rel = f"/{slug}/{fname.replace('.md', '')}"
+            rel = f"{slug}/{fname}"
+            link_slug = f"/{slug}/{fname.replace('.md', '')}"
             md_path = cat_dir / fname
             generated.add(md_path)
             existing = read_existing_frontmatter(md_path)
@@ -337,38 +323,33 @@ def main() -> None:
             if not entry["mediaUrl"] and existing.get("mediaUrl"):
                 entry["mediaUrl"] = existing["mediaUrl"]
             write_entry(md_path, entry, cn_title, slug)
-            items.append((entry["title"].split("\n")[0], rel))
-            all_posts.append(
-                {
-                    "title": entry["title"].split("\n")[0],
-                    "link": rel,
-                    "excerpt": make_excerpt(entry["content"]),
-                    "category": cn_title,
-                    "date": entry["date"],
-                    "cover": entry["cover"],
-                    "mediaType": entry["mediaType"],
-                    "mediaUrl": entry["mediaUrl"],
-                }
+            items.append((entry["title"].split("\n")[0], link_slug))
+            upsert_manifest_entry(
+                manifest,
+                link_slug,
+                entry["title"].split("\n")[0],
+                cn_title,
+                "excel",
+                rel,
             )
+            ensure_permission_entry(perms, link_slug, "excel")
 
         write_index(cat_dir / "index.md", cn_title, desc, items)
         removed = cleanup_stale_markdown(cat_dir, generated)
         stats[slug] = len(entries)
-        sidebar[slug] = {"title": cn_title, "items": [{"text": t, "link": l} for t, l in items]}
         if removed:
-            print(f"  {slug}: 清理 {removed} 个已下线/已删条目")
+            print(f"  {slug}: 清理 {removed} 个已删条目")
 
     wb.close()
-    build_sidebar_manifest(sidebar)
-    build_posts_manifest(all_posts)
+    save_manifest(manifest)
+    save_permissions(perms)
 
     total = sum(stats.values())
-    print("导出完成:")
+    print("导出到 source/docs 完成:")
     for k, v in stats.items():
         print(f"  {k}: {v}")
     print(f"  合计: {total}")
-    print(f"  posts.json: {len(all_posts)} 条")
-    print("  index.md: 已跳过（首页为定制模板）")
+    print("  下一步: python scripts/build_public.py")
 
 
 if __name__ == "__main__":

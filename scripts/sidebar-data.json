@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-06-01T15:16:37.535459",
+  "generatedAt": "2026-06-02T11:08:11.686028",
   "categories": {
-    "cognition/mindset": {
+    "/cognition/insight/": {
+      "title": "人性洞察",
+      "items": [
+        {
+          "text": "尊重人性为先",
+          "link": "/cognition/insight/001-尊重人性为先"
+        },
+        {
+          "text": "因果",
+          "link": "/cognition/insight/002-因果"
+        },
+        {
+          "text": "职场画饼",
+          "link": "/cognition/insight/003-职场画饼"
+        },
+        {
+          "text": "职场能力",
+          "link": "/cognition/insight/004-职场能力"
+        },
+        {
+          "text": "功亏一篑",
+          "link": "/cognition/insight/005-功亏一篑"
+        },
+        {
+          "text": "待人",
+          "link": "/cognition/insight/006-待人"
+        },
+        {
+          "text": "看破",
+          "link": "/cognition/insight/007-看破"
+        },
+        {
+          "text": "职场是非",
+          "link": "/cognition/insight/008-职场是非"
+        },
+        {
+          "text": "认知水平",
+          "link": "/cognition/insight/009-认知水平"
+        },
+        {
+          "text": "原则立场",
+          "link": "/cognition/insight/010-原则立场"
+        },
+        {
+          "text": "负面诋毁",
+          "link": "/cognition/insight/011-负面诋毁"
+        },
+        {
+          "text": "看人下菜",
+          "link": "/cognition/insight/012-看人下菜"
+        },
+        {
+          "text": "原则底线",
+          "link": "/cognition/insight/013-原则底线"
+        },
+        {
+          "text": "2025年对自己的总结",
+          "link": "/cognition/insight/014-2025年对自己的总结"
+        },
+        {
+          "text": "关于决断力",
+          "link": "/cognition/insight/015-关于决断力"
+        },
+        {
+          "text": "关于心理优势",
+          "link": "/cognition/insight/016-关于心理优势"
+        },
+        {
+          "text": "关于为人处事",
+          "link": "/cognition/insight/017-关于为人处事"
+        },
+        {
+          "text": "关于内耗",
+          "link": "/cognition/insight/018-关于内耗"
+        }
+      ]
+    },
+    "/cognition/mindset/": {
       "title": "格局提升",
       "items": [
         {
@@ -69,7 +146,7 @@
           "link": "/cognition/mindset/016-个人价值"
         },
         {
-          "text": "意志恒心",
+          "text": "意志恒心 To be a better man",
           "link": "/cognition/mindset/017-意志恒心"
         },
         {
@@ -77,7 +154,7 @@
           "link": "/cognition/mindset/018-允许一切发生"
         },
         {
-          "text": "未来十年",
+          "text": "未来十年 2025-2035",
           "link": "/cognition/mindset/019-未来十年"
         },
         {
@@ -210,596 +287,7 @@
         }
       ]
     },
-    "cognition/insight": {
-      "title": "人性洞察",
-      "items": [
-        {
-          "text": "尊重人性为先",
-          "link": "/cognition/insight/001-尊重人性为先"
-        },
-        {
-          "text": "因果",
-          "link": "/cognition/insight/002-因果"
-        },
-        {
-          "text": "职场画饼",
-          "link": "/cognition/insight/003-职场画饼"
-        },
-        {
-          "text": "职场能力",
-          "link": "/cognition/insight/004-职场能力"
-        },
-        {
-          "text": "功亏一篑",
-          "link": "/cognition/insight/005-功亏一篑"
-        },
-        {
-          "text": "待人",
-          "link": "/cognition/insight/006-待人"
-        },
-        {
-          "text": "看破",
-          "link": "/cognition/insight/007-看破"
-        },
-        {
-          "text": "职场是非",
-          "link": "/cognition/insight/008-职场是非"
-        },
-        {
-          "text": "认知水平",
-          "link": "/cognition/insight/009-认知水平"
-        },
-        {
-          "text": "原则立场",
-          "link": "/cognition/insight/010-原则立场"
-        },
-        {
-          "text": "负面诋毁",
-          "link": "/cognition/insight/011-负面诋毁"
-        },
-        {
-          "text": "看人下菜",
-          "link": "/cognition/insight/012-看人下菜"
-        },
-        {
-          "text": "原则底线",
-          "link": "/cognition/insight/013-原则底线"
-        },
-        {
-          "text": "2025年对自己的总结",
-          "link": "/cognition/insight/014-2025年对自己的总结"
-        },
-        {
-          "text": "关于决断力",
-          "link": "/cognition/insight/015-关于决断力"
-        },
-        {
-          "text": "关于心理优势",
-          "link": "/cognition/insight/016-关于心理优势"
-        },
-        {
-          "text": "关于为人处事",
-          "link": "/cognition/insight/017-关于为人处事"
-        },
-        {
-          "text": "关于内耗",
-          "link": "/cognition/insight/018-关于内耗"
-        }
-      ]
-    },
-    "tools/ai": {
-      "title": "AI 工具库",
-      "items": [
-        {
-          "text": "Genspark超级智能体",
-          "link": "/tools/ai/001-Genspark超级智能体"
-        },
-        {
-          "text": "Gammas",
-          "link": "/tools/ai/002-Gammas"
-        },
-        {
-          "text": "remove",
-          "link": "/tools/ai/003-remove"
-        },
-        {
-          "text": "导出Markdown为PDF",
-          "link": "/tools/ai/004-导出Markdown为PDF"
-        },
-        {
-          "text": "导出Markdown为PDF",
-          "link": "/tools/ai/005-导出Markdown为PDF"
-        },
-        {
-          "text": "Visual Studio Code",
-          "link": "/tools/ai/006-Visual-Studio-Code"
-        },
-        {
-          "text": "Atom",
-          "link": "/tools/ai/007-Atom"
-        },
-        {
-          "text": "MD2card（文本美化）",
-          "link": "/tools/ai/008-MD2card-文本美化"
-        },
-        {
-          "text": "AlgerMusicPlayer",
-          "link": "/tools/ai/009-AlgerMusicPlayer"
-        },
-        {
-          "text": "文字配音",
-          "link": "/tools/ai/010-文字配音"
-        },
-        {
-          "text": "录制工具",
-          "link": "/tools/ai/011-录制工具"
-        },
-        {
-          "text": "Markdown海报生成器",
-          "link": "/tools/ai/012-Markdown海报生成器"
-        },
-        {
-          "text": "读典籍",
-          "link": "/tools/ai/013-读典籍"
-        },
-        {
-          "text": "Pexels",
-          "link": "/tools/ai/014-Pexels"
-        },
-        {
-          "text": "Pixabay",
-          "link": "/tools/ai/015-Pixabay"
-        },
-        {
-          "text": "Unsplash",
-          "link": "/tools/ai/016-Unsplash"
-        },
-        {
-          "text": "视觉狩猎",
-          "link": "/tools/ai/017-视觉狩猎"
-        },
-        {
-          "text": "Cupcake",
-          "link": "/tools/ai/018-Cupcake"
-        },
-        {
-          "text": "Photock",
-          "link": "/tools/ai/019-Photock"
-        },
-        {
-          "text": "pngimg",
-          "link": "/tools/ai/020-pngimg"
-        },
-        {
-          "text": "DesignersPics",
-          "link": "/tools/ai/021-DesignersPics"
-        },
-        {
-          "text": "kaboompics",
-          "link": "/tools/ai/022-kaboompics"
-        },
-        {
-          "text": "Picjumbo",
-          "link": "/tools/ai/023-Picjumbo"
-        },
-        {
-          "text": "freeimages",
-          "link": "/tools/ai/024-freeimages"
-        },
-        {
-          "text": "插画动画下载 - Storyset",
-          "link": "/tools/ai/025-插画动画下载-Storyset"
-        },
-        {
-          "text": "主流AI-Genspark超级智能体",
-          "link": "/tools/ai/026-主流AI-Genspark超级智能体"
-        },
-        {
-          "text": "主流AI-扣子空间",
-          "link": "/tools/ai/027-主流AI-扣子空间"
-        },
-        {
-          "text": "主流AI-Manus",
-          "link": "/tools/ai/028-主流AI-Manus"
-        },
-        {
-          "text": "主流AI-MiniMax Agent",
-          "link": "/tools/ai/029-主流AI-MiniMax-Agent"
-        },
-        {
-          "text": "主流AI-Flowith Neo",
-          "link": "/tools/ai/030-主流AI-Flowith-Neo"
-        },
-        {
-          "text": "问小白客户端",
-          "link": "/tools/ai/031-问小白客户端"
-        },
-        {
-          "text": "微信公众号Markdown编辑器",
-          "link": "/tools/ai/032-微信公众号Markdown编辑器"
-        },
-        {
-          "text": "AI流程图",
-          "link": "/tools/ai/033-AI流程图"
-        },
-        {
-          "text": "Flourish",
-          "link": "/tools/ai/034-Flourish"
-        },
-        {
-          "text": "建立个人网站",
-          "link": "/tools/ai/035-建立个人网站"
-        },
-        {
-          "text": "任务理解与拆解",
-          "link": "/tools/ai/036-任务理解与拆解"
-        },
-        {
-          "text": "Cursor",
-          "link": "/tools/ai/037-Cursor"
-        },
-        {
-          "text": "Logo master Ai",
-          "link": "/tools/ai/038-Logo-master-Ai"
-        },
-        {
-          "text": "格式转换",
-          "link": "/tools/ai/039-格式转换"
-        },
-        {
-          "text": "Grok Ai",
-          "link": "/tools/ai/040-Grok-Ai"
-        },
-        {
-          "text": "ideogram Ai",
-          "link": "/tools/ai/041-ideogram-Ai"
-        },
-        {
-          "text": "Perplexity Ai",
-          "link": "/tools/ai/042-Perplexity-Ai"
-        },
-        {
-          "text": "Proactor AI",
-          "link": "/tools/ai/043-Proactor-AI"
-        },
-        {
-          "text": "豆包Ai",
-          "link": "/tools/ai/044-豆包Ai"
-        },
-        {
-          "text": "deepseek",
-          "link": "/tools/ai/045-deepseek"
-        },
-        {
-          "text": "即梦Ai",
-          "link": "/tools/ai/046-即梦Ai"
-        },
-        {
-          "text": "可灵Ai",
-          "link": "/tools/ai/047-可灵Ai"
-        },
-        {
-          "text": "千问Ai",
-          "link": "/tools/ai/048-千问Ai"
-        },
-        {
-          "text": "Kimi Ai",
-          "link": "/tools/ai/049-Kimi-Ai"
-        },
-        {
-          "text": "Suno Ai",
-          "link": "/tools/ai/050-Suno-Ai"
-        },
-        {
-          "text": "Cursor Ai",
-          "link": "/tools/ai/051-Cursor-Ai"
-        },
-        {
-          "text": "Google Gemini Ai",
-          "link": "/tools/ai/052-Google-Gemini-Ai"
-        },
-        {
-          "text": "AI生成3D可视化图表",
-          "link": "/tools/ai/053-AI生成3D可视化图表"
-        },
-        {
-          "text": "Python开发代码环境",
-          "link": "/tools/ai/054-Python开发代码环境"
-        },
-        {
-          "text": "利用谷歌colab直接生成",
-          "link": "/tools/ai/055-利用谷歌colab直接生成"
-        },
-        {
-          "text": "个人演示工作平台",
-          "link": "/tools/ai/056-个人演示工作平台"
-        },
-        {
-          "text": "谷歌编程（Google Antigravity）",
-          "link": "/tools/ai/057-谷歌编程-Google-Antigravity"
-        },
-        {
-          "text": "声音克隆",
-          "link": "/tools/ai/058-声音克隆"
-        }
-      ]
-    },
-    "tools/excel": {
-      "title": "Excel 技巧",
-      "items": [
-        {
-          "text": "百分比数据条",
-          "link": "/tools/excel/001-百分比数据条"
-        },
-        {
-          "text": "筛选数据",
-          "link": "/tools/excel/002-筛选数据"
-        },
-        {
-          "text": "电子印章",
-          "link": "/tools/excel/003-电子印章"
-        },
-        {
-          "text": "冻结表格首尾行",
-          "link": "/tools/excel/004-冻结表格首尾行"
-        },
-        {
-          "text": "一张表中有多个表格在单张表中插入行",
-          "link": "/tools/excel/005-一张表中有多个表格在单张表中插入行"
-        },
-        {
-          "text": "二维码制作",
-          "link": "/tools/excel/006-二维码制作"
-        },
-        {
-          "text": "下拉填充序号",
-          "link": "/tools/excel/007-下拉填充序号"
-        },
-        {
-          "text": "合并单元格序号",
-          "link": "/tools/excel/008-合并单元格序号"
-        },
-        {
-          "text": "隔行添加序号",
-          "link": "/tools/excel/009-隔行添加序号"
-        },
-        {
-          "text": "解决多个文字名称拆分到列",
-          "link": "/tools/excel/010-解决多个文字名称拆分到列"
-        },
-        {
-          "text": "核对数据",
-          "link": "/tools/excel/011-核对数据"
-        },
-        {
-          "text": "文件夹侧标签",
-          "link": "/tools/excel/012-文件夹侧标签"
-        },
-        {
-          "text": "表格美化",
-          "link": "/tools/excel/013-表格美化"
-        },
-        {
-          "text": "一键求和",
-          "link": "/tools/excel/014-一键求和"
-        },
-        {
-          "text": "一键图表",
-          "link": "/tools/excel/015-一键图表"
-        },
-        {
-          "text": "一键找不同",
-          "link": "/tools/excel/016-一键找不同"
-        },
-        {
-          "text": "文字和数据混合，一秒提取数据",
-          "link": "/tools/excel/017-文字和数据混合-一秒提取数据"
-        },
-        {
-          "text": "日期星期时间",
-          "link": "/tools/excel/018-日期星期时间"
-        },
-        {
-          "text": "随机选择小程序",
-          "link": "/tools/excel/019-随机选择小程序"
-        },
-        {
-          "text": "一键智能提取数据",
-          "link": "/tools/excel/020-一键智能提取数据"
-        },
-        {
-          "text": "一键输入当前日期",
-          "link": "/tools/excel/021-一键输入当前日期"
-        },
-        {
-          "text": "一键输入当前时间",
-          "link": "/tools/excel/022-一键输入当前时间"
-        },
-        {
-          "text": "一秒去除小数点",
-          "link": "/tools/excel/023-一秒去除小数点"
-        },
-        {
-          "text": "一秒转换时间格式",
-          "link": "/tools/excel/024-一秒转换时间格式"
-        },
-        {
-          "text": "一秒转换日期格式",
-          "link": "/tools/excel/025-一秒转换日期格式"
-        },
-        {
-          "text": "一秒转换货币格式",
-          "link": "/tools/excel/026-一秒转换货币格式"
-        },
-        {
-          "text": "一秒转换百分比格式",
-          "link": "/tools/excel/027-一秒转换百分比格式"
-        },
-        {
-          "text": "转置表格（横表变竖表）",
-          "link": "/tools/excel/028-转置表格-横表变竖表"
-        },
-        {
-          "text": "固定表头",
-          "link": "/tools/excel/029-固定表头"
-        },
-        {
-          "text": "批量重命名图片",
-          "link": "/tools/excel/030-批量重命名图片"
-        },
-        {
-          "text": "条目 31",
-          "link": "/tools/excel/031-条目-31"
-        },
-        {
-          "text": "图片批量整齐嵌入单元格",
-          "link": "/tools/excel/032-图片批量整齐嵌入单元格"
-        },
-        {
-          "text": "统计区间内的个数",
-          "link": "/tools/excel/033-统计区间内的个数"
-        },
-        {
-          "text": "数据分列",
-          "link": "/tools/excel/034-数据分列"
-        },
-        {
-          "text": "拆分数据（拆分一个单元格中的若干数据）",
-          "link": "/tools/excel/035-拆分数据-拆分一个单元格中的若干数据"
-        },
-        {
-          "text": "标题合并单元格",
-          "link": "/tools/excel/036-标题合并单元格"
-        },
-        {
-          "text": "图片表格转EXCEL",
-          "link": "/tools/excel/037-图片表格转EXCEL"
-        },
-        {
-          "text": "席位牌",
-          "link": "/tools/excel/038-席位牌"
-        },
-        {
-          "text": "表格求和",
-          "link": "/tools/excel/039-表格求和"
-        },
-        {
-          "text": "AI图表生成各类柱状图饼状图等(Google Colab)",
-          "link": "/tools/excel/034-AI图表生成各类柱状图饼状图等-Google-Colab"
-        },
-        {
-          "text": "同一列数据中，用逗号分开的有两个数据。解决将这两个数据交换位置在同一个单元格。",
-          "link": "/tools/excel/041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格"
-        }
-      ]
-    },
-    "tools/word": {
-      "title": "Word 技巧",
-      "items": [
-        {
-          "text": "合同数据对比",
-          "link": "/tools/word/001-合同数据对比"
-        },
-        {
-          "text": "图片打印变清晰",
-          "link": "/tools/word/002-图片打印变清晰"
-        },
-        {
-          "text": "调整字符间距",
-          "link": "/tools/word/003-调整字符间距"
-        },
-        {
-          "text": "word表格跨页问题解决",
-          "link": "/tools/word/004-word表格跨页问题解决"
-        },
-        {
-          "text": "组织架构图",
-          "link": "/tools/word/005-组织架构图"
-        },
-        {
-          "text": "删除空白页",
-          "link": "/tools/word/006-删除空白页"
-        },
-        {
-          "text": "生僻字",
-          "link": "/tools/word/007-生僻字"
-        },
-        {
-          "text": "金额大写",
-          "link": "/tools/word/008-金额大写"
-        },
-        {
-          "text": "日期星期时间",
-          "link": "/tools/word/009-日期星期时间"
-        },
-        {
-          "text": "红头文件",
-          "link": "/tools/word/010-红头文件"
-        },
-        {
-          "text": "如何拉横向直线",
-          "link": "/tools/word/011-如何拉横向直线"
-        },
-        {
-          "text": "核对对比合同差异",
-          "link": "/tools/word/012-核对对比合同差异"
-        },
-        {
-          "text": "Ctrl+U",
-          "link": "/tools/word/013-Ctrl-U"
-        },
-        {
-          "text": "设置上标",
-          "link": "/tools/word/014-设置上标"
-        },
-        {
-          "text": "设置下标",
-          "link": "/tools/word/015-设置下标"
-        },
-        {
-          "text": "文档拆分表格",
-          "link": "/tools/word/016-文档拆分表格"
-        }
-      ]
-    },
-    "tools/ppt": {
-      "title": "PPT 技巧",
-      "items": [
-        {
-          "text": "图片批量插入PPT",
-          "link": "/tools/ppt/001-图片批量插入PPT"
-        },
-        {
-          "text": "PPT内图片提取",
-          "link": "/tools/ppt/002-PPT内图片提取"
-        },
-        {
-          "text": "PPT备注演讲词",
-          "link": "/tools/ppt/003-PPT备注演讲词"
-        },
-        {
-          "text": "插入多张",
-          "link": "/tools/ppt/004-插入多张"
-        },
-        {
-          "text": "Napkin Ai",
-          "link": "/tools/ppt/005-Napkin-Ai"
-        },
-        {
-          "text": "Gemini+NotebookLM",
-          "link": "/tools/ppt/006-Gemini-NotebookLM"
-        },
-        {
-          "text": "解决Genspark生成PPT后需要付费下载的问题",
-          "link": "/tools/ppt/007-解决Genspark生成PPT后需要付费下载的问题"
-        },
-        {
-          "text": "WPS/PPT 后期排版标准化",
-          "link": "/tools/ppt/008-WPS-PPT-后期排版标准化"
-        }
-      ]
-    },
-    "life/daily": {
+    "/life/daily/": {
       "title": "日常生活",
       "items": [
         {
@@ -1044,7 +532,7 @@
         }
       ]
     },
-    "life/travel": {
+    "/life/travel/": {
       "title": "旅游攻略",
       "items": [
         {
@@ -1110,6 +598,518 @@
         {
           "text": "广东潮汕",
           "link": "/life/travel/016-广东潮汕"
+        }
+      ]
+    },
+    "/tools/ai/": {
+      "title": "AI 工具库",
+      "items": [
+        {
+          "text": "Genspark超级智能体",
+          "link": "/tools/ai/001-Genspark超级智能体"
+        },
+        {
+          "text": "Gammas",
+          "link": "/tools/ai/002-Gammas"
+        },
+        {
+          "text": "remove",
+          "link": "/tools/ai/003-remove"
+        },
+        {
+          "text": "导出Markdown为PDF",
+          "link": "/tools/ai/004-导出Markdown为PDF"
+        },
+        {
+          "text": "导出Markdown为PDF",
+          "link": "/tools/ai/005-导出Markdown为PDF"
+        },
+        {
+          "text": "Visual Studio Code",
+          "link": "/tools/ai/006-Visual-Studio-Code"
+        },
+        {
+          "text": "Atom",
+          "link": "/tools/ai/007-Atom"
+        },
+        {
+          "text": "MD2card（文本美化） 海报生成器",
+          "link": "/tools/ai/008-MD2card-文本美化"
+        },
+        {
+          "text": "AlgerMusicPlayer",
+          "link": "/tools/ai/009-AlgerMusicPlayer"
+        },
+        {
+          "text": "文字配音",
+          "link": "/tools/ai/010-文字配音"
+        },
+        {
+          "text": "录制工具",
+          "link": "/tools/ai/011-录制工具"
+        },
+        {
+          "text": "Markdown海报生成器",
+          "link": "/tools/ai/012-Markdown海报生成器"
+        },
+        {
+          "text": "读典籍",
+          "link": "/tools/ai/013-读典籍"
+        },
+        {
+          "text": "Pexels",
+          "link": "/tools/ai/014-Pexels"
+        },
+        {
+          "text": "Pixabay",
+          "link": "/tools/ai/015-Pixabay"
+        },
+        {
+          "text": "Unsplash",
+          "link": "/tools/ai/016-Unsplash"
+        },
+        {
+          "text": "视觉狩猎",
+          "link": "/tools/ai/017-视觉狩猎"
+        },
+        {
+          "text": "Cupcake",
+          "link": "/tools/ai/018-Cupcake"
+        },
+        {
+          "text": "Photock",
+          "link": "/tools/ai/019-Photock"
+        },
+        {
+          "text": "pngimg",
+          "link": "/tools/ai/020-pngimg"
+        },
+        {
+          "text": "DesignersPics",
+          "link": "/tools/ai/021-DesignersPics"
+        },
+        {
+          "text": "kaboompics",
+          "link": "/tools/ai/022-kaboompics"
+        },
+        {
+          "text": "Picjumbo",
+          "link": "/tools/ai/023-Picjumbo"
+        },
+        {
+          "text": "freeimages",
+          "link": "/tools/ai/024-freeimages"
+        },
+        {
+          "text": "插画动画下载 - Storyset",
+          "link": "/tools/ai/025-插画动画下载-Storyset"
+        },
+        {
+          "text": "主流AI-Genspark超级智能体",
+          "link": "/tools/ai/026-主流AI-Genspark超级智能体"
+        },
+        {
+          "text": "主流AI-扣子空间",
+          "link": "/tools/ai/027-主流AI-扣子空间"
+        },
+        {
+          "text": "主流AI-Manus",
+          "link": "/tools/ai/028-主流AI-Manus"
+        },
+        {
+          "text": "主流AI-MiniMax Agent",
+          "link": "/tools/ai/029-主流AI-MiniMax-Agent"
+        },
+        {
+          "text": "主流AI-Flowith Neo",
+          "link": "/tools/ai/030-主流AI-Flowith-Neo"
+        },
+        {
+          "text": "问小白客户端",
+          "link": "/tools/ai/031-问小白客户端"
+        },
+        {
+          "text": "微信公众号Markdown编辑器",
+          "link": "/tools/ai/032-微信公众号Markdown编辑器"
+        },
+        {
+          "text": "AI流程图",
+          "link": "/tools/ai/033-AI流程图"
+        },
+        {
+          "text": "Flourish",
+          "link": "/tools/ai/034-Flourish"
+        },
+        {
+          "text": "建立个人网站",
+          "link": "/tools/ai/035-建立个人网站"
+        },
+        {
+          "text": "任务理解与拆解",
+          "link": "/tools/ai/036-任务理解与拆解"
+        },
+        {
+          "text": "Cursor",
+          "link": "/tools/ai/037-Cursor"
+        },
+        {
+          "text": "Logo master Ai",
+          "link": "/tools/ai/038-Logo-master-Ai"
+        },
+        {
+          "text": "格式转换",
+          "link": "/tools/ai/039-格式转换"
+        },
+        {
+          "text": "Grok Ai",
+          "link": "/tools/ai/040-Grok-Ai"
+        },
+        {
+          "text": "ideogram Ai",
+          "link": "/tools/ai/041-ideogram-Ai"
+        },
+        {
+          "text": "Perplexity Ai",
+          "link": "/tools/ai/042-Perplexity-Ai"
+        },
+        {
+          "text": "Proactor AI",
+          "link": "/tools/ai/043-Proactor-AI"
+        },
+        {
+          "text": "豆包Ai",
+          "link": "/tools/ai/044-豆包Ai"
+        },
+        {
+          "text": "deepseek",
+          "link": "/tools/ai/045-deepseek"
+        },
+        {
+          "text": "即梦Ai",
+          "link": "/tools/ai/046-即梦Ai"
+        },
+        {
+          "text": "可灵Ai",
+          "link": "/tools/ai/047-可灵Ai"
+        },
+        {
+          "text": "千问Ai",
+          "link": "/tools/ai/048-千问Ai"
+        },
+        {
+          "text": "Kimi Ai",
+          "link": "/tools/ai/049-Kimi-Ai"
+        },
+        {
+          "text": "Suno Ai",
+          "link": "/tools/ai/050-Suno-Ai"
+        },
+        {
+          "text": "Cursor Ai",
+          "link": "/tools/ai/051-Cursor-Ai"
+        },
+        {
+          "text": "Google Gemini Ai",
+          "link": "/tools/ai/052-Google-Gemini-Ai"
+        },
+        {
+          "text": "AI生成3D可视化图表",
+          "link": "/tools/ai/053-AI生成3D可视化图表"
+        },
+        {
+          "text": "Python开发代码环境",
+          "link": "/tools/ai/054-Python开发代码环境"
+        },
+        {
+          "text": "利用谷歌colab直接生成 3D可视化图表",
+          "link": "/tools/ai/055-利用谷歌colab直接生成"
+        },
+        {
+          "text": "个人演示工作平台",
+          "link": "/tools/ai/056-个人演示工作平台"
+        },
+        {
+          "text": "谷歌编程（Google Antigravity） 更牛逼的3D可视化生成及演示",
+          "link": "/tools/ai/057-谷歌编程-Google-Antigravity"
+        },
+        {
+          "text": "声音克隆",
+          "link": "/tools/ai/058-声音克隆"
+        }
+      ]
+    },
+    "/tools/excel/": {
+      "title": "Excel 技巧",
+      "items": [
+        {
+          "text": "百分比数据条",
+          "link": "/tools/excel/001-百分比数据条"
+        },
+        {
+          "text": "筛选数据",
+          "link": "/tools/excel/002-筛选数据"
+        },
+        {
+          "text": "电子印章",
+          "link": "/tools/excel/003-电子印章"
+        },
+        {
+          "text": "冻结表格首尾行",
+          "link": "/tools/excel/004-冻结表格首尾行"
+        },
+        {
+          "text": "一张表中有多个表格在单张表中插入行 （插入表格不变形）",
+          "link": "/tools/excel/005-一张表中有多个表格在单张表中插入行"
+        },
+        {
+          "text": "二维码制作",
+          "link": "/tools/excel/006-二维码制作"
+        },
+        {
+          "text": "下拉填充序号 删除行解决错乱问题",
+          "link": "/tools/excel/007-下拉填充序号"
+        },
+        {
+          "text": "合并单元格序号",
+          "link": "/tools/excel/008-合并单元格序号"
+        },
+        {
+          "text": "隔行添加序号",
+          "link": "/tools/excel/009-隔行添加序号"
+        },
+        {
+          "text": "解决多个文字名称拆分到列",
+          "link": "/tools/excel/010-解决多个文字名称拆分到列"
+        },
+        {
+          "text": "核对数据",
+          "link": "/tools/excel/011-核对数据"
+        },
+        {
+          "text": "文件夹侧标签",
+          "link": "/tools/excel/012-文件夹侧标签"
+        },
+        {
+          "text": "表格美化",
+          "link": "/tools/excel/013-表格美化"
+        },
+        {
+          "text": "一键求和",
+          "link": "/tools/excel/014-一键求和"
+        },
+        {
+          "text": "一键图表",
+          "link": "/tools/excel/015-一键图表"
+        },
+        {
+          "text": "一键找不同",
+          "link": "/tools/excel/016-一键找不同"
+        },
+        {
+          "text": "文字和数据混合，一秒提取数据",
+          "link": "/tools/excel/017-文字和数据混合-一秒提取数据"
+        },
+        {
+          "text": "日期星期时间",
+          "link": "/tools/excel/018-日期星期时间"
+        },
+        {
+          "text": "随机选择小程序",
+          "link": "/tools/excel/019-随机选择小程序"
+        },
+        {
+          "text": "一键智能提取数据",
+          "link": "/tools/excel/020-一键智能提取数据"
+        },
+        {
+          "text": "一键输入当前日期",
+          "link": "/tools/excel/021-一键输入当前日期"
+        },
+        {
+          "text": "一键输入当前时间",
+          "link": "/tools/excel/022-一键输入当前时间"
+        },
+        {
+          "text": "一秒去除小数点",
+          "link": "/tools/excel/023-一秒去除小数点"
+        },
+        {
+          "text": "一秒转换时间格式",
+          "link": "/tools/excel/024-一秒转换时间格式"
+        },
+        {
+          "text": "一秒转换日期格式",
+          "link": "/tools/excel/025-一秒转换日期格式"
+        },
+        {
+          "text": "一秒转换货币格式",
+          "link": "/tools/excel/026-一秒转换货币格式"
+        },
+        {
+          "text": "一秒转换百分比格式",
+          "link": "/tools/excel/027-一秒转换百分比格式"
+        },
+        {
+          "text": "转置表格（横表变竖表）",
+          "link": "/tools/excel/028-转置表格-横表变竖表"
+        },
+        {
+          "text": "固定表头",
+          "link": "/tools/excel/029-固定表头"
+        },
+        {
+          "text": "批量重命名图片",
+          "link": "/tools/excel/030-批量重命名图片"
+        },
+        {
+          "text": "条目 31",
+          "link": "/tools/excel/031-条目-31"
+        },
+        {
+          "text": "图片批量整齐嵌入单元格",
+          "link": "/tools/excel/032-图片批量整齐嵌入单元格"
+        },
+        {
+          "text": "统计区间内的个数",
+          "link": "/tools/excel/033-统计区间内的个数"
+        },
+        {
+          "text": "AI图表生成各类柱状图饼状图等(Google Colab)",
+          "link": "/tools/excel/034-AI图表生成各类柱状图饼状图等-Google-Colab"
+        },
+        {
+          "text": "数据分列",
+          "link": "/tools/excel/034-数据分列"
+        },
+        {
+          "text": "拆分数据（拆分一个单元格中的若干数据）",
+          "link": "/tools/excel/035-拆分数据-拆分一个单元格中的若干数据"
+        },
+        {
+          "text": "标题合并单元格",
+          "link": "/tools/excel/036-标题合并单元格"
+        },
+        {
+          "text": "图片表格转EXCEL",
+          "link": "/tools/excel/037-图片表格转EXCEL"
+        },
+        {
+          "text": "席位牌",
+          "link": "/tools/excel/038-席位牌"
+        },
+        {
+          "text": "表格求和",
+          "link": "/tools/excel/039-表格求和"
+        },
+        {
+          "text": "同一列数据中，用逗号分开的有两个数据。解决将这两个数据交换位置在同一个单元格。",
+          "link": "/tools/excel/041-同一列数据中-用逗号分开的有两个数据-解决将这两个数据交换位置在同一个单元格"
+        }
+      ]
+    },
+    "/tools/ppt/": {
+      "title": "PPT 技巧",
+      "items": [
+        {
+          "text": "图片批量插入PPT",
+          "link": "/tools/ppt/001-图片批量插入PPT"
+        },
+        {
+          "text": "PPT内图片提取",
+          "link": "/tools/ppt/002-PPT内图片提取"
+        },
+        {
+          "text": "PPT备注演讲词",
+          "link": "/tools/ppt/003-PPT备注演讲词"
+        },
+        {
+          "text": "插入多张 不规则图片",
+          "link": "/tools/ppt/004-插入多张"
+        },
+        {
+          "text": "Napkin Ai",
+          "link": "/tools/ppt/005-Napkin-Ai"
+        },
+        {
+          "text": "Gemini+NotebookLM",
+          "link": "/tools/ppt/006-Gemini-NotebookLM"
+        },
+        {
+          "text": "解决Genspark生成PPT后需要付费下载的问题",
+          "link": "/tools/ppt/007-解决Genspark生成PPT后需要付费下载的问题"
+        },
+        {
+          "text": "WPS/PPT 后期排版标准化",
+          "link": "/tools/ppt/008-WPS-PPT-后期排版标准化"
+        }
+      ]
+    },
+    "/tools/word/": {
+      "title": "Word 技巧",
+      "items": [
+        {
+          "text": "合同数据对比",
+          "link": "/tools/word/001-合同数据对比"
+        },
+        {
+          "text": "图片打印变清晰",
+          "link": "/tools/word/002-图片打印变清晰"
+        },
+        {
+          "text": "调整字符间距 解决调到下一行导致字符间距变大的问题",
+          "link": "/tools/word/003-调整字符间距"
+        },
+        {
+          "text": "word表格跨页问题解决",
+          "link": "/tools/word/004-word表格跨页问题解决"
+        },
+        {
+          "text": "组织架构图",
+          "link": "/tools/word/005-组织架构图"
+        },
+        {
+          "text": "删除空白页",
+          "link": "/tools/word/006-删除空白页"
+        },
+        {
+          "text": "生僻字",
+          "link": "/tools/word/007-生僻字"
+        },
+        {
+          "text": "金额大写",
+          "link": "/tools/word/008-金额大写"
+        },
+        {
+          "text": "日期星期时间",
+          "link": "/tools/word/009-日期星期时间"
+        },
+        {
+          "text": "红头文件 单行内容变双行内容",
+          "link": "/tools/word/010-红头文件"
+        },
+        {
+          "text": "如何拉横向直线",
+          "link": "/tools/word/011-如何拉横向直线"
+        },
+        {
+          "text": "核对对比合同差异",
+          "link": "/tools/word/012-核对对比合同差异"
+        },
+        {
+          "text": "Ctrl+U",
+          "link": "/tools/word/013-Ctrl-U"
+        },
+        {
+          "text": "设置上标",
+          "link": "/tools/word/014-设置上标"
+        },
+        {
+          "text": "设置下标",
+          "link": "/tools/word/015-设置下标"
+        },
+        {
+          "text": "文档拆分表格",
+          "link": "/tools/word/016-文档拆分表格"
         }
       ]
     }

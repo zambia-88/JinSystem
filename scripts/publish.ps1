@@ -1,4 +1,4 @@
-﻿# JinSystem 一键同步 Excel 并 push 到 GitHub
+﻿# JinSystem 一键同步 Excel → source → 公开 docs → push 到 GitHub
 param(
     [string]$Message = '',
     [switch]$SyncOnly,
@@ -10,7 +10,13 @@ $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $PSScriptRoot
 Set-Location $Root
 
-Write-Host '==> 1/3 同步 Excel -> Markdown' -ForegroundColor Cyan
+if (-not (Test-Path 'source/docs')) {
+    Write-Host '==> 首次运行：初始化 source/docs' -ForegroundColor Yellow
+    python scripts/init_source.py
+    python scripts/init_permissions.py
+}
+
+Write-Host '==> 1/4 同步 Excel -> source/docs' -ForegroundColor Cyan
 python scripts/excel_to_md.py
 if ($LASTEXITCODE -ne 0) {
     Write-Host '同步失败，已中止。' -ForegroundColor Red
@@ -18,12 +24,20 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 if ($Mining) {
-    Write-Host '==> 额外：同步矿业专题' -ForegroundColor Cyan
+    Write-Host '==> 额外：同步矿业专题 -> source/docs' -ForegroundColor Cyan
     python scripts/build_mining.py
     if ($LASTEXITCODE -ne 0) {
         Write-Host '矿业同步失败，已中止。' -ForegroundColor Red
         exit $LASTEXITCODE
     }
+    python scripts/init_permissions.py
+}
+
+Write-Host '==> 2/4 按权限生成公开 docs/' -ForegroundColor Cyan
+python scripts/build_public.py
+if ($LASTEXITCODE -ne 0) {
+    Write-Host 'build_public 失败，已中止。' -ForegroundColor Red
+    exit $LASTEXITCODE
 }
 
 if ($SyncOnly) {
@@ -31,11 +45,9 @@ if ($SyncOnly) {
     exit 0
 }
 
-Write-Host '==> 2/3 提交变更' -ForegroundColor Cyan
+Write-Host '==> 3/4 提交公开内容（不含 source/ 私有库）' -ForegroundColor Cyan
 git add docs/ scripts/sidebar-data.json
-if ($Mining) {
-    git add docs/mining/ docs/public/media/mining/ 2>$null
-}
+git add docs/.vitepress/posts.json 2>$null
 
 $Status = git status --porcelain
 if (-not $Status) {
@@ -59,7 +71,7 @@ if ($NoPush) {
     exit 0
 }
 
-Write-Host '==> 3/3 push 到 GitHub' -ForegroundColor Cyan
+Write-Host '==> 4/4 push 到 GitHub（公开仓库）' -ForegroundColor Cyan
 git push origin main
 if ($LASTEXITCODE -ne 0) {
     Write-Host 'push 失败，请检查网络或 git 凭据。' -ForegroundColor Red
@@ -67,4 +79,5 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Write-Host ''
-Write-Host '完成。约 2 分钟后访问 https://jinsystem.cn' -ForegroundColor Green
+Write-Host '完成。公开内容已 push；source/ 与 permissions.json 请同步到私有仓库。' -ForegroundColor Green
+Write-Host '约 2 分钟后访问 https://jinsystem.cn' -ForegroundColor Green

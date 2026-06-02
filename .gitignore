@@ -1,5 +1,12 @@
 node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
+__pycache__/
+*.pyc
 .env
 SETUP.local.md
+
+# 私有内容库（仅存在于本地 / 私有 GitHub 仓库）
+source/
+permissions.json
+content-manifest.json

@@ -13,7 +13,7 @@ from docx.text.paragraph import Paragraph
 
 ROOT = Path(__file__).resolve().parents[1]
 KB = ROOT.parent
-DOCS = ROOT / "docs"
+DOCS = ROOT / "source" / "docs"
 MEDIA = DOCS / "public" / "media" / "mining"
 MINING = DOCS / "mining"
 

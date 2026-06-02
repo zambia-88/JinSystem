@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JinSystem · 内容权限</title>
+  <style>
+    :root {
+      --bg: #0c0c0e;
+      --card: #18181c;
+      --border: rgba(255,255,255,.08);
+      --text: #eceae6;
+      --muted: #888480;
+      --gold: #c9a962;
+      --gold-dim: rgba(201,169,98,.2);
+      --ok: #6bbf8a;
+      --no: #c96b6b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { font-size: 1.35rem; letter-spacing: .08em; color: var(--gold); margin: 0 0 .25rem; }
+    .sub { color: var(--muted); font-size: .85rem; margin-bottom: 1.5rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    label { display: block; font-size: .8rem; color: var(--muted); margin-bottom: .35rem; }
+    input[type=password], input[type=text], select {
+      width: 100%;
+      padding: .65rem .75rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: #101014;
+      color: var(--text);
+      font-size: .95rem;
+    }
+    button {
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      padding: .6rem 1rem;
+      font-size: .88rem;
+      font-weight: 600;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #c9a962, #9a7b3a);
+      color: #0c0c0e;
+    }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .toolbar input, .toolbar select { width: auto; min-width: 140px; flex: 1; }
+    .list { display: flex; flex-direction: column; gap: .5rem; }
+    .item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: .75rem;
+      align-items: center;
+      padding: .75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: rgba(255,255,255,.02);
+    }
+    .item-title { font-size: .92rem; font-weight: 500; }
+    .item-meta { font-size: .72rem; color: var(--muted); margin-top: .2rem; }
+    .switch {
+      position: relative;
+      width: 52px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .slider {
+      position: absolute;
+      inset: 0;
+      background: #333;
+      border-radius: 999px;
+      transition: .2s;
+      cursor: pointer;
+    }
+    .slider::before {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 3px;
+      top: 3px;
+      background: #fff;
+      border-radius: 50%;
+      transition: .2s;
+    }
+    .switch input:checked + .slider { background: var(--gold-dim); border: 1px solid var(--gold); }
+    .switch input:checked + .slider::before { transform: translateX(24px); background: var(--gold); }
+    .badge {
+      display: inline-block;
+      font-size: .65rem;
+      padding: .15rem .45rem;
+      border-radius: 3px;
+      margin-right: .35rem;
+    }
+    .badge-public { background: rgba(107,191,138,.15); color: var(--ok); }
+    .badge-private { background: rgba(201,107,107,.15); color: var(--no); }
+    .err { color: var(--no); font-size: .85rem; margin-top: .5rem; }
+    .hidden { display: none !important; }
+    .foot { font-size: .75rem; color: var(--muted); margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>JinSystem 内容权限</h1>
+    <p class="sub">公开 / 非公开 · 保存后自动同步至 jinsystem.cn</p>
+
+    <div id="loginCard" class="card">
+      <label for="pwd">管理员密码</label>
+      <input id="pwd" type="password" placeholder="请输入密码" autocomplete="current-password" />
+      <div style="margin-top:.75rem">
+        <button class="btn-primary" id="loginBtn">登录</button>
+      </div>
+      <p id="loginErr" class="err hidden"></p>
+    </div>
+
+    <div id="mainPanel" class="hidden">
+      <div class="toolbar card">
+        <input id="search" type="text" placeholder="搜索标题…" />
+        <select id="filterType">
+          <option value="">全部类型</option>
+          <option value="excel">Excel 文章</option>
+          <option value="manual">手工页面</option>
+        </select>
+        <select id="filterVis">
+          <option value="">全部状态</option>
+          <option value="public">仅公开</option>
+          <option value="private">仅非公开</option>
+        </select>
+        <button class="btn-ghost" id="reloadBtn">刷新</button>
+        <button class="btn-ghost" id="deployBtn">手动部署</button>
+        <button class="btn-ghost" id="logoutBtn">退出</button>
+      </div>
+      <div id="list" class="list"></div>
+      <p class="foot" id="statusLine"></p>
+      <p id="listErr" class="err hidden"></p>
+    </div>
+  </div>
+  <script>
+    const API = "";
+    let token = localStorage.getItem("jin_admin_token") || "";
+    let items = [];
+
+    const $ = (id) => document.getElementById(id);
+
+    async function api(path, opts = {}) {
+      const headers = { "Content-Type": "application/json", ...(opts.headers || {}) };
+      if (token) headers.Authorization = `Bearer ${token}`;
+      const res = await fetch(API + path, { ...opts, headers });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || res.statusText);
+      return data;
+    }
+
+    function showLogin(show) {
+      $("loginCard").classList.toggle("hidden", !show);
+      $("mainPanel").classList.toggle("hidden", show);
+    }
+
+    async function login() {
+      $("loginErr").classList.add("hidden");
+      try {
+        const { token: t } = await api("/api/login", {
+          method: "POST",
+          body: JSON.stringify({ password: $("pwd").value }),
+        });
+        token = t;
+        localStorage.setItem("jin_admin_token", token);
+        showLogin(false);
+        await loadList();
+      } catch (e) {
+        $("loginErr").textContent = e.message;
+        $("loginErr").classList.remove("hidden");
+      }
+    }
+
+    async function loadList() {
+      $("listErr").classList.add("hidden");
+      try {
+        const data = await api("/api/list");
+        items = data.items || [];
+        $("statusLine").textContent = `共 ${items.length} 篇 · 上次更新 ${data.updatedAt || "—"}`;
+        renderList();
+      } catch (e) {
+        if (e.message.includes("未登录")) {
+          logout();
+          return;
+        }
+        $("listErr").textContent = e.message;
+        $("listErr").classList.remove("hidden");
+      }
+    }
+
+    function renderList() {
+      const q = $("search").value.trim().toLowerCase();
+      const type = $("filterType").value;
+      const vis = $("filterVis").value;
+      const filtered = items.filter((it) => {
+        if (q && !it.title.toLowerCase().includes(q) && !it.slug.includes(q)) return false;
+        if (type && it.type !== type) return false;
+        if (vis === "public" && !it.public) return false;
+        if (vis === "private" && it.public) return false;
+        return true;
+      });
+      $("list").innerHTML = filtered.map((it) => `
+        <div class="item" data-slug="${it.slug}">
+          <div>
+            <div class="item-title">${escapeHtml(it.title)}</div>
+            <div class="item-meta">
+              <span class="badge ${it.public ? "badge-public" : "badge-private"}">${it.public ? "公开" : "非公开"}</span>
+              ${escapeHtml(it.category || "")} · ${it.type === "excel" ? "Excel" : "手工"} · ${escapeHtml(it.slug)}
+            </div>
+          </div>
+          <label class="switch" title="${it.public ? "改为非公开" : "改为公开"}">
+            <input type="checkbox" ${it.public ? "checked" : ""} data-slug="${it.slug}" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      `).join("");
+      $("list").querySelectorAll("input[type=checkbox]").forEach((el) => {
+        el.addEventListener("change", () => toggleItem(el.dataset.slug, el.checked, el));
+      });
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, (c) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[c]));
+    }
+
+    async function toggleItem(slug, isPublic, el) {
+      el.disabled = true;
+      try {
+        await api("/api/permissions", {
+          method: "PATCH",
+          body: JSON.stringify({ slug, public: isPublic, autoDeploy: true }),
+        });
+        const it = items.find((x) => x.slug === slug);
+        if (it) it.public = isPublic;
+        renderList();
+      } catch (e) {
+        el.checked = !isPublic;
+        alert("保存失败: " + e.message);
+      } finally {
+        el.disabled = false;
+      }
+    }
+
+    function logout() {
+      token = "";
+      localStorage.removeItem("jin_admin_token");
+      showLogin(true);
+    }
+
+    $("loginBtn").addEventListener("click", login);
+    $("pwd").addEventListener("keydown", (e) => { if (e.key === "Enter") login(); });
+    $("logoutBtn").addEventListener("click", logout);
+    $("reloadBtn").addEventListener("click", loadList);
+    $("search").addEventListener("input", renderList);
+    $("filterType").addEventListener("change", renderList);
+    $("filterVis").addEventListener("change", renderList);
+    $("deployBtn").addEventListener("click", async () => {
+      try {
+        await api("/api/deploy", { method: "POST", body: "{}" });
+        alert("已触发部署，约 2 分钟后生效");
+      } catch (e) { alert(e.message); }
+    });
+
+    if (token) {
+      showLogin(false);
+      loadList().catch(() => showLogin(true));
+    }
+  </script>
+</body>
+</html>

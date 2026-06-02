@@ -1,0 +1,65 @@
+# 私有库 CI：按 permissions.json 生成公开 docs 并 push 到公开仓库
+name: Sync Public Site
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "permissions.json"
+      - "content-manifest.json"
+      - "source/**"
+      - "scripts/build_public.py"
+      - "scripts/permissions_lib.py"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout private source
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build public docs
+        run: |
+          python scripts/build_public.py
+          mkdir -p public-site/docs public-site/scripts
+          cp -r docs/. public-site/docs/
+          cp scripts/sidebar-data.json public-site/scripts/
+
+      - name: Checkout public repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.PUBLIC_REPO || 'zambia-88/JinSystem' }}
+          token: ${{ secrets.PUBLIC_REPO_TOKEN }}
+          path: public-repo
+
+      - name: Sync filtered docs to public repo
+        run: |
+          rsync -av --delete public-site/docs/ public-repo/docs/
+          cp public-site/scripts/sidebar-data.json public-repo/scripts/
+          cd public-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ scripts/sidebar-data.json
+          git diff --staged --quiet || git commit -m "content: sync from private source [skip ci]"
+          git push
+
+      - name: Trigger public site deploy
+        run: |
+          curl -sS -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PUBLIC_REPO_TOKEN }}" \
+            https://api.github.com/repos/${{ secrets.PUBLIC_REPO || 'zambia-88/JinSystem' }}/actions/workflows/deploy.yml/dispatches \
+            -d '{"ref":"main"}'

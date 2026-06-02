@@ -5,6 +5,11 @@
   "type": "module",
   "scripts": {
     "sync": "python scripts/excel_to_md.py",
+    "build:public": "python scripts/build_public.py",
+    "sync:all": "python scripts/excel_to_md.py && python scripts/build_public.py",
+    "init:source": "python scripts/init_source.py",
+    "init:permissions": "python scripts/init_permissions.py",
+    "push:private": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/push_private.ps1",
     "publish": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/publish.ps1",
     "mining": "python scripts/build_mining.py",
     "covers": "python scripts/generate_covers.py",
