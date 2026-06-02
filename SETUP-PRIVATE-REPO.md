@@ -122,9 +122,47 @@ git push -u origin main
 | `GITHUB_BRANCH` | `main` |
 | `GITHUB_WORKFLOW_FILE` | `sync-public.yml` |
 
-4. Deploy 完成后访问 Vercel 域名，或绑定 `admin.jinsystem.cn`
+4. Deploy 完成后，按下一节绑定 **`admin.jinsystem.cn`**。
 
----
+### 6.1 绑定 admin.jinsystem.cn（推荐）
+
+#### A. 在 Vercel 添加域名
+
+1. 打开 Vercel → 你的 Admin 项目（如 `jin-system-azsi`）  
+2. **Settings** → **Domains**  
+3. 输入 `admin.jinsystem.cn` → **Add**  
+4. Vercel 会显示需要添加的 DNS 记录（通常是 CNAME）
+
+#### B. 在域名 DNS 控制台添加记录
+
+登录 **jinsystem.cn** 的 DNS 管理（阿里云 / Cloudflare / 腾讯云等）：
+
+| 类型 | 主机记录 | 记录值 |
+|------|----------|--------|
+| **CNAME** | `admin` | `cname.vercel-dns.com` |
+
+> 以 Vercel Domains 页面显示的为准；若已有冲突的 `admin` A 记录，请先删除。
+
+#### C. 等待生效
+
+- DNS 传播：通常 **5–30 分钟**  
+- Vercel 自动签发 HTTPS 证书  
+- Domains 页显示 **Valid Configuration** 即可访问  
+
+#### D. 访问
+
+浏览器打开：**https://admin.jinsystem.cn**  
+用 `ADMIN_PASSWORD` 登录即可管理公开 / 非公开权限。
+
+#### 常见问题
+
+| 现象 | 处理 |
+|------|------|
+| 域名未生效 | 检查 CNAME 是否指向 Vercel，等待 DNS 传播 |
+| SSL 证书失败 | 确认无其他 CDN 占用 `admin` 子域 |
+| 登录后 503 | 私有库需有 `content-manifest.json` |
+| API 401 | 检查 Vercel 环境变量是否完整 |
+
 
 ## 七、Web 端使用
 
