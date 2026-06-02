@@ -10,6 +10,7 @@ on:
       - "source/**"
       - "scripts/build_public.py"
       - "scripts/permissions_lib.py"
+      - ".github/workflows/sync-public.yml"
 
 permissions:
   contents: write
@@ -21,27 +22,31 @@ jobs:
       - name: Checkout private source
         uses: actions/checkout@v4
 
+      - name: Verify secrets
+        run: |
+          if [ -z "${{ secrets.PUBLIC_REPO_TOKEN }}" ]; then
+            echo "缺少 Secret: PUBLIC_REPO_TOKEN"
+            exit 1
+          fi
+          echo "Secrets OK"
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
       - name: Build public docs
         run: |
           python scripts/build_public.py
-          mkdir -p public-site/docs public-site/scripts
+          mkdir -p public-site/docs/.vitepress public-site/scripts
           cp -r docs/. public-site/docs/
           cp scripts/sidebar-data.json public-site/scripts/
+          test -f public-site/docs/.vitepress/posts.json
 
       - name: Checkout public repo
         uses: actions/checkout@v4
         with:
-          repository: ${{ secrets.PUBLIC_REPO || 'zambia-88/JinSystem' }}
+          repository: ${{ secrets.PUBLIC_REPO }}
           token: ${{ secrets.PUBLIC_REPO_TOKEN }}
           path: public-repo
 
@@ -53,13 +58,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/ scripts/sidebar-data.json
-          git diff --staged --quiet || git commit -m "content: sync from private source [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to public docs"
+          else
+            git commit -m "content: sync from private source [skip ci]"
+            git push
+          fi
 
       - name: Trigger public site deploy
         run: |
-          curl -sS -X POST \
-            -H "Accept: application/vnd.github+json" \
+          curl -sf -X POST \
+            -H "Accept: application/vnd.github/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.PUBLIC_REPO_TOKEN }}" \
-            https://api.github.com/repos/${{ secrets.PUBLIC_REPO || 'zambia-88/JinSystem' }}/actions/workflows/deploy.yml/dispatches \
+            "https://api.github.com/repos/${{ secrets.PUBLIC_REPO }}/actions/workflows/deploy.yml/dispatches" \
             -d '{"ref":"main"}'
+          echo "Deploy triggered"
